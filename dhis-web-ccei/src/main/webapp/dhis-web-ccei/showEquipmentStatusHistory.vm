@@ -1,0 +1,217 @@
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		tableSorter( 'equipmentRepairHistoryList' );
+		tableSorter( 'equipmentServiceHistoryList' );
+		tableSorter( 'equipmentStatusHistoryList' );
+	});
+
+</script>
+
+
+<div id="tabs" style="width:860px; height:450px; align:center" >
+
+	<ul>
+		<li><a href="#tab-1">$i18n.getString("repair")</a></li>
+		<li><a href="#tab-2">$i18n.getString("service")</a></li>
+		<li><a href="#tab-3">$i18n.getString("status")</a></li>
+	</ul>
+	<!-- Repair -->
+	<div id="tab-1">
+        <table class="mainPageTable">
+        	<tr>
+        		<td align="right">
+        			<table width="100%">
+        				<tr>
+        					<td align="right">
+        						<input type="button" value="$i18n.getString( 'Update Repair' )" style="width:100px" onclick="showEquipmentStatusForm( '$equipment.id','repair' );"/>
+        					</td>
+        				</tr>	
+        			</table>	
+        		
+        			<table class="listTable" id="equipmentRepairHistoryList" width='100%'>
+        				<col/>
+        				<col/>
+        				<col/>
+        				<col/>
+        				<col/>
+        				<col/>
+        				<thead>
+            				<tr>
+            					 <th>$i18n.getString( "date_repair_requested" )</th>
+            					 <th>$i18n.getString( "date_repaired" )</th>
+            					 <th>$i18n.getString( "status" )</th>
+								 <th class="{sorter: false}">$i18n.getString( "fault_types" )</th>
+								 <th class="{sorter: false}">$i18n.getString( "parts_replaced" )</th>
+            					 <th class="{sorter: false}" >$i18n.getString( "notes" )</th>
+            					 <th class="{sorter: false}" >$i18n.getString( "updated_by" )</th>
+            					<!--
+            					<td><font color="#FFFFFF"><strong>$i18n.getString( "date_status_changed" )</strong></font></td>
+            					<td><font color="#FFFFFF"><strong>$i18n.getString( "date_record_updated" )</strong></font></td>
+            					<td><font color="#FFFFFF"><strong>$i18n.getString( "status" )</strong></font></td>
+            					<td class="{sorter: false}"><font color="#FFFFFF"><strong>$i18n.getString( "notes" )</strong></font></td>
+            					<td class="{sorter: false}"><font color="#FFFFFF"><strong>$i18n.getString( "type" )</strong></font></td>
+            					<td class="{sorter: false}"><font color="#FFFFFF"><strong>$i18n.getString( "updated_by" )</strong></font></td>
+            					-->
+            				</tr>
+                        </thead>
+        				<!--
+        				<thead>
+        						<tr>
+        							<th>$i18n.getString( "date_status_changed" )</th>
+        							<th>$i18n.getString( "date_record_updated" )</th>
+        							<th>$i18n.getString( "status" )</th>
+        							<th>$i18n.getString( "notes" )</th>
+        							<th>$i18n.getString( "updated_by" )</th>
+        						</tr>
+        					
+        				</thead>
+        				-->
+        	<!--value='$format.formatDate($!patient.birthDate)'-->
+        				<tbody id="list"> 
+        					#foreach( $equimentStatus in $equipmentRepairHistory )
+        					<tr id="tr${equimentStatus.id}">
+        						<td>$!format.formatDate($!equimentStatus.reportingDate)</td>
+								<td>$!format.formatDate($!equimentStatus.updationDate)</td>
+        						<td>$!equimentStatus.status</td>
+								<td>$!equimentStatus.getFaultTypes()</td>
+								<td>$!equimentStatus.getPartsReplaced()</td>
+        						<td>$!equimentStatus.description</td>
+        						<td>$!equimentStatus.storedBy</td>
+        					</tr>
+        					#end
+        				</tbody>
+        			</table>
+        		</td>
+        	</tr>
+        	<tr>
+        		<td>
+        		<!--<asp:button id="btncancel" runat="server" CssClass="button1" OnClick="javascript:window.close();"></asp:button>-->
+        			<p>
+        				<div align="right"><input type="button" value="$i18n.getString( 'close' )" style="width:100px" onclick="closewindow();"/></div>
+        			</p>
+        			
+        		</td>
+        	</tr>
+        </table>
+        #parse( "/dhis-web-commons/loader/loader.vm" )
+	</div>
+	
+	<!-- Service -->
+	<div id="tab-2">
+        <table class="mainPageTable">
+        	<tr>
+        		<td align="right">
+        			<table width="100%">
+        				<tr>
+        					<td align="right">
+        						<input type="button" value="$i18n.getString( 'Update Service' )" style="width:100px" onclick="showEquipmentStatusForm( '$equipment.id', 'service' );"/>
+        					</td>
+        				</tr>	
+        			</table>	
+        		
+        			<table class="listTable" id="equipmentServiceHistoryList" width='100%'>
+        				<col/>
+        				<col/>
+        				<col/>
+        				<col/>
+        				<col/>
+        				<col/>
+        				<thead>
+            				<tr>
+            					 <th>$i18n.getString( "date_of_service" )</th>
+            					 <!--<th>$i18n.getString( "date_record_updated" )</th>-->
+            					 <th>$i18n.getString( "status" )</th>
+								 <th class="{sorter: false}" >$i18n.getString( "service_type" )</th>
+            					 <th class="{sorter: false}" >$i18n.getString( "notes" )</th>
+            					 <th class="{sorter: false}" >$i18n.getString( "updated_by" )</th>
+            				</tr>
+                        </thead>
+
+						<!--value='$format.formatDate($!patient.birthDate)'-->
+        				<tbody id="list"> 
+        					#foreach( $equimentStatus in $equipmentServiceHistory )
+        					<tr id="tr${equimentStatus.id}">
+        						<td>$!format.formatDate($!equimentStatus.reportingDate)</td>
+								<!--<td>$!format.formatDate($!equimentStatus.updationDate)</td>-->
+        						<td>$!equimentStatus.status</td>
+								<td>$!equimentStatus.getServiceType()</td>
+        						<td>$!equimentStatus.description</td>
+        						<td>$!equimentStatus.storedBy</td>
+        					</tr>
+        					#end
+        				</tbody>
+        			</table>
+        		</td>
+        	</tr>
+        	<tr>
+        		<td>
+					<!--<asp:button id="btncancel" runat="server" CssClass="button1" OnClick="javascript:window.close();"></asp:button>-->
+        			<p>
+        				<div align="right"><input type="button" value="$i18n.getString( 'close' )" style="width:100px" onclick="closewindow();"/></div>
+        			</p>
+        			
+        		</td>
+        	</tr>
+        </table>
+        #parse( "/dhis-web-commons/loader/loader.vm" )
+	</div>	
+	<!-- Status -->
+	<div id="tab-3">
+        <table class="mainPageTable">
+        	<tr>
+        		<td align="right">
+        			<table width="100%">
+        				<tr>
+        					<td align="right">
+        						<input type="button" value="$i18n.getString( 'Update Status' )" style="width:100px" onclick="showEquipmentStatusForm( '$equipment.id', 'status' );"/>
+        					</td>
+        				</tr>	
+        			</table>	
+        		
+        			<table class="listTable" id="equipmentStatusHistoryList" width='100%'>
+        				<col/>
+        				<col/>
+        				<col/>
+        				<col/>
+        				<col/>
+        				<col/>
+        				<thead>
+            				<tr>
+            					 <th>$i18n.getString( "date_status_changed" )</th>
+            					 <!--<th>$i18n.getString( "date_record_updated" )</th>-->
+            					 <th>$i18n.getString( "status" )</th>
+            					 <th class="{sorter: false}" >$i18n.getString( "notes" )</th>
+            					 <th class="{sorter: false}" >$i18n.getString( "updated_by" )</th>
+            				</tr>
+							<!--value='$format.formatDate($!patient.birthDate)'-->
+        				<tbody id="list"> 
+        					#foreach( $equimentStatus in $equipmentStatusHistory )
+        					<tr id="tr${equimentStatus.id}">
+        						<td>$!format.formatDate($!equimentStatus.updationDate)</td>
+        						<!--<td>$!format.formatDate($!equimentStatus.reportingDate)</td>-->
+        						<td>$!equimentStatus.status</td>
+        						<td>$!equimentStatus.description</td>
+        						<td>$!equimentStatus.storedBy</td>
+        					</tr>
+        					#end
+        				</tbody>
+        			</table>
+        		</td>
+        	</tr>
+        	<tr>
+        		<td>
+					<!--<asp:button id="btncancel" runat="server" CssClass="button1" OnClick="javascript:window.close();"></asp:button>-->
+        			<p>
+        				<div align="right"><input type="button" value="$i18n.getString( 'close' )" style="width:100px" onclick="closewindow();"/></div>
+        			</p>
+        			
+        		</td>
+        	</tr>
+        </table>
+        #parse( "/dhis-web-commons/loader/loader.vm" )
+	</div>	
+</div>
+	
+<script type="text/javascript">
+	$('#tabs').tabs();
+</script>

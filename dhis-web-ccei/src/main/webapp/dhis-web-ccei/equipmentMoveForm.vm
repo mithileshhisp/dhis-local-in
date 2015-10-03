@@ -1,0 +1,53 @@
+
+<!--<script type="text/javascript"></script>-->
+
+<script type="text/javascript">
+jQuery(document).ready( function(){
+	    	  	
+    selectionTreeSelection.setMultipleSelectionAllowed( false );
+    selectionTree.clearSelectedOrganisationUnits();
+    selectionTree.buildSelectionTree();
+  
+    currentDiv = 'equipmentMoveForm';
+    isSubmit = true;
+    
+    jQuery("#equipmentMoveForm").validate({
+             meta:"validate"
+            ,errorElement:"span"
+            ,submitHandler: function(form)
+                {
+                    if( isSubmit ) 
+                    {
+                        //equipmentMove();
+						validateEquipmentMove();
+						
+                    }
+                }
+        });
+}); 
+    
+</script>
+
+<form id="equipmentMoveForm" name="equipmentMoveForm" method="post" >
+	<input type="hidden" id="equipmentID" name="equipmentID" value="$equipment.id" />
+	<input type="hidden" id="equipmentOrgUnitName" name="equipmentOrgUnitName" value="$equipment.getOrganisationUnit().getName()" />
+	<input type="hidden" id="equipmentModelName" name="equipmentModelName" value="$equipmentModelName" />
+	<table width="100%">
+		<tr>
+			<td >
+				##parse( "/dhis-web-commons/ouwt/orgunittree.vm" )
+				<div >
+					<label><strong>$i18n.getString( "organisation_unit" )</strong></label><br>
+					<div id="selectionTree" style="width:328px; height:200px; overflow:auto; border:1px solid #ccc; margin-bottom: 8px;"></div>
+				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td >
+				<input type="button"  value="$i18n.getString( 'Cancel' )" style="width:100px" onclick="closeUpdateWindow();"/>&nbsp;&nbsp;
+				&nbsp;&nbsp;<input type="submit"  value="$i18n.getString( 'Save' )" style="width:100px"/>
+			</td>
+		</tr>		
+	</table>
+</form>

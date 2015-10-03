@@ -1,0 +1,324 @@
+<script>
+    
+    jQuery(document).ready( function(){
+
+        currentDiv = 'equipmentStatusForm';
+        isSubmit = true;
+        
+        jQuery("#equipmentStatusForm").validate({
+                 meta:"validate"
+                ,errorElement:"span"
+                ,submitHandler: function(form)
+                    {
+                        if( isSubmit ) 
+                        {
+                            updateEquipmentStatus();
+                        }
+                    }
+            });
+    }); 
+    
+</script>
+
+<!--<h3>$i18n.getString( "equipmentstatus" )</h3>-->
+
+<form id="equipmentStatusForm" name="equipmentStatusForm" method="post" >
+	
+	<input type="hidden" id="equipmentId" name="equipmentId" value="$equipmentId" />
+	<input type="hidden" id="equipmentOrgUnitName" name="equipmentOrgUnitName" value="$equipment.getOrganisationUnit().getName()" />
+	<input type="hidden" id="equipmentModelName" name="equipmentModelName" value="$equipment.getModel().getName()" />
+    <input type="hidden" id="type" name="type" value="$type" />
+    
+    #if( $type == "status" )
+    	
+        <table>
+            <tr bgcolor="#285C91">
+                <td colspan="2"><font color="#FFFFFF"><strong>$i18n.getString( 'status_details' )</strong></font></td>
+            </tr>
+            #set( $mark = false )
+            <tr #alternate($mark)>
+                <td>Date of Status Change<em title="$i18n.getString( 'required' )" class="required">*</em></td>
+                <td>
+                    <input type="text" id="dateOfUpdation" name="dateOfUpdation" class="{validate:{required:true}}" />
+                    <script type="text/javascript">
+                        datePickerValid( 'dateOfUpdation' );
+                    </script>
+                </td>
+            </tr>
+            
+			#set( $mark = true )
+            <tr #alternate($mark) style="display:none">
+                <td>Date of Record Change</td>
+                <td>
+                    <input type="text" id="reportingDate" name="reportingDate" />
+                    <script type="text/javascript">
+                        datePickerValid( 'reportingDate' );
+                    </script>
+                </td>
+            </tr> 
+            
+            <!-- Equipment Status -->
+	        #set( $mark = true )
+	        <tr #alternate($mark)>
+	            <td width="75%">$i18n.getString( "working_status" )<em title="$i18n.getString( 'required' )" class="required">*</em></td>
+	            <td width="25%">
+	                <select  id="workingStatus" name="workingStatus" class="{validate:{required:true}}">
+	                    <option value="-1">[$i18n.getString( "please_select" )]</option>
+	                    #foreach ( $workingStatusOption in $workingStatusOptions.options )
+	                        <option value="$workingStatusOption" #if( $equipment.getEquipmentStatus().getStatus() == $workingStatusOption ) selected="selected" #end >$workingStatusOption</option>
+	                    #end
+	                </select>
+	            </td>
+	        </tr>
+	        #set( $mark = false )
+	        <tr #alternate($mark)>
+	            <td width="75%">$i18n.getString( "utilization" )<em title="$i18n.getString( 'required' )" class="required">*</em></td>
+	            <td width="25%">
+	                <select  id="utilization" name="utilization" class="{validate:{required:true}}">
+	                    <option value="-1">[$i18n.getString( "please_select" )]</option>
+	                    #foreach ( $utilizationOption in $utilizationOptions.options )
+	                        <option value="$utilizationOption" #if( $equipment.getEquipmentStatus().getUtilization() == $utilizationOption ) selected="selected" #end >$utilizationOption</option>
+	                    #end
+	                </select>
+	            </td>
+	        </tr>
+	        #set( $mark = true )
+	         <tr #alternate($mark)>
+	            <td width="75%">$i18n.getString( "reason_not_working" )</td>
+	            <td width="25%">
+	                <select  id="reasonNotWorking" name="reasonNotWorking">
+	                    <option value="-1">[$i18n.getString( "please_select" )]</option>
+	                    #foreach ( $reasonNotWorkingOption in $reasonNotWorkingOptions.options )
+	                        <option value="$reasonNotWorkingOption" #if( $equipment.getEquipmentStatus().getReasonNotWorking() == $reasonNotWorkingOption ) selected="selected" #end >$reasonNotWorkingOption</option>
+	                    #end
+	                </select>
+	            </td>
+	        </tr>
+			
+            #set( $mark = false )
+            <tr #alternate($mark)>
+                <td>Notes</td>
+                <td><textarea id="description" name="description" ></textarea></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="button"  value="$i18n.getString( 'Cancel' )" style="width:100px" onclick="closewindow2();"/>&nbsp;&nbsp;
+                    &nbsp;&nbsp;<input type="submit"  value="$i18n.getString( 'Save' )" style="width:100px"/>
+                </td>
+            </tr>
+        </table>
+        
+    #elseif( $type == "service" )
+        <table>
+            <tr bgcolor="#285C91">
+                <td colspan="2"><font color="#FFFFFF"><strong>$i18n.getString( 'service_details' )</strong></font></td>
+            </tr>
+            #set( $mark = false )   
+            <tr #alternate($mark)>
+                <td>Date of Service<em title="$i18n.getString( 'required' )" class="required">*</em></td>
+                <td>
+                    <input type="text" id="dateOfService" name="dateOfService" class="{validate:{required:true}}" />
+                    <script type="text/javascript">
+                        datePickerValid( 'dateOfService' );
+                    </script>
+                </td>
+            </tr>
+            #set( $mark = true )
+            <tr #alternate($mark) style="display:none">
+                <td>Date of Record Change</td>
+                <td>
+                    <input type="text" id="serviceReportingDate" name="serviceReportingDate" />
+                    <script type="text/javascript">
+                        datePickerValid( 'serviceReportingDate' );
+                    </script>
+                </td>
+            </tr>
+            
+            #set( $mark = true )
+            <tr #alternate($mark)>
+                <td width="75%">$i18n.getString( "service_type" )</td>
+                <td width="25%">
+                    <!--
+					<select  id="serviceType" name="serviceType" class="{validate:{required:true}}">
+                        <option value="-1">[$i18n.getString( "please_select" )]</option>
+                        #foreach ( $serviceTypeOption in $serviceTypeOptions.options )
+                            <option value="$serviceTypeOption">$serviceTypeOption</option>
+                        #end
+                    </select>
+					-->
+                   <select  id="serviceTypes" name="serviceTypes" size="3" multiple >     
+                        #foreach ( $serviceTypeOption in $serviceTypeOptions.options )
+                            <option value="$serviceTypeOption">$serviceTypeOption</option>
+                        #end
+                    </select>					
+                </td>
+            </tr>
+            
+            <!-- Equipment Status -->
+	        #set( $mark = false )
+	        <tr #alternate($mark)>
+	            <td width="75%">$i18n.getString( "working_status" )<em title="$i18n.getString( 'required' )" class="required">*</em></td>
+	            <td width="25%">
+	                <select  id="workingStatus" name="workingStatus" class="{validate:{required:true}}">
+	                    <option value="-1">[$i18n.getString( "please_select" )]</option>
+	                    #foreach ( $workingStatusOption in $workingStatusOptions.options )
+	                        <option value="$workingStatusOption" #if( $equipment.getEquipmentStatus().getStatus() == $workingStatusOption ) selected="selected" #end >$workingStatusOption</option>
+	                    #end
+	                </select>
+	            </td>
+	        </tr>
+	        #set( $mark = true )
+	        <tr #alternate($mark)>
+	            <td width="75%">$i18n.getString( "utilization" )<em title="$i18n.getString( 'required' )" class="required">*</em></td>
+	            <td width="25%">
+	                <select  id="utilization" name="utilization" class="{validate:{required:true}}">
+	                    <option value="-1">[$i18n.getString( "please_select" )]</option>
+	                    #foreach ( $utilizationOption in $utilizationOptions.options )
+	                        <option value="$utilizationOption" #if( $equipment.getEquipmentStatus().getUtilization() == $utilizationOption ) selected="selected" #end >$utilizationOption</option>
+	                    #end
+	                </select>
+	            </td>
+	        </tr>
+	        #set( $mark = false )
+	         <tr #alternate($mark)>
+	            <td width="75%">$i18n.getString( "reason_not_working" )</td>
+	            <td width="25%">
+	                <select  id="reasonNotWorking" name="reasonNotWorking">
+	                    <option value="-1">[$i18n.getString( "please_select" )]</option>
+	                    #foreach ( $reasonNotWorkingOption in $reasonNotWorkingOptions.options )
+	                        <option value="$reasonNotWorkingOption" #if( $equipment.getEquipmentStatus().getReasonNotWorking() == $reasonNotWorkingOption ) selected="selected" #end >$reasonNotWorkingOption</option>
+	                    #end
+	                </select>
+	            </td>
+	        </tr>
+            #set( $mark = true )
+            <tr #alternate($mark)>
+                <td>Notes</td>
+                <td><textarea id="description" name="description" ></textarea></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="button"  value="$i18n.getString( 'Cancel' )" style="width:100px" onclick="closewindow2();"/>&nbsp;&nbsp;
+                    &nbsp;&nbsp;<input type="submit"  value="$i18n.getString( 'Save' )" style="width:100px"/>
+                </td>
+            </tr>             
+        </table>
+		
+    #elseif( $type == "repair" )
+        <table>
+            <tr bgcolor="#285C91">
+                <td colspan="2"><font color="#FFFFFF"><strong>$i18n.getString( 'repair_details' )</strong></font></td>
+            </tr>
+            #set( $mark = false )   
+            <tr #alternate($mark)>
+                <td>$i18n.getString( "date_repair_requested" )<em title="$i18n.getString( 'required' )" class="required">*</em></td>
+                <td>
+                    <input type="text" id="dateOfService" name="dateOfService" class="{validate:{required:true}}" />
+                    <script type="text/javascript">
+                        datePickerValid( 'dateOfService' );
+                    </script>
+                </td>
+            </tr>
+            #set( $mark = true )   
+			<tr #alternate($mark)>
+                <td>$i18n.getString( "date_repaired" )</td>
+                <td>
+                    <input type="text" id="serviceReportingDate" name="serviceReportingDate"  onchange="equipmentStatusDateValidation();"/>
+                    <script type="text/javascript">
+                        datePickerValid( 'serviceReportingDate' );
+                    </script>
+                </td>
+            </tr>
+            
+            <!-- Equipment Status -->
+            #set( $mark = false )
+            <tr #alternate($mark)>
+                <td width="75%">$i18n.getString( "working_status" )<em title="$i18n.getString( 'required' )" class="required">*</em></td>
+                <td width="25%">
+                    <select  id="workingStatus" name="workingStatus" class="{validate:{required:true}}">
+                        <option value="-1">[$i18n.getString( "please_select" )]</option>
+                        #foreach ( $workingStatusOption in $workingStatusOptions.options )
+                            <option value="$workingStatusOption" #if( $equipment.getEquipmentStatus().getStatus() == $workingStatusOption ) selected="selected" #end >$workingStatusOption</option>
+                        #end
+                    </select>
+                </td>
+            </tr>
+            #set( $mark = true )
+            <tr #alternate($mark)>
+                <td width="75%">$i18n.getString( "utilization" )<em title="$i18n.getString( 'required' )" class="required">*</em></td>
+                <td width="25%">
+                    <select  id="utilization" name="utilization" class="{validate:{required:true}}">
+                        <option value="-1">[$i18n.getString( "please_select" )]</option>
+                        #foreach ( $utilizationOption in $utilizationOptions.options )
+                            <option value="$utilizationOption" #if( $equipment.getEquipmentStatus().getUtilization() == $utilizationOption ) selected="selected" #end >$utilizationOption</option>
+                        #end
+                    </select>
+                </td>
+            </tr>
+            #set( $mark = false )
+             <tr #alternate($mark)>
+                <td width="75%">$i18n.getString( "reason_not_working" )</td>
+                <td width="25%">
+                    <select  id="reasonNotWorking" name="reasonNotWorking">
+                        <option value="-1">[$i18n.getString( "please_select" )]</option>
+                        #foreach ( $reasonNotWorkingOption in $reasonNotWorkingOptions.options )
+                            <option value="$reasonNotWorkingOption" #if( $equipment.getEquipmentStatus().getReasonNotWorking() == $reasonNotWorkingOption ) selected="selected" #end >$reasonNotWorkingOption</option>
+                        #end
+                    </select>
+                </td>
+            </tr>
+            
+            #set( $mark = true )
+             <tr #alternate($mark)>
+                <td width="75%">$i18n.getString( "fault_types" )</td>
+                <td width="25%">
+                    <select  id="faultTypes" name="faultTypes" size="3" multiple >                        
+                        #foreach ( $faultTypeOption in $faultTypeOptions.options )
+                            <option value="$faultTypeOption">$faultTypeOption</option>
+                        #end
+                    </select>
+                </td>
+            </tr>
+            
+            #set( $mark = false )
+             <tr #alternate($mark)>
+                <td width="75%">$i18n.getString( "parts_replaced" )</td>
+                <td width="25%">
+                    <select  id="partsReplaced" name="partsReplaced"  size="3" multiple  >                        
+                        #foreach ( $partsReplacedOption in $partsReplacedOptions.options )
+                            <option value="$partsReplacedOption">$partsReplacedOption</option>
+                        #end
+                    </select>
+                </td>
+            </tr>
+            
+            #set( $mark = true )
+            <tr #alternate($mark)>
+                <td>Notes</td>
+                <td><textarea id="description" name="description" ></textarea></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="button"  value="$i18n.getString( 'Cancel' )" style="width:100px" onclick="closewindow2();"/>&nbsp;&nbsp;
+                    &nbsp;&nbsp;<input type="submit"  value="$i18n.getString( 'Save' )" style="width:100px"/>
+                </td>
+            </tr>             
+        </table>
+    #end
+    
+</form>	
