@@ -1,0 +1,171 @@
+http://hospdev.hispindia.org/haryana_217/api/documents.json?fields=[id,name]&paging=false
+
+http://127.0.0.1:8090/dhis/api/documents.json?fields=[id,name]&paging=false
+
+http://hospdev.hispindia.org/haryana_217/dhis-web-reporting/displayViewDocumentForm.action
+
+http://127.0.0.1:8090/dhis/dhis-web-reports-app/index.html#/
+
+http://127.0.0.1:8090/dhis/api/currentUser.json?fields=id,name,userGroups[id,name]&paging=false
+
+
+id: "r0Y1RFTle3g",
+name: "chcnahar",
+
+
+
+id: "eg0hX1B7aRb",
+name: "DMEO",
+
+
+http://127.0.0.1:8090/dhis/api/userGroups.json?fields=id,name,users[id,name]&paging=false
+
+
+
+http://127.0.0.1:8090/dhis/api/userGroups.json?fields=id,name,users[id,name]&paging=false&id=r0Y1RFTle3g
+
+
+http://127.0.0.1:8090/dhis/api/userGroups.json?fields=id,name,users[id,name]&paging=false&filter=id:eq:eg0hX1B7aRb
+
+
+http://192.168.0.32:8083/haryana_217/dhis-web-reports-app/index.html#/reports
+
+$scope.selectedOrgUnit.id
+
+http://212.71.248.145:8083/ccei_tracker/dhis-web-dashboard-integration/index.action
+
+http://192.168.0.40:9089/dhis_cse/dhis-web-maintenance-program/program.action
+
+
+http://192.168.0.40:9089/dhis_cse/dhis-web-cse/index.html#/ccei-configuration
+
+http://212.71.248.145:8083/ccei_tracker
+
+
+
+
+
+http://127.0.0.1:8090/dhis/api/organisationUnits.json?filter=id:eq:axtsxUvRhSr&fields=id,name,children[id,name,children[id,name]]&paging=false
+
+http://127.0.0.1:8090/dhis/api/dataSets.json?filter=id:eq:qNNFDcWTNc6&&fields=id,name,periodType,organisationUnits[id,name]&paging=false
+http://127.0.0.1:8090/dhis/api/organisationUnits.json?filter=level:eq:2&fields=id,name,children[id,name,children[id,name]]&paging=false
+http://127.0.0.1:8090/dhis/api/me.json?fields=organisationUnits[id,name,children[id,name,children[id,name]]]&paging=false
+
+
+http://127.0.0.1:8090/dhis/api/organisationUnits/axtsxUvRhSr.json?includeDescendants=true&fields=id,name
+
+http://127.0.0.1:8090/dhis/api/organisationUnits/axtsxUvRhSr.json?includeDescendants=true&fields=id,name
+http://127.0.0.1:8090/dhis/api/organisationUnits/axtsxUvRhSr.json?includeDescendants=true&fields=id,name&paging=false
+http://127.0.0.1:8090/dhis/api/organisationUnits/axtsxUvRhSr.json?fields=id,name&includeDescendants=true&paging=false
+
+
+
+
+http://127.0.0.1:8090/dhis/api/dataSets.json?filter=id:eq:uEU2uvsrK6u&fields=dataElements[id,name]&paging=false
+
+
+http://127.0.0.1:8090/dhis/api/dataSets.json?fields=dataElements[id,name]&paging=false
+
+http://127.0.0.1:8090/dhis/api/dataSets.json?filter=id:eq:O7dxKZAMK1s&&fields=dataElements[id,name]&paging=false
+
+http://127.0.0.1:8090/dhis/api/dataSets.json?filter=id:eq:qNNFDcWTNc6&fields=id,name,dataElements[id,name,categoryCombo]&paging=false
+
+http://127.0.0.1:8090/dhis/api/dataSets.json?filter=id:eq:qNNFDcWTNc6&fields=id,name,dataElements[*]&paging=false
+
+http://127.0.0.1:8090/dhis/api/dataSets.json?filter=id:eq:qNNFDcWTNc6&fields=id,name,dataElements[id,name,categoryCombo[categoryOptionCombos[id,name]]]&paging=false
+
+
+http://117.239.178.184/hry_pro/dhis-web-reporting/generateHtmlReport.action?uid=k2uANGv3TfP&pe=201504&ou=BLpdsMuZcqD&sd=2015-04-01&ed=2015-08-31
+http://117.239.178.184/hry_pro/dhis-web-reporting/generateHtmlReport.action?uid=vG7eSpHuyv5&
+
+// sql view URL
+http://127.0.0.1:8090/dhis/api/sqlViews/MWK9Z6s491Z/data.json
+http://127.0.0.1:8090/dhis/api/sqlViews/aaEmRTA6rro/data.json
+
+data status report uid : DUZxcstfQNm
+
+data status sql view uid : MWK9Z6s491Z // NLf1k9hBnnH -- for 2.20
+
+data status sql view uid not zero : aaEmRTA6rro //  fn7fsNvceGU
+
+// include zero
+select ou.uid,p.startdate, count(value) entered, (count(value) * 100)/129 from datavalue dv 
+inner join datasetmembers dsm on dv.dataelementid = dsm.dataelementid 
+inner join organisationunit ou on dv.sourceid = ou.organisationunitid 
+inner join period p on dv.periodid = p.periodid 
+where dsm.datasetid = 91455  group by ou.uid, p.startdate;
+
+// include not zero
+SELECT ou.uid,p.startdate, count(value) entered, (count(value) * 100)/129 from datavalue dv 
+inner join datasetmembers dsm on dv.dataelementid = dsm.dataelementid 
+inner join organisationunit ou on dv.sourceid = ou.organisationunitid 
+inner join period p on dv.periodid = p.periodid 
+where (dv.value) != '0' and (dv.value) != '' and dsm.datasetid = 91455 group by ou.uid, p.startdate;
+
+
+Include Zero
+
+
+http://192.168.0.32:8883/haryana_220/dhis-web-maintenance-dataadmin/sqlView.action
+
+
+// SQL view for 2.20
+
+query for sqlview:
+
+SELECT ou.uid,p.startdate, count(value) entered, (count(value) * 100)/${compulsoryDECount} from datavalue dv 
+inner join datasetmembers dsm on dv.dataelementid = dsm.dataelementid 
+inner join organisationunit ou on dv.sourceid = ou.organisationunitid 
+inner join period p on dv.periodid = p.periodid 
+inner join dataset ds on dsm.datasetid = ds.datasetid 
+where ds.uid = '${dataSetUID}' group by ou.uid, p.startdate;
+
+
+// include not zero
+SELECT  ou.uid,p.startdate, count(value) entered, (count(value) * 100)/${compulsoryDECount} from datavalue dv 
+inner join datasetmembers dsm on dv.dataelementid = dsm.dataelementid 
+inner join organisationunit ou on dv.sourceid = ou.organisationunitid 
+inner join period p on dv.periodid = p.periodid 
+inner join dataset ds on dsm.datasetid = ds.datasetid 
+where (dv.value) != '0' and (dv.value) != '' and AND ds.uid = '${dataSetUID}' group by ou.uid, p.startdate;
+
+
+
+
+and url should be:
+
+var url = "../api/sqlViews/"+ completenessCountSQLVIEW +"/data.json?var=compulsoryDECount:"+compulsoryDataElementCount+"&var=dataSetUID:"+dataSetUID;
+
+http://127.0.0.1:8090/dhis/api/sqlViews.json?fields=id,name&paging=false
+
+
+select ou.uid,p.startdate, count(value) entered, (count(value) * 100)/2 from datavalue dv 
+inner join datasetmembers dsm on dv.dataelementid = dsm.dataelementid 
+inner join organisationunit ou on dv.sourceid = ou.organisationunitid 
+inner join period p on dv.periodid = p.periodid 
+inner join dataset ds on dsm.datasetid = ds.datasetid 
+where ds.uid = 'O7dxKZAMK1s' group by ou.uid, p.startdate;
+
+http://hospdev.hispindia.org/haryana_220/api/sqlViews/ZOn0RPdUW2y/data.json?var=compulsoryDECount:2&var=dataSetUID:O7dxKZAMK1s
+
+// 19/09/2015
+
+SELECT ou.uid,p.startdate, dv.storedby, dv.lastupdated, ur.username FROM datavalue dv 
+inner join datasetmembers dsm on dv.dataelementid = dsm.dataelementid 
+inner join organisationunit ou on dv.sourceid = ou.organisationunitid
+inner join users ur on dv.storedby = ur.username
+inner join period p on dv.periodid = p.periodid 
+where  dsm.datasetid = 91455
+
+
+SELECT ou.uid,p.startdate, dv.storedby, max(dv.lastupdated) FROM datavalue dv 
+inner join datasetmembers dsm on dv.dataelementid = dsm.dataelementid 
+inner join organisationunit ou on dv.sourceid = ou.organisationunitid
+inner join period p on dv.periodid = p.periodid 
+where  dsm.datasetid = 91455 group by ou.uid, p.startdate,dv.storedby;
+
+SELECT ou.uid,p.startdate,dv.dataelementid, dv.comment FROM datavalue dv 
+inner join datasetmembers dsm on dv.dataelementid = dsm.dataelementid 
+inner join organisationunit ou on dv.sourceid = ou.organisationunitid
+inner join period p on dv.periodid = p.periodid 
+where  dsm.datasetid = 91455;
