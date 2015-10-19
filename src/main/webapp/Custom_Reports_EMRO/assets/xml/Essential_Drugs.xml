@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <record>
+        <S.No.>16</S.No.>
+        <Drug>Amoxicillin And Clavulanate Potassium  400 mg+57 mg/5ml, Oral liquid, 70ml per bottle</Drug>
+        <ExistingDrugsOn>p6XRTiLkSD9</ExistingDrugsOn>
+        <QuantityReceived>PI508IZiLTO</QuantityReceived>
+        <QuantityDispensed>j87WkSXhlOF</QuantityDispensed>
+        <BalanceInStockOn>YbGfVrcj31E</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>17</S.No.>
+        <Drug>Amoxicillin And Clavulanate Potassium  500/125 mg tablets, 14 tab per box</Drug>
+        <ExistingDrugsOn>iTqAsiU46QG</ExistingDrugsOn>
+        <QuantityReceived>en1IZDADu7M</QuantityReceived>
+        <QuantityDispensed>DuswvGVgWXL</QuantityDispensed>
+        <BalanceInStockOn>VkmKAV4sBy5</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>25</S.No.>
+        <Drug>Atracurium Besylate  10 mg/ml Vials, 5 Vials per box</Drug>
+        <ExistingDrugsOn>BhFYmsZsSho</ExistingDrugsOn>
+        <QuantityReceived>YZ4zANtoOTi</QuantityReceived>
+        <QuantityDispensed>yK91Fx8k00F</QuantityDispensed>
+        <BalanceInStockOn>ewRuKSnWelL</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>30</S.No.>
+        <Drug>Beclomethasone 100mg microgr per spray, 200 dose per inhaler</Drug>
+        <ExistingDrugsOn>kj550mJYSD6</ExistingDrugsOn>
+        <QuantityReceived>VZwPt6cytMg</QuantityReceived>
+        <QuantityDispensed>JEZuIb5tpG1</QuantityDispensed>
+        <BalanceInStockOn>gp71GzJuEkP</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>56</S.No.>
+        <Drug>Ceftriaxone Sodium  250mg, vial</Drug>
+        <ExistingDrugsOn>eyPNRFHebrv</ExistingDrugsOn>
+        <QuantityReceived>G9fgTceHjoh</QuantityReceived>
+        <QuantityDispensed>RxmQRDArlj9</QuantityDispensed>
+        <BalanceInStockOn>rTVUvGzH1U3</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>77</S.No.>
+        <Drug>Dexamethasone  4 mg/ml ampules for Inj. 1 amp per box</Drug>
+        <ExistingDrugsOn>Xq6pdZmnY6o</ExistingDrugsOn>
+        <QuantityReceived>WmGGCZBmsmt</QuantityReceived>
+        <QuantityDispensed>URsGz2qOdQc</QuantityDispensed>
+        <BalanceInStockOn>uVt5UnlRPuf</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>99</S.No.>
+        <Drug>Ferrous Salt  + Folic Acid  60mg + 400mcg tablets, 30 tab per box</Drug>
+        <ExistingDrugsOn>MVdExRFdioj</ExistingDrugsOn>
+        <QuantityReceived>XkokoAzZB1w</QuantityReceived>
+        <QuantityDispensed>UfJzcrnPXpf</QuantityDispensed>
+        <BalanceInStockOn>sv3DAmILwVP</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>110</S.No.>
+        <Drug>Glibenclamide  5 mg tablets, 100 tab per box</Drug>
+        <ExistingDrugsOn>auygA1iKJNn</ExistingDrugsOn>
+        <QuantityReceived>tUPqxQiH98q</QuantityReceived>
+        <QuantityDispensed>we6oTuvAN97</QuantityDispensed>
+        <BalanceInStockOn>ezNRpNUxRRF</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>124</S.No.>
+        <Drug>Ibuprofen  400 mg tablets, 20 tab per box</Drug>
+        <ExistingDrugsOn>rEGQ6Kact0f</ExistingDrugsOn>
+        <QuantityReceived>smrQXhwhe1U</QuantityReceived>
+        <QuantityDispensed>YsLTG1z9B4e</QuantityDispensed>
+        <BalanceInStockOn>eOlsaAF2A6C</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>125</S.No.>
+        <Drug>Insulin Injection (Intermediate-Acting)  Usp 100 units/ml, 10 ml/ampule</Drug>
+        <ExistingDrugsOn>kYXvg6llZNz</ExistingDrugsOn>
+        <QuantityReceived>MV4izkQmXCn</QuantityReceived>
+        <QuantityDispensed>Uzz9QvtxHZk</QuantityDispensed>
+        <BalanceInStockOn>r7wW0altCzm</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>153</S.No.>
+        <Drug>Metoprolol Tartrate  50 mg tablets, 20 tab per box</Drug>
+        <ExistingDrugsOn>CQJuk7AEfJW</ExistingDrugsOn>
+        <QuantityReceived>Hn8z25ExnCK</QuantityReceived>
+        <QuantityDispensed>RNNtvZzzfFa</QuantityDispensed>
+        <BalanceInStockOn>akpffxe57Fr</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>156</S.No.>
+        <Drug>Metronidazole 500 mg, 100ml bottle for IV.</Drug>
+        <ExistingDrugsOn>fCkmVP6NL3w</ExistingDrugsOn>
+        <QuantityReceived>qXaeZnvWlUO</QuantityReceived>
+        <QuantityDispensed>xvQQkXR9qbP</QuantityDispensed>
+        <BalanceInStockOn>aJQu0Zx9LO5</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>174</S.No.>
+        <Drug>Oral Rehydration Salts  Sachets, 2 sach per box</Drug>
+        <ExistingDrugsOn>auctO36cVcH</ExistingDrugsOn>
+        <QuantityReceived>q7xtuFJ17F8</QuantityReceived>
+        <QuantityDispensed>f3bvTVqiWw4</QuantityDispensed>
+        <BalanceInStockOn>vxfEpPY06xF</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>181</S.No.>
+        <Drug>Paracetamol Liquid  125mg/5ml, 100ml per bottles 100ml per bottles</Drug>
+        <ExistingDrugsOn>xSeKW9UmMOS</ExistingDrugsOn>
+        <QuantityReceived>VhPTSRrYRpQ</QuantityReceived>
+        <QuantityDispensed>nSGa0ay6nQG</QuantityDispensed>
+        <BalanceInStockOn>LTlNPbfaZXB</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>211</S.No.>
+        <Drug>Silver sulfadiazine  1% topical cream, 40 gm tube</Drug>
+        <ExistingDrugsOn>tB2Nt2Wx0o8</ExistingDrugsOn>
+        <QuantityReceived>FypEresnYDL</QuantityReceived>
+        <QuantityDispensed>iEzLNUFznEQ</QuantityDispensed>
+        <BalanceInStockOn>VQi25jMsZac</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>213</S.No.>
+        <Drug>Sodium Chloride  0.9%, 1 L bags</Drug>
+        <ExistingDrugsOn>q4h6aqaM1rU</ExistingDrugsOn>
+        <QuantityReceived>ld5ZTO4CJvD</QuantityReceived>
+        <QuantityDispensed>swigjO8lZqd</QuantityDispensed>
+        <BalanceInStockOn>WY2dWU5CFbV</BalanceInStockOn>
+    </record>
+    <record>
+        <S.No.>220</S.No.>
+        <Drug>Tetracycline 1%, eye ointment, 1 tube</Drug>
+        <ExistingDrugsOn>wvirgeI7zsM</ExistingDrugsOn>
+        <QuantityReceived>hl9KQ6GEw9a</QuantityReceived>
+        <QuantityDispensed>DNr02ZPtqk5</QuantityDispensed>
+        <BalanceInStockOn>YgI10OWj1s8</BalanceInStockOn>
+    </record>
+</data-set>

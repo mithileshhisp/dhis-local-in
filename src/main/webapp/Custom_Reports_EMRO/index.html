@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IMC Custom Reporting App">
+    <meta name="author" content="Gaurav<gaurav08021@gmail.com>">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Custom Reports</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Jasny Bootstrap-Extension CSS -->
+    <link href="assets/css/jasny-bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-select.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-datetimepicker.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/jasny-bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="assets/js/moment.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="assets/js/customReporting.js"></script>
+
+</head>
+
+<body id="pageBody">
+
+<!-- Fixed navbar -->
+<div id="navigation" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <span>
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/news.png" width="35px" height="35px">
+                &NonBreakingSpace;
+                <b>[Custom-Reports]</b>
+            </a>
+              <label><span id="btnHome" class="navbar-fixed-top" style="padding-left:90%; padding-top: 20px;">
+                       <div class="label btn-primary">
+                           &nbsp;&nbsp;Home&nbsp;&nbsp;
+                       </div>
+              </span></label>
+            </span>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<div class="container" id="page" style="padding-top: 60px">
+
+    <form method="post" action="reportContainer.html" id="reportInputForm">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="reportSelect">Select Report</label>
+                    <br/>
+                    <select id="reportSelect" class="selectPicker" data-live-search="true">
+                        <option value="">Select Report</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="form-group" id="ougFormOU" style="display: none">
+                    <label for="orgUnitOUSelect">Select Organisation Unit</label>
+                    <br/>
+                    <select id="orgUnitOUSelect" class="selectPicker" data-live-search="true">
+                        <option value="">Select Org. Unit</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-9"></div>
+        </div>
+        <div class="row">
+            <div class='col-md-3'>
+                <div class="form-group" id="sdFormGroup">
+                    <label for="datetimepickerStart">Select Start Date</label>
+                    <br/>
+                    <div class='input-group date' id='datetimepickerStart'>
+                        <input type='text' class="form-control" id="startDate"/>
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-3'>
+                <div class="form-group" id="edFormGroup">
+                    <label for="datetimepickerEnd">Select End Date</label>
+                    <br/>
+                    <div class='input-group date' id='datetimepickerEnd'>
+                        <input type='text' class="form-control" id="endDate"/>
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+
+        <div class="row">
+            <div class="col-md-3" id="genButton">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    Generate Report
+                </button>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+
+</body>
+</html>

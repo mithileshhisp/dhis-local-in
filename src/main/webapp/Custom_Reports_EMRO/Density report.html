@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IMC Custom Reporting App">
+    <meta name="author" content="Gaurav<gaurav08021@gmail.com>">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Custom Reports</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Jasny Bootstrap-Extension CSS -->
+    <link href="assets/css/jasny-bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-select.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-datetimepicker.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/chartist.min.css">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='assets/css/bordered.css' rel='stylesheet' type='text/css'>
+
+
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/jasny-bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="assets/js/moment.js"></script>
+    <script type="text/javascript" src="assets/js/highcharts.js"></script>
+    <script type="text/javascript" src="assets/js/grid-light.js"></script>
+    <script type="text/javascript" src="assets/js/exportExcel.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+
+
+            //--------Get all parameters from session memory------//
+            var dhisBaseURL = sessionStorage.getItem('dhisBaseURL');
+            var startDate = sessionStorage.getItem('startDate');
+            var endDate = sessionStorage.getItem('endDate');
+            var periodList = sessionStorage.getItem('periodList');
+            var orgUnitName = sessionStorage.getItem('orgUnitName');
+            var orgUnitCode = sessionStorage.getItem('orgUnitCode');
+            //-----------------------------------------------------//
+
+
+            if (orgUnitCode != "") {
+                $('#reportTags').append('<div class="row"></row><label>Org. Unit Name: ' + orgUnitName + '</label></div>');
+            }
+
+            $('#reportTags').append('<div class="row"><label>' + startDate + ' to ' + endDate + '</label></div>');
+
+
+            var analyticsURL = dhisBaseURL + '/analytics.jsonp?dimension=dx:st5b3ly0kzW;CO3oXGbGj7r;MFiOX1oTFxy;ZOnsztUKkxr;yTh16Nvh2ue;EvIls7GiQef';
+
+            analyticsURL = analyticsURL + '&dimension=pe:' + periodList + '&filter=ou:' + orgUnitCode;
+
+            console.log(startDate);
+            console.log(endDate);
+            console.log(periodList);
+            console.log(orgUnitName);
+            console.log(orgUnitCode);
+
+            var labels = new Array();
+
+            var values = new Array();
+
+            var items = new Array();
+
+            var getResponse = function () {
+
+                $.ajax({
+                    url: analyticsURL,
+                    dataType: "jsonp",
+                    async: false,
+                    data: {
+                        format: "json"
+                    },
+                    success: function (response) {
+                        console.log(response);
+                        for (var item in response.metaData.names) {
+                            labels.push(response.metaData.names[item]);
+                        }
+                        for (var item in response.rows) {
+                            items.push(response.metaData.names[response.rows[item][0]]);
+                            values.push(parseFloat(response.rows[item][2]));
+                        }
+
+                        console.log(items);
+                        console.log(values);
+
+                        buildTable();
+                        populateChart();
+                    }
+
+                });
+            }
+
+            var buildTable = function () {
+                for (var item in items) {
+                    $('#dataTable').append('<tr><td>' + items[item] + '</td><td>' + values[item] + '</td></tr>');
+                }
+            }
+
+            var populateChart = function () {
+
+                var dataSeries = [{
+                    name: 'Density',
+                    data: values
+                }]
+
+                $('#myChart').highcharts({
+                    chart: {
+                        type: 'bar'
+                    },
+                    title: {
+                        text: 'Health staff density'
+                    },
+                    xAxis: {
+                        type: 'category',
+                        categories: items
+                    },
+                    yAxis: {
+                        title: {
+                            text: 'Value'
+                        }
+                    },
+                    zoomType: "xy",
+                    tooltip: {
+                        valueSuffix: ''
+                    },
+                    credits: {
+                        enabled: false
+                    },
+                    plotOptions: {
+                        pie: {
+                            allowPointSelect: true,
+                            cursor: 'pointer',
+                            depth: 35,
+                            dataLabels: {
+                                enabled: true,
+                                format: '{point.name}'
+                            }
+                        }
+                    },
+                    series: dataSeries
+                });
+            }
+
+            getResponse();
+
+
+            $("#btnBack").click(function (e) {
+                reportNotNull=false;
+                window.history.go(-1);
+            });
+            $("#btnBack2").click(function (e) {
+                reportNotNull=false;
+                window.history.go(-1);
+            });
+            $("#btnPrint").click(function (e) {
+                var headstr = "<html><head><title></title></head><body>";
+                var footstr = "</body>";
+                var reportName=document.getElementById('reportName').innerHTML;
+                var newstr = document.all.item('tableContainer').innerHTML;
+                var oldstr = document.body.innerHTML;
+                document.body.innerHTML = headstr+reportName+newstr+footstr;
+                window.print();
+                document.body.innerHTML = oldstr;
+            });
+
+        });
+    </script>
+
+
+</head>
+
+<body id="pageBody">
+<div id="navigation" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                    <span>
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/img/news.png" width="35px" height="35px">
+                            &NonBreakingSpace;
+                            <b>[Custom-Reports] </b>
+                        </a>
+                        <label>
+                            <span id="btnHome" class="navbar-fixed-top" style="padding-left:90%; padding-top: 20px;">
+                                <div class="label btn-primary">&nbsp;&nbsp;Home&nbsp;&nbsp;</div>
+                            </span>
+                        </label>
+                    </span>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav"></ul>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="page" style="padding-top: 60px">
+
+    <div class="container" id="reportInside">
+        <div class="row">
+            <div class="col-md-8" id="reportName">
+                <label><span class="label label-primary">Density Report</span></label>
+            </div>
+            <div class="col-md-2">
+                <div style="float: left"><label><span class="label btn-success" id="btnBack">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Back&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></label>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <div style="float: left"><label><span class="label btn-success" id="btnPrint">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Print&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="tableContainer">
+            <div class="row" id="metaContainer" style="padding-top: 20px">
+                <div class="col-md-6" id="reportTags"></div>
+                <div class="col-md-6"></div>
+            </div>
+            <div class="row" id="tableDiv">
+                <div class="col-md-6" style="padding-top: 35px">
+                    <table id="dataTable" class="bordered">
+                        <tr>
+                            <th>Dataelement</th>
+                            <th>Value</th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-6" id="chartDiv">
+                    <div id="myChart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

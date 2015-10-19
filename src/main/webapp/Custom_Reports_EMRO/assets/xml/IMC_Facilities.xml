@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<Governorate>Al Hasakah</Governorate>
+		<District>Al Hasakeh</District>
+		<Location>Markada PHC</Location>
+		<UID>vOghymek2pw</UID>
+	</record>
+	<record>
+		<Governorate>Al Hasakah</Governorate>
+		<District>Ras Al Ayn</District>
+		<Location>Ras Al Ain AMP</Location>
+		<UID>wxcNjgclvL6</UID>
+	</record>
+	<record>
+		<Governorate>Al Hasakah</Governorate>
+		<District>Ras Al Ayn</District>
+		<Location>Ras Al Ain PHC</Location>
+		<UID>wqB0yYEPJfY</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Al Bab</District>
+		<Location>Al Bab FH</Location>
+		<UID>FphDO0UMyab</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Anadan FH</Location>
+		<UID>txkvx4QTvN0</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Ansar FH</Location>
+		<UID>S39C4n2oHT6</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Atareb PHC</Location>
+		<UID>k1wiWI40seb</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Azaz</District>
+		<Location>Azzaz FH</Location>
+		<UID>lcLZvTYnHFz</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Azaz</District>
+		<Location>Bab Al Nour Camp PHC</Location>
+		<UID>ohCcU2zemat</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Azaz</District>
+		<Location>Bab Al Salameh Camp PHC</Location>
+		<UID>AdUILAtVrJ3</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Bustan Al Kasser PHC</Location>
+		<UID>BloKs4HgJRc</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Azaz</District>
+		<Location>Byanoun PHC</Location>
+		<UID>aUqtngYvyq3</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Dakkak FH</Location>
+		<UID>sBKfjALy5G1</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Daret Ezza PHC</Location>
+		<UID>loapEkCf5YC</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Al Bab</District>
+		<Location>Deir Hafer FH</Location>
+		<UID>OCs7mfxWLUx</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Al Bab</District>
+		<Location>Deir Hafer PHC</Location>
+		<UID>DUdTNYXODQo</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Hanano PHC</Location>
+		<UID>Rsx1i5EomfO</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Hritan PHC</Location>
+		<UID>FpNFhcdesk5</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Jena MMC</Location>
+		<UID>GMb24Yxf5zy</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Kafar Hamra AMP</Location>
+		<UID>gM636hsnOko</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Azaz</District>
+		<Location>Kal Jebrin AMP</Location>
+		<UID>PfSZuNAavMG</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Katerji PHC</Location>
+		<UID>oFwRdXczYhf</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Kinana FH</Location>
+		<UID>FnycoJ0GY9u</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Azaz</District>
+		<Location>Mare'a FH</Location>
+		<UID>dpLemVyRhCD</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Menbij</District>
+		<Location>Menbij NH</Location>
+		<UID>WvpASryjFEM</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Omar Ben Abdul-Aziz FH</Location>
+		<UID>cFMzGHwxWcx</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Quds PHC</Location>
+		<UID>Hy8nJyqNUxe</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Sakhour FH</Location>
+		<UID>p9JSxzyIn5x</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>As Safira</District>
+		<Location>Sfeera FH</Location>
+		<UID>SawmicDOmf0</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Shifa FH</Location>
+		<UID>DkSirE6dpCG</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Azaz</District>
+		<Location>Soran FH</Location>
+		<UID>MBZKSDN1c9j</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Azaz</District>
+		<Location>Soran PHC</Location>
+		<UID>jmSzWHrTeA8</UID>
+	</record>
+	<record>
+		<Governorate>Aleppo</Governorate>
+		<District>Jebel Saman</District>
+		<Location>Zahraa RH</Location>
+		<UID>A3w0nBQK9Wp</UID>
+	</record>
+	<record>
+		<Governorate>Ar Raqqah</Governorate>
+		<District>Ar Raqqah</District>
+		<Location>Hazima AMP</Location>
+		<UID>ZqtuixlaC3O</UID>
+	</record>
+	<record>
+		<Governorate>Ar Raqqah</Governorate>
+		<District>Ar Raqqah</District>
+		<Location>Karameh PHC-Raqqa</Location>
+		<UID>LSlnK7JZybh</UID>
+	</record>
+	<record>
+		<Governorate>Ar Raqqah</Governorate>
+		<District>Ar Raqqah</District>
+		<Location>Ma'adan PHC</Location>
+		<UID>YXWJ5yz5ERV</UID>
+	</record>
+	<record>
+		<Governorate>Ar Raqqah</Governorate>
+		<District>Ar Raqqah</District>
+		<Location>Raqqa NH</Location>
+		<UID>Lu8Am3PpCQD</UID>
+	</record>
+	<record>
+		<Governorate>Ar Raqqah</Governorate>
+		<District>Tell Abiad</District>
+		<Location>Sluk PHC</Location>
+		<UID>DLGB8N1P9xW</UID>
+	</record>
+	<record>
+		<Governorate>Ar Raqqah</Governorate>
+		<District>Ath Thawrah</District>
+		<Location>Tabka NH</Location>
+		<UID>UQKFLutKckr</UID>
+	</record>
+	<record>
+		<Governorate>Ar Raqqah</Governorate>
+		<District>Ath Thawrah</District>
+		<Location>Tabqa AMP</Location>
+		<UID>k15stgpjzqg</UID>
+	</record>
+	<record>
+		<Governorate>Ar Raqqah</Governorate>
+		<District>Tell Abiad</District>
+		<Location>Tal Abyad FH</Location>
+		<UID>y7ew4DYXUZO</UID>
+	</record>
+	<record>
+		<Governorate>Dayr Az Zawr</Governorate>
+		<District>Al Mayadin</District>
+		<Location>Bukrus FH</Location>
+		<UID>ahyIiilI8Ck</UID>
+	</record>
+	<record>
+		<Governorate>Dayr Az Zawr</Governorate>
+		<District>Al Mayadin</District>
+		<Location>Hawayij Bu Musa PHC</Location>
+		<UID>XTk0LzvWVmH</UID>
+	</record>
+	<record>
+		<Governorate>Dayr Az Zawr</Governorate>
+		<District>Al Mayadin</District>
+		<Location>Ishara AMP</Location>
+		<UID>rag8rndY7z4</UID>
+	</record>
+	<record>
+		<Governorate>Dayr Az Zawr</Governorate>
+		<District>Dayr Az Zawr</District>
+		<Location>Kasra FH</Location>
+		<UID>Kn0n82wHrGI</UID>
+	</record>
+	<record>
+		<Governorate>Dayr Az Zawr</Governorate>
+		<District>Dayr Az Zawr</District>
+		<Location>Khreita FH</Location>
+		<UID>xm9lNq6MIWL</UID>
+	</record>
+	<record>
+		<Governorate>Dayr Az Zawr</Governorate>
+		<District>Dayr Az Zawr</District>
+		<Location>Mhemdia PHC</Location>
+		<UID>I0nrWEo6cGl</UID>
+	</record>
+	<record>
+		<Governorate>Dayr Az Zawr</Governorate>
+		<District>Dayr Az Zawr</District>
+		<Location>Muhasan FH</Location>
+		<UID>KXF1uYZ0Tr5</UID>
+	</record>
+	<record>
+		<Governorate>Dayr Az Zawr</Governorate>
+		<District>Dayr Az Zawr</District>
+		<Location>Pharmix FH</Location>
+		<UID>TEoGKRY2GQG</UID>
+	</record>
+	<record>
+		<Governorate>Dayr Az Zawr</Governorate>
+		<District>Dayr Az Zawr</District>
+		<Location>PMT FH</Location>
+		<UID>euuSuawJG5G</UID>
+	</record>
+	<record>
+		<Governorate>Dayr Az Zawr</Governorate>
+		<District>Dayr Az Zawr</District>
+		<Location>Sheikh Yaseen FH</Location>
+		<UID>nvbdttRW6Wj</UID>
+	</record>
+	<record>
+		<Governorate>Dayr Az Zawr</Governorate>
+		<District>Dayr Az Zawr</District>
+		<Location>Sowar PHC</Location>
+		<UID>PqmWpODLoSm</UID>
+	</record>
+	<record>
+		<Governorate>Dayr Az Zawr</Governorate>
+		<District>Al Mayadin</District>
+		<Location>Tayanah PHC</Location>
+		<UID>zurDEUkyjL3</UID>
+	</record>
+	<record>
+		<Governorate>Gaziantep</Governorate>
+		<District>Nizip</District>
+		<Location>Nizip PHC</Location>
+		<UID>qjpmtEyCsFe</UID>
+	</record>
+	<record>
+		<Governorate>Hamah</Governorate>
+		<District>Muhradah</District>
+		<Location>Kafar Zeta FH</Location>
+		<UID>LUorKZNxXvT</UID>
+	</record>
+	<record>
+		<Governorate>Hamah</Governorate>
+		<District>Muhradah</District>
+		<Location>Kernaz PHC</Location>
+		<UID>Gm1WpcNqYz6</UID>
+	</record>
+	<record>
+		<Governorate>Hatay</Governorate>
+		<District>Reyhanli</District>
+		<Location>Reyhanli 1 PHC (AAA)</Location>
+		<UID>ECFfTuKKkBw</UID>
+	</record>
+	<record>
+		<Governorate>Hatay</Governorate>
+		<District>Reyhanli</District>
+		<Location>Reyhanli 2 PHC (HN)</Location>
+		<UID>gvmVBGsRq5q</UID>
+	</record>
+	<record>
+		<Governorate>Homs</Governorate>
+		<District>Ar Rastan</District>
+		<Location>Ar Rastan</Location>
+		<UID>uKf2uEOjQN0</UID>
+	</record>
+	<record>
+		<Governorate>Homs</Governorate>
+		<District>Ar Rastan</District>
+		<Location>Zafarani Hospital</Location>
+		<UID>ff80ZyqM659</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>A'dana</Location>
+		<UID>Gad7gC9FsJS</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>Aidoun MMC</Location>
+		<UID>dtxIn8hZoNa</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Jisr Ash Shugur</District>
+		<Location>Ain Al Bayda FH</Location>
+		<UID>G67XEv1jZXR</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Al Mara</District>
+		<Location>Ar-Rakaya FH</Location>
+		<UID>JveU4LEeC22</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>Atmeh PHC Clinic</Location>
+		<UID>MJpBupxONqG</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>Azmarin PHC</Location>
+		<UID>Dt49vVqaV1O</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>Bab Al Hawa FH</Location>
+		<UID>B1EeFNXjdyY</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>Bab Al Hawa MMC</Location>
+		<UID>xRF22Oixoki</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Jisr Ash Shugur</District>
+		<Location>Bdama AMP</Location>
+		<UID>oxzLD9dUrmL</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Jisr Ash Shugur</District>
+		<Location>Bdama PHC</Location>
+		<UID>eHjSwdhUvEK</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Idlib</District>
+		<Location>Binnish FH</Location>
+		<UID>vQIUozDSHAn</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Idlib</District>
+		<Location>Bruma MMC</Location>
+		<UID>rD9oiXdfOOJ</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>Bsania MMC</Location>
+		<UID>VZBOc0vT78C</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Jisr Ash Shugur</District>
+		<Location>Darkoush FH</Location>
+		<UID>zmOl977AEog</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Jisr Ash Shugur</District>
+		<Location>Hafria AMP</Location>
+		<UID>yg7sP7bWp9A</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>Harem PHC</Location>
+		<UID>NjoSRozmxSB</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Al Mara</District>
+		<Location>Jarjanaz FH</Location>
+		<UID>Fwn9Pxn4kSN</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Al Mara</District>
+		<Location>Kafar Sejneh PHC</Location>
+		<UID>xxWJUiTgFUI</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Idlib</District>
+		<Location>Kafar Yahmoul PHC</Location>
+		<UID>e9ByfQcOXsF</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Al Mara</District>
+		<Location>Kafraya PHC</Location>
+		<UID>Uc2MbYTuifL</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Al Mara</District>
+		<Location>Kan Shaykun</Location>
+		<UID>K4RfCJTSgzf</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Ariha</District>
+		<Location>Kansafra FH</Location>
+		<UID>Fsz34Ai3vL7</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>Karameh Camp PHC</Location>
+		<UID>QlotVNhgcFx</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Al Mara</District>
+		<Location>Kefraya FH</Location>
+		<UID>xC7gcUBPtfA</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Jisr Ash Shugur</District>
+		<Location>Kherbet Al Jouz camp MMC</Location>
+		<UID>a91tTfHxYQU</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Idlib</District>
+		<Location>Maret Misrin FH</Location>
+		<UID>BvlmcyDs8lG</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Al Mara</District>
+		<Location>Maret Noman FH</Location>
+		<UID>nwuc77DH0AT</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Al Mara</District>
+		<Location>Masaran FH</Location>
+		<UID>IaNPLrb8v38</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Jisr Ash Shugur</District>
+		<Location>Najia PHC</Location>
+		<UID>Ebe0SQ0sbSC</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>Olive Grove Camp PHC1</Location>
+		<UID>HPA7defGw4x</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>Olive Grove Camp PHC2</Location>
+		<UID>K7s5P7C7iQ4</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>Orient-Atmeh FH</Location>
+		<UID>sTy2BLZR0Ye</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>Ras Al Hissin FH</Location>
+		<UID>X7e5FPSUuSb</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>Salquin FH</Location>
+		<UID>tuhPXBl2Hu7</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Idlib</District>
+		<Location>Saraqib FH</Location>
+		<UID>tHvQzdx3FLy</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>Sarmada PHC</Location>
+		<UID>LCWhfxQ8XeI</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Idlib</District>
+		<Location>Sarmin AMP</Location>
+		<UID>U9W9mlYOsEW</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Idlib</District>
+		<Location>Sarmin FH</Location>
+		<UID>m8jSxfPxqsw</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Al Mara</District>
+		<Location>Tamanaa AMP</Location>
+		<UID>GLzFMJZCVxr</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Al Mara</District>
+		<Location>Tarmala FH</Location>
+		<UID>M3wpnWcWtLU</UID>
+	</record>
+	<record>
+		<Governorate>Idlib</Governorate>
+		<District>Harem</District>
+		<Location>Tayba MMC</Location>
+		<UID>w4Rqn2JNe7n</UID>
+	</record>
+	<record>
+		<Governorate>Killis</Governorate>
+		<District>Killis</District>
+		<Location>Killis PHC 1 (SEMA)</Location>
+		<UID>mcY1nEexCpn</UID>
+	</record>
+	<record>
+		<Governorate>Killis</Governorate>
+		<District>Killis</District>
+		<Location>Killis PHC 2</Location>
+		<UID>p00hfHxDGQz</UID>
+	</record>
+	<record>
+		<Governorate>Latakia</Governorate>
+		<District>Latakia</District>
+		<Location>Rabia FH</Location>
+		<UID>BWmeRZXa9RN</UID>
+	</record>
+	<record>
+		<Governorate>Latakia</Governorate>
+		<District>Al Haffa</District>
+		<Location>Salma FH</Location>
+		<UID>gIBxFA1lTkp</UID>
+	</record>
+	<record>
+		<Governorate>Latakia</Governorate>
+		<District>Latakia</District>
+		<Location>Yamama</Location>
+		<UID>S1ecVus4jgr</UID>
+	</record>
+	<record>
+		<Governorate>Mersin</Governorate>
+		<District>Mersin</District>
+		<Location>Mersin PHC</Location>
+		<UID>dXqAUNbPJih</UID>
+	</record>
+	<record>
+		<Governorate>Sanliurfa</Governorate>
+		<District>Sanliurfa</District>
+		<Location>Sanliurfa PHC</Location>
+		<UID>smevqRBcP9a</UID>
+	</record>
+</data-set>

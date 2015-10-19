@@ -1,0 +1,1883 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<S.No.>1</S.No.>
+		<Drug>Acetylsalicylic Acid 100 mg tablets, 20 tab per box</Drug>
+		<ExistingDrugsOn>LQoYtOEca4q</ExistingDrugsOn>
+		<QuantityReceived>B7GvpqFv8lw</QuantityReceived>
+		<QuantityDispensed>knE4RVX007M</QuantityDispensed>
+		<BalanceInStockOn>ONF5a5GfgQz</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>2</S.No.>
+		<Drug>Acetylsalicylic Acid 500 mg tablets, 20 tab per box</Drug>
+		<ExistingDrugsOn>zqJrKsOVJ8P</ExistingDrugsOn>
+		<QuantityReceived>k1ZzzzSf6Yh</QuantityReceived>
+		<QuantityDispensed>JG2VYty8LIY</QuantityDispensed>
+		<BalanceInStockOn>QV8D0vzIkVe</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>3</S.No.>
+		<Drug>Aciclovir  200Mg/5Ml, Oral Liquid, 100ml per bottle</Drug>
+		<ExistingDrugsOn>uiqB7aNT1M6</ExistingDrugsOn>
+		<QuantityReceived>saYNoarpy4z</QuantityReceived>
+		<QuantityDispensed>siUsmjlVHws</QuantityDispensed>
+		<BalanceInStockOn>u7MGZvuPSc5</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>4</S.No.>
+		<Drug>Aciclovir  3% ,Ointment, 10gr per tube</Drug>
+		<ExistingDrugsOn>NNmUTP6SSwB</ExistingDrugsOn>
+		<QuantityReceived>upqCoQ31h4H</QuantityReceived>
+		<QuantityDispensed>JjbMm3YiEth</QuantityDispensed>
+		<BalanceInStockOn>B79Y0fkCGpr</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>5</S.No.>
+		<Drug>Albendazole  400 mg tablets, 3 tab per box</Drug>
+		<ExistingDrugsOn>Gn4u6LDMAtQ</ExistingDrugsOn>
+		<QuantityReceived>rkhUqLru3JA</QuantityReceived>
+		<QuantityDispensed>vo7ZDAx50cS</QuantityDispensed>
+		<BalanceInStockOn>hHMFYzi0aAM</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>6</S.No.>
+		<Drug>Alverin sitrat + simethicone 60mg/300mg capsules, 40 cap/box</Drug>
+		<ExistingDrugsOn>RNm0nmWrGqw</ExistingDrugsOn>
+		<QuantityReceived>b9bBHu9VR2F</QuantityReceived>
+		<QuantityDispensed>Tb0BAzotdAH</QuantityDispensed>
+		<BalanceInStockOn>T9w9MZoOHqA</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>7</S.No.>
+		<Drug>Ambroxol HCl 30mg tablets, 20 tabs/box</Drug>
+		<ExistingDrugsOn>j774c6LlEaW</ExistingDrugsOn>
+		<QuantityReceived>Kl2I43s0L8G</QuantityReceived>
+		<QuantityDispensed>NstuZFLBTZr</QuantityDispensed>
+		<BalanceInStockOn>rUBa55pMYmi</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>8</S.No.>
+		<Drug>Ambroxol HCl pediatric syrup, 150 ml bottle</Drug>
+		<ExistingDrugsOn>tXJ7D8aWAtt</ExistingDrugsOn>
+		<QuantityReceived>Nh6O6H1dune</QuantityReceived>
+		<QuantityDispensed>HvhBmeAmK5y</QuantityDispensed>
+		<BalanceInStockOn>CMiFctaBOuy</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>9</S.No.>
+		<Drug>Amiodarone  200 mg tablets, 30 tab per box</Drug>
+		<ExistingDrugsOn>yh5Ngpk4lBj</ExistingDrugsOn>
+		<QuantityReceived>KxRLqMPNahz</QuantityReceived>
+		<QuantityDispensed>wdI1yDBKCTS</QuantityDispensed>
+		<BalanceInStockOn>prjc1qynZRR</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>10</S.No.>
+		<Drug>Amitriptyline 25mg tablets, 40 tabs per Box</Drug>
+		<ExistingDrugsOn>dINV9YObzl7</ExistingDrugsOn>
+		<QuantityReceived>va9Q3OaOsXE</QuantityReceived>
+		<QuantityDispensed>Aaxv9r3V3tp</QuantityDispensed>
+		<BalanceInStockOn>pjWiUrpmXyG</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>11</S.No.>
+		<Drug>Amlodipine  5 mg tablets, 30 tab per box</Drug>
+		<ExistingDrugsOn>MfZD8NewXDB</ExistingDrugsOn>
+		<QuantityReceived>zMafLWOmWRP</QuantityReceived>
+		<QuantityDispensed>IMI0z72ezqA</QuantityDispensed>
+		<BalanceInStockOn>gPzuW2gAkPA</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>12</S.No.>
+		<Drug>Amoxicillin 125mg/5ml, Oral Liquid, 80ml per bottle</Drug>
+		<ExistingDrugsOn>yzrJl41zlxj</ExistingDrugsOn>
+		<QuantityReceived>M0rw9ZVC2Tk</QuantityReceived>
+		<QuantityDispensed>GJ2FrZYNY1r</QuantityDispensed>
+		<BalanceInStockOn>jJSHJE1Kesn</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>13</S.No.>
+		<Drug>Amoxicillin 250mg/5ml, Oral Liquid, 80ml per bottle</Drug>
+		<ExistingDrugsOn>gc8b5gfJ1xV</ExistingDrugsOn>
+		<QuantityReceived>XmXT9zOuxRN</QuantityReceived>
+		<QuantityDispensed>wTfZVbDCA7o</QuantityDispensed>
+		<BalanceInStockOn>verIlhja8dV</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>14</S.No.>
+		<Drug>Amoxicillin 500 mg capsules, 16 cap per box</Drug>
+		<ExistingDrugsOn>HQghVpe1Ery</ExistingDrugsOn>
+		<QuantityReceived>NK27yj6JH5P</QuantityReceived>
+		<QuantityDispensed>dz7PGzmxbHO</QuantityDispensed>
+		<BalanceInStockOn>a21McsloeQq</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>15</S.No.>
+		<Drug>Amoxicillin And Clavulanate Potassium  200mg+28mg/5ml, Oral liquid, 70ml per bottle</Drug>
+		<ExistingDrugsOn>PlnCQiHqkw8</ExistingDrugsOn>
+		<QuantityReceived>oE7i4ImdYDH</QuantityReceived>
+		<QuantityDispensed>k2OHV9yjKYN</QuantityDispensed>
+		<BalanceInStockOn>FhjioPLy6fJ</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>16</S.No.>
+		<Drug>Amoxicillin And Clavulanate Potassium  400 mg+57 mg/5ml, Oral liquid, 70ml per bottle</Drug>
+		<ExistingDrugsOn>p6XRTiLkSD9</ExistingDrugsOn>
+		<QuantityReceived>PI508IZiLTO</QuantityReceived>
+		<QuantityDispensed>j87WkSXhlOF</QuantityDispensed>
+		<BalanceInStockOn>YbGfVrcj31E</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>17</S.No.>
+		<Drug>Amoxicillin And Clavulanate Potassium  500/125 mg tablets, 14 tab per box</Drug>
+		<ExistingDrugsOn>iTqAsiU46QG</ExistingDrugsOn>
+		<QuantityReceived>en1IZDADu7M</QuantityReceived>
+		<QuantityDispensed>DuswvGVgWXL</QuantityDispensed>
+		<BalanceInStockOn>VkmKAV4sBy5</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>18</S.No.>
+		<Drug>Ampicillin 1000mg vial</Drug>
+		<ExistingDrugsOn>J3FbD4ElbFZ</ExistingDrugsOn>
+		<QuantityReceived>gMlemY42W8h</QuantityReceived>
+		<QuantityDispensed>wrAEIY472Wx</QuantityDispensed>
+		<BalanceInStockOn>N99x6u4oMtG</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>19</S.No.>
+		<Drug>Ampicillin 500mg vial</Drug>
+		<ExistingDrugsOn>yLzUQfKwH45</ExistingDrugsOn>
+		<QuantityReceived>YqnrelR4M66</QuantityReceived>
+		<QuantityDispensed>Qp33NJ256VM</QuantityDispensed>
+		<BalanceInStockOn>eEk5VE2zUs6</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>20</S.No.>
+		<Drug>Anti-acid oral liquid 100ml bottle</Drug>
+		<ExistingDrugsOn>nLireeJHNKO</ExistingDrugsOn>
+		<QuantityReceived>DRx3JcjjWu3</QuantityReceived>
+		<QuantityDispensed>DGXAWaeD0rU</QuantityDispensed>
+		<BalanceInStockOn>irSCspR72js</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>21</S.No.>
+		<Drug>Anti-acid tablets tablets 48 tab/box</Drug>
+		<ExistingDrugsOn>CkunuxX2NV9</ExistingDrugsOn>
+		<QuantityReceived>pHocWoBQwxb</QuantityReceived>
+		<QuantityDispensed>frHjqvMNJ35</QuantityDispensed>
+		<BalanceInStockOn>rTFaINBVEiO</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>22</S.No.>
+		<Drug>Ascorbic Acid  50 mg tablets, 30 tab per box</Drug>
+		<ExistingDrugsOn>UIlip7X828l</ExistingDrugsOn>
+		<QuantityReceived>QFLcpOrYSrD</QuantityReceived>
+		<QuantityDispensed>UfjYJh35V6X</QuantityDispensed>
+		<BalanceInStockOn>MTBUEeEtUfm</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>23</S.No.>
+		<Drug>Atorvastatin 10mg tablets, 30 Tab/box</Drug>
+		<ExistingDrugsOn>ZBxlJdHcIkY</ExistingDrugsOn>
+		<QuantityReceived>NkyGduftHVy</QuantityReceived>
+		<QuantityDispensed>bsEWqLYU0s1</QuantityDispensed>
+		<BalanceInStockOn>ODZ6uvOUxNb</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>24</S.No.>
+		<Drug>Atorvastatin 20mg tablets, 30 Tab/box</Drug>
+		<ExistingDrugsOn>QStlnIXSepj</ExistingDrugsOn>
+		<QuantityReceived>VV2poM1ELI9</QuantityReceived>
+		<QuantityDispensed>XZB381uxTWu</QuantityDispensed>
+		<BalanceInStockOn>LKczjnEPpNt</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>25</S.No.>
+		<Drug>Atracurium Besylate  10 mg/ml Vials, 5 Vials per box</Drug>
+		<ExistingDrugsOn>BhFYmsZsSho</ExistingDrugsOn>
+		<QuantityReceived>YZ4zANtoOTi</QuantityReceived>
+		<QuantityDispensed>yK91Fx8k00F</QuantityDispensed>
+		<BalanceInStockOn>ewRuKSnWelL</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>26</S.No.>
+		<Drug>Atropin 1mg/ml ampule, 10 amp per box</Drug>
+		<ExistingDrugsOn>IbtI5JMmOOX</ExistingDrugsOn>
+		<QuantityReceived>E6lKIFTKn6i</QuantityReceived>
+		<QuantityDispensed>Esg8HG0AHhr</QuantityDispensed>
+		<BalanceInStockOn>ly6LLnNRfA4</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>27</S.No.>
+		<Drug>Azithromycin  250 mg capsules, 6 cap per box</Drug>
+		<ExistingDrugsOn>MJlrmT1GebJ</ExistingDrugsOn>
+		<QuantityReceived>QWepGWiD6P4</QuantityReceived>
+		<QuantityDispensed>NqRIafJiCTF</QuantityDispensed>
+		<BalanceInStockOn>s9XQ4262vds</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>28</S.No.>
+		<Drug>Azithromycin  500 mg capsules, 3 cap per box</Drug>
+		<ExistingDrugsOn>PcC9mtIU70I</ExistingDrugsOn>
+		<QuantityReceived>jMiQpT5iD1d</QuantityReceived>
+		<QuantityDispensed>sdWqvRENKKF</QuantityDispensed>
+		<BalanceInStockOn>kHmzPgayEkw</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>29</S.No.>
+		<Drug>Azithromycin 200mg/5ml, Oral liquid, 30ml per bottle</Drug>
+		<ExistingDrugsOn>CD9LLbeNdqI</ExistingDrugsOn>
+		<QuantityReceived>epUrXlCuIFx</QuantityReceived>
+		<QuantityDispensed>cMWaiZxQrVV</QuantityDispensed>
+		<BalanceInStockOn>dhyxn5MLlXl</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>30</S.No.>
+		<Drug>Beclomethasone 100mg microgr per spray, 200 dose per inhaler</Drug>
+		<ExistingDrugsOn>kj550mJYSD6</ExistingDrugsOn>
+		<QuantityReceived>VZwPt6cytMg</QuantityReceived>
+		<QuantityDispensed>JEZuIb5tpG1</QuantityDispensed>
+		<BalanceInStockOn>gp71GzJuEkP</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>31</S.No.>
+		<Drug>Benzathine Benzylpenicillin  1.2 million IU / vial</Drug>
+		<ExistingDrugsOn>COeDVaZ7Z4J</ExistingDrugsOn>
+		<QuantityReceived>Czbrs7FdGLH</QuantityReceived>
+		<QuantityDispensed>hGaUAny1FtS</QuantityDispensed>
+		<BalanceInStockOn>sKIOZbn5xkn</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>32</S.No.>
+		<Drug>Betahistine 24 mg Tablets, 60 tab per Box</Drug>
+		<ExistingDrugsOn>Y8J2lB4IEvd</ExistingDrugsOn>
+		<QuantityReceived>SqvmPlxmZy4</QuantityReceived>
+		<QuantityDispensed>rh11wEYuyVY</QuantityDispensed>
+		<BalanceInStockOn>YAHgBmWmg62</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>33</S.No.>
+		<Drug>Betamethasone + kliokinol cream, 30gr/tube</Drug>
+		<ExistingDrugsOn>pWddNF9MHbp</ExistingDrugsOn>
+		<QuantityReceived>mu5HhYdalD8</QuantityReceived>
+		<QuantityDispensed>In31i6WTcvM</QuantityDispensed>
+		<BalanceInStockOn>ZNGqPhd49Ko</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>34</S.No.>
+		<Drug>Betamethasone 0.1% ointment, 30gr per tube</Drug>
+		<ExistingDrugsOn>Kbaxcs6fD1C</ExistingDrugsOn>
+		<QuantityReceived>I4bj3s8kKjX</QuantityReceived>
+		<QuantityDispensed>AWPOdvYDYlH</QuantityDispensed>
+		<BalanceInStockOn>j8lymWJqtSk</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>35</S.No.>
+		<Drug>Biperiden 2 mg tabs, 100 tabs per Box</Drug>
+		<ExistingDrugsOn>JGsZ8Yh99wn</ExistingDrugsOn>
+		<QuantityReceived>OMVzcThK0nY</QuantityReceived>
+		<QuantityDispensed>KflGMLbeme2</QuantityDispensed>
+		<BalanceInStockOn>ImicANybmUz</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>36</S.No.>
+		<Drug>Bisoprolol 5mg tablets, 30 tabs per box</Drug>
+		<ExistingDrugsOn>mzYHg3iFwUA</ExistingDrugsOn>
+		<QuantityReceived>i8nwjAPz1uS</QuantityReceived>
+		<QuantityDispensed>onwFCjxZ43O</QuantityDispensed>
+		<BalanceInStockOn>e1gTh7TNQjc</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>37</S.No.>
+		<Drug>Bromocriptine 2.5mg tablet, 30 tab per box</Drug>
+		<ExistingDrugsOn>BPmOr3dXAng</ExistingDrugsOn>
+		<QuantityReceived>sKmed7a7yK8</QuantityReceived>
+		<QuantityDispensed>CencQaJwECY</QuantityDispensed>
+		<BalanceInStockOn>KUMuXTEWVEO</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>38</S.No.>
+		<Drug>Bupivicaine Hydrochloride  0.5%, 4 ml ampoule, 5 amp per box</Drug>
+		<ExistingDrugsOn>jIHkwvIVaRa</ExistingDrugsOn>
+		<QuantityReceived>Uuq6RTUc3Zp</QuantityReceived>
+		<QuantityDispensed>wQJxfU6zW4R</QuantityDispensed>
+		<BalanceInStockOn>AWOPIBnx3uK</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>39</S.No.>
+		<Drug>Butamirate 7.5mg/5ml, 100ml syrup bottle</Drug>
+		<ExistingDrugsOn>FNsD6uBwUqt</ExistingDrugsOn>
+		<QuantityReceived>eXyD6M6R8A3</QuantityReceived>
+		<QuantityDispensed>nlhgUMOfmMX</QuantityDispensed>
+		<BalanceInStockOn>ldUcVw98ooo</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>40</S.No.>
+		<Drug>Butylscopolamine 20mg Ampule for injection, 5 amp/box</Drug>
+		<ExistingDrugsOn>bDnXuPwFKzJ</ExistingDrugsOn>
+		<QuantityReceived>yYwqMjLmgEm</QuantityReceived>
+		<QuantityDispensed>zmplxiJQkVF</QuantityDispensed>
+		<BalanceInStockOn>hqQ6Xwa16Ro</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>41</S.No.>
+		<Drug>Calamine  100ml lotion bottle</Drug>
+		<ExistingDrugsOn>fjbBKWEdUnJ</ExistingDrugsOn>
+		<QuantityReceived>qk47eKJg3GK</QuantityReceived>
+		<QuantityDispensed>v0U6ec757xo</QuantityDispensed>
+		<BalanceInStockOn>irzsm92j1Xe</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>42</S.No.>
+		<Drug>Calcium + colecalciferol 600 MG/400 IU, 60 Tablet/box</Drug>
+		<ExistingDrugsOn>d3GPSdcv44S</ExistingDrugsOn>
+		<QuantityReceived>zAdanjHXNcU</QuantityReceived>
+		<QuantityDispensed>KYAKvad6qyN</QuantityDispensed>
+		<BalanceInStockOn>xBnWkcROFCh</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>43</S.No.>
+		<Drug>Calcium Gluconate  100 mg/ml Injection, 10ml/ampule 5 amp per box</Drug>
+		<ExistingDrugsOn>zxuBtUhpzFp</ExistingDrugsOn>
+		<QuantityReceived>jjkyLdTqwPm</QuantityReceived>
+		<QuantityDispensed>yMwrHb14AgN</QuantityDispensed>
+		<BalanceInStockOn>ZRtooONKkKF</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>44</S.No.>
+		<Drug>Captopril 25mg tablets, 48 Tab/box </Drug>
+		<ExistingDrugsOn>hl0lUW47uNs</ExistingDrugsOn>
+		<QuantityReceived>I9QAhi0zbeD</QuantityReceived>
+		<QuantityDispensed>HJuCN2S8JUr</QuantityDispensed>
+		<BalanceInStockOn>Cy2VYvrsytb</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>45</S.No.>
+		<Drug>Carbamazepine  100mg/5ml syrup, 100ml per bottle</Drug>
+		<ExistingDrugsOn>hPDpuTuyHEu</ExistingDrugsOn>
+		<QuantityReceived>TGJ41Rp9uFh</QuantityReceived>
+		<QuantityDispensed>b9tXOKuEfK1</QuantityDispensed>
+		<BalanceInStockOn>vS60Na4LZT2</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>46</S.No.>
+		<Drug>Carbamazepine  200 mg tabs, 160 tab per box</Drug>
+		<ExistingDrugsOn>owN5cDIFphf</ExistingDrugsOn>
+		<QuantityReceived>YzEOyuLq1Pj</QuantityReceived>
+		<QuantityDispensed>CbkvxPEwBwe</QuantityDispensed>
+		<BalanceInStockOn>KGI5MEy9Fd1</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>47</S.No.>
+		<Drug>Cefalexin  250 mg tablets, 16 tab per box</Drug>
+		<ExistingDrugsOn>Fm7shcnVZrx</ExistingDrugsOn>
+		<QuantityReceived>TuS8bi4Evga</QuantityReceived>
+		<QuantityDispensed>XTsJOLwujj0</QuantityDispensed>
+		<BalanceInStockOn>Z7R2vFXJMWV</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>48</S.No.>
+		<Drug>Cefalexin Suspension  250 mg/5 ml, 100ml per bottle</Drug>
+		<ExistingDrugsOn>saMC1Oh7IXR</ExistingDrugsOn>
+		<QuantityReceived>m3LVO7hztR0</QuantityReceived>
+		<QuantityDispensed>geO0MNMOnMK</QuantityDispensed>
+		<BalanceInStockOn>lxZeEW17oAl</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>49</S.No.>
+		<Drug>Cefazolin 1gr, vial</Drug>
+		<ExistingDrugsOn>XtvI1WqU0yE</ExistingDrugsOn>
+		<QuantityReceived>vWSy2V2AYzK</QuantityReceived>
+		<QuantityDispensed>zrR25tMQ949</QuantityDispensed>
+		<BalanceInStockOn>Zt8itmIyccb</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>50</S.No.>
+		<Drug>Cefixime  400mg tablets, 10 tabs per box</Drug>
+		<ExistingDrugsOn>zksC4aHhPwL</ExistingDrugsOn>
+		<QuantityReceived>amtcZci1a0s</QuantityReceived>
+		<QuantityDispensed>VTXiOShAwqO</QuantityDispensed>
+		<BalanceInStockOn>CGVE3iBmb1o</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>51</S.No.>
+		<Drug>Cefixime 100mg/5ml, 50ml bottle</Drug>
+		<ExistingDrugsOn>bE9dg1pKmTv</ExistingDrugsOn>
+		<QuantityReceived>C6MHuPWeZw3</QuantityReceived>
+		<QuantityDispensed>QTaUwL39GYZ</QuantityDispensed>
+		<BalanceInStockOn>F6sTRrmzMjU</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>52</S.No.>
+		<Drug>Cefixime 200mg tablets, 10 tab/box</Drug>
+		<ExistingDrugsOn>bE9dg1pKmTv</ExistingDrugsOn>
+		<QuantityReceived>FlXU57vSDXH</QuantityReceived>
+		<QuantityDispensed>nxJEYapS9HC</QuantityDispensed>
+		<BalanceInStockOn>YlIM8tCObYk</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>53</S.No.>
+		<Drug>Ceftazadime  1gr, vial</Drug>
+		<ExistingDrugsOn>kOXI00BW2qI</ExistingDrugsOn>
+		<QuantityReceived>SxsWE3z2gSD</QuantityReceived>
+		<QuantityDispensed>GMy6CB9wNiJ</QuantityDispensed>
+		<BalanceInStockOn>uTUgcWM4Z01</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>54</S.No.>
+		<Drug>Ceftazadime  250mg, vial</Drug>
+		<ExistingDrugsOn>OjLUmRS9AAN</ExistingDrugsOn>
+		<QuantityReceived>eEpS3n90W1I</QuantityReceived>
+		<QuantityDispensed>Ck9T0d2bYTP</QuantityDispensed>
+		<BalanceInStockOn>oAjrK6Anpmp</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>55</S.No.>
+		<Drug>Ceftriaxone Sodium  1gr, vial</Drug>
+		<ExistingDrugsOn>zwSvjxrsVmm</ExistingDrugsOn>
+		<QuantityReceived>H6uacfSc6Vk</QuantityReceived>
+		<QuantityDispensed>wdJVYeCgdxU</QuantityDispensed>
+		<BalanceInStockOn>mcVqjsSqr5X</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>56</S.No.>
+		<Drug>Ceftriaxone Sodium  250mg, vial</Drug>
+		<ExistingDrugsOn>eyPNRFHebrv</ExistingDrugsOn>
+		<QuantityReceived>G9fgTceHjoh</QuantityReceived>
+		<QuantityDispensed>RxmQRDArlj9</QuantityDispensed>
+		<BalanceInStockOn>rTVUvGzH1U3</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>57</S.No.>
+		<Drug>Charcoal, activated  Tablet, 100 tabs per box</Drug>
+		<ExistingDrugsOn>YoLKEGtWwXW</ExistingDrugsOn>
+		<QuantityReceived>ynyHJ8nHLSZ</QuantityReceived>
+		<QuantityDispensed>Wt9jXGRxYPh</QuantityDispensed>
+		<BalanceInStockOn>mzF2VuENb0j</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>58</S.No.>
+		<Drug>Chlorhexidine  USP 5%, 100ml/bottle, 1 bottle</Drug>
+		<ExistingDrugsOn>o6vGYC5gVxC</ExistingDrugsOn>
+		<QuantityReceived>H9Zf7rx2Dre</QuantityReceived>
+		<QuantityDispensed>lIpCsgKX7cn</QuantityDispensed>
+		<BalanceInStockOn>DPUutZTnUmd</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>59</S.No.>
+		<Drug>Chlorphenamine Hydrogen Maleate  10 mg/ml, 1ml ampules, amp per box</Drug>
+		<ExistingDrugsOn>Eu4JILUkykf</ExistingDrugsOn>
+		<QuantityReceived>pOQuHRv9hpi</QuantityReceived>
+		<QuantityDispensed>gGScZX4RnNL</QuantityDispensed>
+		<BalanceInStockOn>c3ZxGbAxmcr</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>60</S.No.>
+		<Drug>Chlorphenamine Hydrogen Maleate  4 mg, tabs 30 tab per box</Drug>
+		<ExistingDrugsOn>iOVT4p3CZCK</ExistingDrugsOn>
+		<QuantityReceived>CS4nKxfwRCV</QuantityReceived>
+		<QuantityDispensed>vqkk9A34e7x</QuantityDispensed>
+		<BalanceInStockOn>VfsgaZMdfmR</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>61</S.No.>
+		<Drug>Chlorpheniramine Syrup 2mg/5ml bottle</Drug>
+		<ExistingDrugsOn>haIG25ZFdU3</ExistingDrugsOn>
+		<QuantityReceived>hbJCA4ZT5Vy</QuantityReceived>
+		<QuantityDispensed>LugaC90ZdSX</QuantityDispensed>
+		<BalanceInStockOn>JeTa4X0e7QK</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>62</S.No.>
+		<Drug>Chlorpromazine  100 mg tabs, 30 tabs per box</Drug>
+		<ExistingDrugsOn>YEeHNoiK4q0</ExistingDrugsOn>
+		<QuantityReceived>maI0M6aIuSn</QuantityReceived>
+		<QuantityDispensed>OXjpwczVJYJ</QuantityDispensed>
+		<BalanceInStockOn>pUDEdsmUtFx</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>63</S.No.>
+		<Drug>Chlorpromazine  50 mg/2 ml ampules for Inj. 5 amps per box</Drug>
+		<ExistingDrugsOn>BXnFtEgvWhs</ExistingDrugsOn>
+		<QuantityReceived>xlQ10rBOtzI</QuantityReceived>
+		<QuantityDispensed>nPMoHG2ieja</QuantityDispensed>
+		<BalanceInStockOn>ZDuzuTaX3St</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>64</S.No.>
+		<Drug>Ciprofloxacin  2 mg/ml, 200 ml inf. Bottle</Drug>
+		<ExistingDrugsOn>N2up2ygeSPN</ExistingDrugsOn>
+		<QuantityReceived>xlQ10rBOtzI</QuantityReceived>
+		<QuantityDispensed>lDYdhG9zndO</QuantityDispensed>
+		<BalanceInStockOn>jzYgxsstka7</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>65</S.No.>
+		<Drug>Ciprofloxacin  250 mg tablets, 14 tab per box</Drug>
+		<ExistingDrugsOn>rOzHp3SAxD8</ExistingDrugsOn>
+		<QuantityReceived>piFgBoPSBRd</QuantityReceived>
+		<QuantityDispensed>lD0oq7BPn5C</QuantityDispensed>
+		<BalanceInStockOn>luMUMlNtkFN</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>66</S.No.>
+		<Drug>Ciprofloxacin ear drops 0.3%, 5ml/bottle</Drug>
+		<ExistingDrugsOn>jr1wRen5wqv</ExistingDrugsOn>
+		<QuantityReceived>w7b0h1S5RY9</QuantityReceived>
+		<QuantityDispensed>dnOIV2P6PDW</QuantityDispensed>
+		<BalanceInStockOn>prI3Z1l5x8Z</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>67</S.No.>
+		<Drug>Ciprofloxacin eye drops 0.3%, 5ml/bottle</Drug>
+		<ExistingDrugsOn>SlT4YMHuGVo</ExistingDrugsOn>
+		<QuantityReceived>HHwPzwIUhOC</QuantityReceived>
+		<QuantityDispensed>MjID04qEwwj</QuantityDispensed>
+		<BalanceInStockOn>F8uJ506p3nz</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>68</S.No.>
+		<Drug>Clomifene 50mg Tablet, 10 tab per box</Drug>
+		<ExistingDrugsOn>NBWH843v7Iw</ExistingDrugsOn>
+		<QuantityReceived>ciwEpJwlJJf</QuantityReceived>
+		<QuantityDispensed>zoOdxzRAJap</QuantityDispensed>
+		<BalanceInStockOn>kLTTUqkJa9I</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>69</S.No.>
+		<Drug>Clomipramine 75 mg tabs, 20 tabs per Box</Drug>
+		<ExistingDrugsOn>wxhNWWJoyol</ExistingDrugsOn>
+		<QuantityReceived>zqe4KIb0Zb0</QuantityReceived>
+		<QuantityDispensed>Ae5oOk5Jen8</QuantityDispensed>
+		<BalanceInStockOn>SUla7Cy14Fm</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>70</S.No.>
+		<Drug>Clopidogrel 75mg tablets, 28 tab/box</Drug>
+		<ExistingDrugsOn>ZEdgI1rm9B1</ExistingDrugsOn>
+		<QuantityReceived>wdNI74iRP0b</QuantityReceived>
+		<QuantityDispensed>gE1tsqwByvY</QuantityDispensed>
+		<BalanceInStockOn>p5X8apCKVOV</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>71</S.No.>
+		<Drug>Clotrimazole  1%, cream, 20gr per tube</Drug>
+		<ExistingDrugsOn>yjSjtbjl3lu</ExistingDrugsOn>
+		<QuantityReceived>h2AAIg3lpvh</QuantityReceived>
+		<QuantityDispensed>B8FtlralKf7</QuantityDispensed>
+		<BalanceInStockOn>IxxcI6hKOGj</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>72</S.No.>
+		<Drug>Clotrimazole  500mg Vag. Tablets, 1 vag tab per box</Drug>
+		<ExistingDrugsOn>AFCi9fWGAiP</ExistingDrugsOn>
+		<QuantityReceived>SOgOALkGD7o</QuantityReceived>
+		<QuantityDispensed>cFJxxwLf9OM</QuantityDispensed>
+		<BalanceInStockOn>nEqYDqaLWYX</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>73</S.No.>
+		<Drug>Colecalciferol (vitamin D3) 1ml Ampoules</Drug>
+		<ExistingDrugsOn>dhVjMzieJZf</ExistingDrugsOn>
+		<QuantityReceived>RrM8qZI4f4X</QuantityReceived>
+		<QuantityDispensed>g8wT5IMcrwF</QuantityDispensed>
+		<BalanceInStockOn>gmj5HxsNysi</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>74</S.No.>
+		<Drug>Colecalciferol (vitamin D3) oral drops 50.000 IU/15 ML bottle</Drug>
+		<ExistingDrugsOn>QQIPsanDKpe</ExistingDrugsOn>
+		<QuantityReceived>SNiOQQwrh0D</QuantityReceived>
+		<QuantityDispensed>aayzgMNZGkI</QuantityDispensed>
+		<BalanceInStockOn>SjUCc6VMKux</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>75</S.No.>
+		<Drug>Desloratadine 2.5mg/ml syrup 150 ml bottle</Drug>
+		<ExistingDrugsOn>Xbhzx24QQoL</ExistingDrugsOn>
+		<QuantityReceived>ZsGnDj0CDuc</QuantityReceived>
+		<QuantityDispensed>ulFk1AEny20</QuantityDispensed>
+		<BalanceInStockOn>xY5Wl2pGMiG</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>76</S.No.>
+		<Drug>Desloratadine 5mg tablet, 20 tabs/box</Drug>
+		<ExistingDrugsOn>yDX9GYrOwi9</ExistingDrugsOn>
+		<QuantityReceived>Q6tHAzKkgWB</QuantityReceived>
+		<QuantityDispensed>ERk6Y0F0dFQ</QuantityDispensed>
+		<BalanceInStockOn>l4hmdps3kos</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>77</S.No.>
+		<Drug>Dexamethasone  4 mg/ml ampules for Inj. 1 amp per box</Drug>
+		<ExistingDrugsOn>Xq6pdZmnY6o</ExistingDrugsOn>
+		<QuantityReceived>WmGGCZBmsmt</QuantityReceived>
+		<QuantityDispensed>URsGz2qOdQc</QuantityDispensed>
+		<BalanceInStockOn>uVt5UnlRPuf</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>78</S.No.>
+		<Drug>Dexamethasone &amp; Tobramycin Sterile eye drops 5ml/bottle</Drug>
+		<ExistingDrugsOn>lln3uFKQJdw</ExistingDrugsOn>
+		<QuantityReceived>UwWE8fmFfyX</QuantityReceived>
+		<QuantityDispensed>zReGf1D1sHn</QuantityDispensed>
+		<BalanceInStockOn>K5XUGZkSeLU</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>79</S.No.>
+		<Drug>Dexamethasone 0.1%, eye drops bottle</Drug>
+		<ExistingDrugsOn>UwFv6t1y2rI</ExistingDrugsOn>
+		<QuantityReceived>x1OgTVhRtNQ</QuantityReceived>
+		<QuantityDispensed>AYjTF1E94Kn</QuantityDispensed>
+		<BalanceInStockOn>cJ7ehL4m4ZC</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>80</S.No.>
+		<Drug>Dexpanthenol cream 30gr/tube</Drug>
+		<ExistingDrugsOn>MdZkd8WomIA</ExistingDrugsOn>
+		<QuantityReceived>ZUgwA93yltE</QuantityReceived>
+		<QuantityDispensed>h7WO47NGOIG</QuantityDispensed>
+		<BalanceInStockOn>Gmv0YVZbvdL</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>81</S.No.>
+		<Drug>Diazepam  5 mg tablets, 25 tab per box</Drug>
+		<ExistingDrugsOn>I68YOCey6EM</ExistingDrugsOn>
+		<QuantityReceived>AyQYQa8ieys</QuantityReceived>
+		<QuantityDispensed>HKEIClbTfLT</QuantityDispensed>
+		<BalanceInStockOn>gQ0IXEYshEV</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>82</S.No.>
+		<Drug>Diazepam  5 mg/ml, 2 ml ampule</Drug>
+		<ExistingDrugsOn>Gjdk6S2YoIO</ExistingDrugsOn>
+		<QuantityReceived>BEwM4pFkFla</QuantityReceived>
+		<QuantityDispensed>mMq5bViCB4W</QuantityDispensed>
+		<BalanceInStockOn>aoOIaPFAVJs</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>83</S.No.>
+		<Drug>Diclofenac 0.1% eye drops bottle</Drug>
+		<ExistingDrugsOn>OHywoQgT7tK</ExistingDrugsOn>
+		<QuantityReceived>bbMDfcIWeaQ</QuantityReceived>
+		<QuantityDispensed>KljnKBiTVlW</QuantityDispensed>
+		<BalanceInStockOn>c0VD9dVQcsr</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>84</S.No.>
+		<Drug>Diclofenac 1%,  50 Gram, Gel tube</Drug>
+		<ExistingDrugsOn>h9haue1DSfP</ExistingDrugsOn>
+		<QuantityReceived>tek91IfqB1i</QuantityReceived>
+		<QuantityDispensed>yRSQw78U3Z1</QuantityDispensed>
+		<BalanceInStockOn>rjVSTlc7QNC</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>85</S.No.>
+		<Drug>Diclofenac 50 mg tablets, 20 tab per box</Drug>
+		<ExistingDrugsOn>J5043q5JSZG</ExistingDrugsOn>
+		<QuantityReceived>kbRmZRFj5xy</QuantityReceived>
+		<QuantityDispensed>sVRNHo92Poc</QuantityDispensed>
+		<BalanceInStockOn>EcpNgtpsQqR</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>86</S.No.>
+		<Drug>Diclofenac 75 mg/amp, 10 Ampule/box</Drug>
+		<ExistingDrugsOn>bENXankUXPp</ExistingDrugsOn>
+		<QuantityReceived>K0e8YAjaUYD</QuantityReceived>
+		<QuantityDispensed>K0e8YAjaUYD</QuantityDispensed>
+		<BalanceInStockOn>J8oZlF9EXcu</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>87</S.No.>
+		<Drug>Digoxin  250 mcg tablets, 50 tab per box</Drug>
+		<ExistingDrugsOn>q0ppFm65h6E</ExistingDrugsOn>
+		<QuantityReceived>KMWOsmV8CSO</QuantityReceived>
+		<QuantityDispensed>x4eRfWK888S</QuantityDispensed>
+		<BalanceInStockOn>hNgrJYjxxP6</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>88</S.No.>
+		<Drug>Digoxin  250mcg/ml, 2ml ampules for Inj. 5 amp per box</Drug>
+		<ExistingDrugsOn>OGJYr1Qrt9O</ExistingDrugsOn>
+		<QuantityReceived>EQUDhMicVyZ</QuantityReceived>
+		<QuantityDispensed>Fw0LyfSsea0</QuantityDispensed>
+		<BalanceInStockOn>uCHUGuKSBlp</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>89</S.No.>
+		<Drug>Domperidone 1mg/1ml susp, 200 ml/bottle</Drug>
+		<ExistingDrugsOn>uCPlx9OyKGg</ExistingDrugsOn>
+		<QuantityReceived>smukslIfBOP</QuantityReceived>
+		<QuantityDispensed>G6BALhfYUBK</QuantityDispensed>
+		<BalanceInStockOn>DEHOsYGGNYX</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>90</S.No.>
+		<Drug>Domperidone 1mg/1ml susp, 200 ml/bottle</Drug>
+		<ExistingDrugsOn>V72EEvvKDLQ</ExistingDrugsOn>
+		<QuantityReceived>kfTj1MKOoNA</QuantityReceived>
+		<QuantityDispensed>iT6aHYKBcX0</QuantityDispensed>
+		<BalanceInStockOn>sJ540Y0RHLb</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>91</S.No.>
+		<Drug>Doxazosin 2mg tablet, 20 Tab/box</Drug>
+		<ExistingDrugsOn>FLuvsHvyaP6</ExistingDrugsOn>
+		<QuantityReceived>wvv1s4q5JiU</QuantityReceived>
+		<QuantityDispensed>GhBmoQcdDOe</QuantityDispensed>
+		<BalanceInStockOn>xrCaMocLfRJ</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>92</S.No.>
+		<Drug>Doxycycline 100 mg tablets, 14 tab per box</Drug>
+		<ExistingDrugsOn>n7k6nygyHmi</ExistingDrugsOn>
+		<QuantityReceived>vCXjpGPdLS3</QuantityReceived>
+		<QuantityDispensed>ibWj2LYqu0C</QuantityDispensed>
+		<BalanceInStockOn>ibSD4ZmbANv</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>93</S.No.>
+		<Drug>Enalapril 5 mg tablets 20 tab per box</Drug>
+		<ExistingDrugsOn>Ui7J6Q0TPaP</ExistingDrugsOn>
+		<QuantityReceived>dnECw7myPpb</QuantityReceived>
+		<QuantityDispensed>ISh0t4EwYpL</QuantityDispensed>
+		<BalanceInStockOn>cDFtCMe7BGZ</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>94</S.No.>
+		<Drug>Epinephrine  1 mg/ml, 1 ml amp for injection, 10 amp</Drug>
+		<ExistingDrugsOn>AoKFcePgw4i</ExistingDrugsOn>
+		<QuantityReceived>bpRi2LSAbJx</QuantityReceived>
+		<QuantityDispensed>HmfApOedga7</QuantityDispensed>
+		<BalanceInStockOn>j1wqZrC9XNn</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>95</S.No.>
+		<Drug>Ergometrine 0.125 MG tablets, 20 tab per box</Drug>
+		<ExistingDrugsOn>EeHbmHrrReM</ExistingDrugsOn>
+		<QuantityReceived>ZZdJZJHFXt2</QuantityReceived>
+		<QuantityDispensed>uzHbtTieBhD</QuantityDispensed>
+		<BalanceInStockOn>NBHTICgZQdZ</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>96</S.No.>
+		<Drug>Ergometrine maleate 0.2 mg/ml, 1-ml ampule,  5 amp per box</Drug>
+		<ExistingDrugsOn>XoHLZ0JbiCD</ExistingDrugsOn>
+		<QuantityReceived>BeIfWwX21Nz</QuantityReceived>
+		<QuantityDispensed>vK8IUq2Gypm</QuantityDispensed>
+		<BalanceInStockOn>hEDnpRbe778</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>97</S.No.>
+		<Drug>Ethanol Alcohol  70% 250ml/bottle</Drug>
+		<ExistingDrugsOn>Y6GAFACbDq4</ExistingDrugsOn>
+		<QuantityReceived>TdThn7Sdj8E</QuantityReceived>
+		<QuantityDispensed>UprZPt8JZIO</QuantityDispensed>
+		<BalanceInStockOn>NQXJFbf9S81</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>98</S.No.>
+		<Drug>Ethinyl estradiol 0.03 mg / levonorgestrel 0.15 mg 0.03 mg/0.15 mg, 21 tab per box</Drug>
+		<ExistingDrugsOn>kAK9cCwrhcp</ExistingDrugsOn>
+		<QuantityReceived>Fq5tyHGHWXS</QuantityReceived>
+		<QuantityDispensed>ZgZuIfLRwYo</QuantityDispensed>
+		<BalanceInStockOn>rISKVRuk5mg</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>99</S.No.>
+		<Drug>Ferrous Salt  + Folic Acid  60mg + 400mcg tablets, 30 tab per box</Drug>
+		<ExistingDrugsOn>MVdExRFdioj</ExistingDrugsOn>
+		<QuantityReceived>XkokoAzZB1w</QuantityReceived>
+		<QuantityDispensed>UfJzcrnPXpf</QuantityDispensed>
+		<BalanceInStockOn>sv3DAmILwVP</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>100</S.No.>
+		<Drug>Ferrous Salt equivalent to 25mg iron/ml, 150ml per bottle</Drug>
+		<ExistingDrugsOn>IO4ejKhx6ww</ExistingDrugsOn>
+		<QuantityReceived>J8FJ9vLaIPs</QuantityReceived>
+		<QuantityDispensed>eDOFjMmH5Eu</QuantityDispensed>
+		<BalanceInStockOn>BnM4K4AAnGd</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>101</S.No.>
+		<Drug>Fluconazole  50 mg Capsules, 7 caps per box</Drug>
+		<ExistingDrugsOn>VO8CRBgJoCb</ExistingDrugsOn>
+		<QuantityReceived>WvcwmSpe1wB</QuantityReceived>
+		<QuantityDispensed>BpKaug5ek5q</QuantityDispensed>
+		<BalanceInStockOn>Q8DzUsDBhog</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>102</S.No.>
+		<Drug>Fluconazole  50mg/5ml, 70ml per bottle</Drug>
+		<ExistingDrugsOn>bNJhFhNyW9F</ExistingDrugsOn>
+		<QuantityReceived>amFe0SmeJwS</QuantityReceived>
+		<QuantityDispensed>BpKaug5ek5q</QuantityDispensed>
+		<BalanceInStockOn>MfcvTFrxEYw</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>103</S.No.>
+		<Drug>Fluoxetine 20mg (as hydrochloride) capsules, 24 cap per box</Drug>
+		<ExistingDrugsOn>HS6iRCXtLxf</ExistingDrugsOn>
+		<QuantityReceived>zBrZ0UJs6Dn</QuantityReceived>
+		<QuantityDispensed>tfdkZ1JNR2b</QuantityDispensed>
+		<BalanceInStockOn>N4slH2rhpCo</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>104</S.No.>
+		<Drug>Fluphenazine Injection: 25mg (decanoate or enantate) in 1 ml ampule</Drug>
+		<ExistingDrugsOn>SbzKCEpoZmq</ExistingDrugsOn>
+		<QuantityReceived>KBfYUuttPY8</QuantityReceived>
+		<QuantityDispensed>dv7X79tcCkU</QuantityDispensed>
+		<BalanceInStockOn>EYMjU9galIw</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>105</S.No.>
+		<Drug>Folic acid 5mg tablets, 50 tab per box</Drug>
+		<ExistingDrugsOn>M9Z1wjIGivU</ExistingDrugsOn>
+		<QuantityReceived>ReVEJIlfVfh</QuantityReceived>
+		<QuantityDispensed>adqjJOGfCUb</QuantityDispensed>
+		<BalanceInStockOn>DHtvQKGqfPB</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>106</S.No.>
+		<Drug>Furosemide  10mg/ml, 2ml ampules for Inj.  5 amp per box</Drug>
+		<ExistingDrugsOn>KUDKbq1pZlh</ExistingDrugsOn>
+		<QuantityReceived>TkoQy4ZxwMu</QuantityReceived>
+		<QuantityDispensed>D5cJbg9CN4Z</QuantityDispensed>
+		<BalanceInStockOn>kVnrpKGAGQc</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>107</S.No.>
+		<Drug>Furosemide  40 mg tablets, 50 tab per box</Drug>
+		<ExistingDrugsOn>Z4AzE8BQhof</ExistingDrugsOn>
+		<QuantityReceived>KNA4QfRwNcS</QuantityReceived>
+		<QuantityDispensed>JbvAaVmWTE0</QuantityDispensed>
+		<BalanceInStockOn>JvQsC0hmbU6</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>108</S.No.>
+		<Drug>Gentamicin Sulfate  0.3% eye drops Solution, bottle</Drug>
+		<ExistingDrugsOn>vNFwvzvS1uQ</ExistingDrugsOn>
+		<QuantityReceived>tqBc8iByUV3</QuantityReceived>
+		<QuantityDispensed>WaDkULPOfvY</QuantityDispensed>
+		<BalanceInStockOn>Bd53UpXeP2m</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>109</S.No.>
+		<Drug>Gentamicin Sulfate  40 mg/ml, 2 ml/amp for Inj. 1 amp per box</Drug>
+		<ExistingDrugsOn>wFDM7MohbeZ</ExistingDrugsOn>
+		<QuantityReceived>qhGhuJOMGUh</QuantityReceived>
+		<QuantityDispensed>NLYQy4LwsWF</QuantityDispensed>
+		<BalanceInStockOn>ROay3FxZ8Cl</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>110</S.No.>
+		<Drug>Glibenclamide  5 mg tablets, 100 tab per box</Drug>
+		<ExistingDrugsOn>auygA1iKJNn</ExistingDrugsOn>
+		<QuantityReceived>tUPqxQiH98q</QuantityReceived>
+		<QuantityDispensed>we6oTuvAN97</QuantityDispensed>
+		<BalanceInStockOn>ezNRpNUxRRF</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>111</S.No.>
+		<Drug>Gliclazide 30mg MR tablets, 30Tab/box</Drug>
+		<ExistingDrugsOn>dCaLh21mnlg</ExistingDrugsOn>
+		<QuantityReceived>A96hAbfBnp1</QuantityReceived>
+		<QuantityDispensed>pjooQ1JmFB5</QuantityDispensed>
+		<BalanceInStockOn>BBI5xYEBI6A</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>112</S.No.>
+		<Drug>Glucose 5% Solution, 1 L bag</Drug>
+		<ExistingDrugsOn>fyL573o11Sf</ExistingDrugsOn>
+		<QuantityReceived>aDVpeQIYZ9g</QuantityReceived>
+		<QuantityDispensed>DgFMKFBgyeM</QuantityDispensed>
+		<BalanceInStockOn>xksKjBcclcG</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>113</S.No.>
+		<Drug>Glyceryl trinitrate 0.4mg, Sublingual pump bottle</Drug>
+		<ExistingDrugsOn>NQs6Tv9y7mZ</ExistingDrugsOn>
+		<QuantityReceived>BCKRWWx5Tkz</QuantityReceived>
+		<QuantityDispensed>YT8J2KBMp3D</QuantityDispensed>
+		<BalanceInStockOn>sg9BW9wr0JS</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>114</S.No.>
+		<Drug>Haloperidol 2mg tablets, 50 tab per box</Drug>
+		<ExistingDrugsOn>GhN88Wiio6J</ExistingDrugsOn>
+		<QuantityReceived>BxwuyvG7hq8</QuantityReceived>
+		<QuantityDispensed>WSCp0UnZGIJ</QuantityDispensed>
+		<BalanceInStockOn>dJ4N91wZ0ba</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>115</S.No.>
+		<Drug>Haloperidol 5mg in 1 ml ampoule 5amp per box</Drug>
+		<ExistingDrugsOn>X1yAROpezMZ</ExistingDrugsOn>
+		<QuantityReceived>p4SKHA8jU9T</QuantityReceived>
+		<QuantityDispensed>ddE9koM9kLQ</QuantityDispensed>
+		<BalanceInStockOn>da7UxG3AJWo</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>116</S.No.>
+		<Drug>Haloperidol 5mg tablets, 50 tab per box</Drug>
+		<ExistingDrugsOn>qnJTMiUwa5Q</ExistingDrugsOn>
+		<QuantityReceived>qu5bCSZwjcX</QuantityReceived>
+		<QuantityDispensed>TMI3J3NlPqb</QuantityDispensed>
+		<BalanceInStockOn>CTsseehll3d</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>117</S.No.>
+		<Drug>Heparin Sodium  5000 IU/ml, vial 1 amp</Drug>
+		<ExistingDrugsOn>okMUurdg2wK</ExistingDrugsOn>
+		<QuantityReceived>EZI6vrZV8ga</QuantityReceived>
+		<QuantityDispensed>FICu8dL05Ff</QuantityDispensed>
+		<BalanceInStockOn>hZ9GeZPaoXl</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>118</S.No.>
+		<Drug>Hydrochlorothiazide  25 mg tablets, 30 tab per box</Drug>
+		<ExistingDrugsOn>wLyyDidhJv8</ExistingDrugsOn>
+		<QuantityReceived>s2rEdGZGVpg</QuantityReceived>
+		<QuantityDispensed>qDQs2Wc56xk</QuantityDispensed>
+		<BalanceInStockOn>oTgwOWQ2Na4</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>119</S.No.>
+		<Drug>Hydrocortisone  1%, Cream, 30gr per tube</Drug>
+		<ExistingDrugsOn>MUENFssAY0V</ExistingDrugsOn>
+		<QuantityReceived>m4Un4nIsSDg</QuantityReceived>
+		<QuantityDispensed>WypDPLiMmJH</QuantityDispensed>
+		<BalanceInStockOn>sYEfA0Pcgkw</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>120</S.No.>
+		<Drug>Hydrocortisone as Sodium Succinate 100mg Powder For Inj. 1 amp</Drug>
+		<ExistingDrugsOn>cQFLUu1FvyK</ExistingDrugsOn>
+		<QuantityReceived>t75GPSD6fVF</QuantityReceived>
+		<QuantityDispensed>n7PUJDcRSV7</QuantityDispensed>
+		<BalanceInStockOn>SujKwRuoPrq</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>121</S.No.>
+		<Drug>Hydroxocobalamin  1 mg/ml ampules, 5 amp per box</Drug>
+		<ExistingDrugsOn>KG0t1cnkqrv</ExistingDrugsOn>
+		<QuantityReceived>YnzvsvQzjdT</QuantityReceived>
+		<QuantityDispensed>FdxIVYrMbbv</QuantityDispensed>
+		<BalanceInStockOn>HxM1V4M2QC2</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>122</S.No.>
+		<Drug>Hyocine-n-butylbromide+ paracetamol 10mg/500mg, 20 tabs per box</Drug>
+		<ExistingDrugsOn>dJSqNG3gyI4</ExistingDrugsOn>
+		<QuantityReceived>pPpkIo4kRG6</QuantityReceived>
+		<QuantityDispensed>gpaM4rzX5dN</QuantityDispensed>
+		<BalanceInStockOn>GkArP4SW9iG</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>123</S.No.>
+		<Drug>Ibuprofen  200 mg/5ml oral liquid, 100ml per bottle</Drug>
+		<ExistingDrugsOn>VIljvlhg1ab</ExistingDrugsOn>
+		<QuantityReceived>UzcmwDOBEzn</QuantityReceived>
+		<QuantityDispensed>FxbJHgh0kHQ</QuantityDispensed>
+		<BalanceInStockOn>EJeIf83Qemn</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>124</S.No.>
+		<Drug>Ibuprofen  400 mg tablets, 20 tab per box</Drug>
+		<ExistingDrugsOn>rEGQ6Kact0f</ExistingDrugsOn>
+		<QuantityReceived>smrQXhwhe1U</QuantityReceived>
+		<QuantityDispensed>YsLTG1z9B4e</QuantityDispensed>
+		<BalanceInStockOn>eOlsaAF2A6C</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>125</S.No.>
+		<Drug>Insulin Injection (Intermediate-Acting)  Usp 100 units/ml, 10 ml/ampule</Drug>
+		<ExistingDrugsOn>kYXvg6llZNz</ExistingDrugsOn>
+		<QuantityReceived>MV4izkQmXCn</QuantityReceived>
+		<QuantityDispensed>Uzz9QvtxHZk</QuantityDispensed>
+		<BalanceInStockOn>r7wW0altCzm</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>126</S.No.>
+		<Drug>Insulin Injection (Regular)  Usp 100 units/ml, 10 ml/ampules 1 amp</Drug>
+		<ExistingDrugsOn>VVGnjO8I3Ke</ExistingDrugsOn>
+		<QuantityReceived>yrMohKvktUo</QuantityReceived>
+		<QuantityDispensed>J715PsXx67z</QuantityDispensed>
+		<BalanceInStockOn>yBJzz9ozXIY</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>127</S.No.>
+		<Drug>Insulin Injection HM Usp 100 units/ml, 10 ml/1 FLAKON Mix 70/30, 5 Flk/box</Drug>
+		<ExistingDrugsOn>ze2efQGtohi</ExistingDrugsOn>
+		<QuantityReceived>R1aGtJlvxg6</QuantityReceived>
+		<QuantityDispensed>YHOh9JVJtrV</QuantityDispensed>
+		<BalanceInStockOn>RSyPq5xblx6</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>128</S.No.>
+		<Drug>Ipratropium bromide 20 mcg/metered dose inhaler, 1 inh</Drug>
+		<ExistingDrugsOn>QGULuNj0DKv</ExistingDrugsOn>
+		<QuantityReceived>CUKYrTsDVQz</QuantityReceived>
+		<QuantityDispensed>CbzDvkWAJuZ</QuantityDispensed>
+		<BalanceInStockOn>Vaxw5zJjo4X</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>129</S.No.>
+		<Drug>Isoflurane 100 ml/Bottle</Drug>
+		<ExistingDrugsOn>ne8bVvgcagj</ExistingDrugsOn>
+		<QuantityReceived>PORJxdbdk2l</QuantityReceived>
+		<QuantityDispensed>v7Za2etigyA</QuantityDispensed>
+		<BalanceInStockOn>nJAVsgPHrwU</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>130</S.No.>
+		<Drug>Isosorbide Dinitrate 5mg tablets, 50 tab per box</Drug>
+		<ExistingDrugsOn>jAYrS0S9EaG</ExistingDrugsOn>
+		<QuantityReceived>rUQ39oY9HhI</QuantityReceived>
+		<QuantityDispensed>E4o1lRpbwkj</QuantityDispensed>
+		<BalanceInStockOn>ZMMibXhYzxI</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>131</S.No.>
+		<Drug>Isosorbide mononitrate 20mg tablets, 30 tab/box</Drug>
+		<ExistingDrugsOn>buPEX0FFY4S</ExistingDrugsOn>
+		<QuantityReceived>SETNU1dBwh8</QuantityReceived>
+		<QuantityDispensed>DXZi6lOWEe5</QuantityDispensed>
+		<BalanceInStockOn>tk4RK77sLf9</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>132</S.No.>
+		<Drug>Isosorbide mononitrate 60mg SR capsules, 30 SR capsules per box</Drug>
+		<ExistingDrugsOn>avv04d6bp2Y</ExistingDrugsOn>
+		<QuantityReceived>ZBaar75jt2n</QuantityReceived>
+		<QuantityDispensed>pCXEVEhhwbw</QuantityDispensed>
+		<BalanceInStockOn>tYF63oWKDop</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>133</S.No.>
+		<Drug>Ketamine 50 mg/ml in 10ml/vial, 1 vial per box</Drug>
+		<ExistingDrugsOn>yadHaHVGCBa</ExistingDrugsOn>
+		<QuantityReceived>J51RseQxjyd</QuantityReceived>
+		<QuantityDispensed>emTcWEOlyBT</QuantityDispensed>
+		<BalanceInStockOn>sEDSypqM5d2</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>134</S.No.>
+		<Drug>Lactulose  Syrup bottle</Drug>
+		<ExistingDrugsOn>q1kKWTNomxZ</ExistingDrugsOn>
+		<QuantityReceived>NZMIlM3DtMf</QuantityReceived>
+		<QuantityDispensed>NBtnYfOd91I</QuantityDispensed>
+		<BalanceInStockOn>jod6QAFwM2s</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>135</S.No.>
+		<Drug>Levothyroxine  50 mcg tablets, 100 tabs per box</Drug>
+		<ExistingDrugsOn>bbAMublExAZ</ExistingDrugsOn>
+		<QuantityReceived>d02p4qfBymn</QuantityReceived>
+		<QuantityDispensed>v6RxLzMfd8s</QuantityDispensed>
+		<BalanceInStockOn>Cx3gvqxLPCt</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>136</S.No.>
+		<Drug>Lidocaine Hydrochloride  2% (20 mg/ ml), 5 ml/Vial, 5 vials per box</Drug>
+		<ExistingDrugsOn>pSt6v2qosxz</ExistingDrugsOn>
+		<QuantityReceived>NsjabR4GePK</QuantityReceived>
+		<QuantityDispensed>cCXOYmpzsbK</QuantityDispensed>
+		<BalanceInStockOn>t52vgvrOCE5</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>137</S.No.>
+		<Drug>Lidocaine Hydrochloride  2%, topical form 30 gr tube</Drug>
+		<ExistingDrugsOn>X0V6QfRCele</ExistingDrugsOn>
+		<QuantityReceived>EKdtaOIqCCT</QuantityReceived>
+		<QuantityDispensed>cT5OuczrQQf</QuantityDispensed>
+		<BalanceInStockOn>jBuk3cNf5Ur</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>138</S.No.>
+		<Drug>Lincomycin 600mg IV/IM ampoules</Drug>
+		<ExistingDrugsOn>vE3kcAKycYu</ExistingDrugsOn>
+		<QuantityReceived>hCyMsUT6aTP</QuantityReceived>
+		<QuantityDispensed>hGjOiqttfdz</QuantityDispensed>
+		<BalanceInStockOn>MBJtHoKWGwR</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>139</S.No.>
+		<Drug>Lithium carbonate 300mg capsules, 100 cap per box</Drug>
+		<ExistingDrugsOn>wL0KL0R8DR5</ExistingDrugsOn>
+		<QuantityReceived>XmwRFYCbsR0</QuantityReceived>
+		<QuantityDispensed>MKtuBXp8iqv</QuantityDispensed>
+		<BalanceInStockOn>zdAAx75liT8</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>140</S.No.>
+		<Drug>Loperamide  2mg tabs, 20 tabs per box</Drug>
+		<ExistingDrugsOn>H3B2oOsavVb</ExistingDrugsOn>
+		<QuantityReceived>BP0buiHOLSb</QuantityReceived>
+		<QuantityDispensed>ROp8KsTY78z</QuantityDispensed>
+		<BalanceInStockOn>y6Qw6pBSwGV</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>141</S.No.>
+		<Drug>Lorazepam 4mg/amp 10amp/box</Drug>
+		<ExistingDrugsOn>FjSHWS1i3KZ</ExistingDrugsOn>
+		<QuantityReceived>jcEVIIKm6Dp</QuantityReceived>
+		<QuantityDispensed>ooHvwYA2Cq6</QuantityDispensed>
+		<BalanceInStockOn>wZVFcu9Q4iS</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>142</S.No.>
+		<Drug>Losartan + hydrochlorothiazide 50mg + 12.5mg tablets, 28tab/box</Drug>
+		<ExistingDrugsOn>szdoCaFIUgu</ExistingDrugsOn>
+		<QuantityReceived>oo5FPSwgiYW</QuantityReceived>
+		<QuantityDispensed>D9up8LwFBZy</QuantityDispensed>
+		<BalanceInStockOn>xnh5i2Owc3y</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>143</S.No.>
+		<Drug>Magnesium Sulfate 0.5 gms/ml, 10ml Vial for Inj. 10 amp per box</Drug>
+		<ExistingDrugsOn>djCopGBGdPO</ExistingDrugsOn>
+		<QuantityReceived>ldlRJqijjUQ</QuantityReceived>
+		<QuantityDispensed>sVnYsPsqu8Z</QuantityDispensed>
+		<BalanceInStockOn>K6AcEtLfxsm</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>144</S.No.>
+		<Drug>Medazolam 15 MG/3ml ampule, 5 amp/box</Drug>
+		<ExistingDrugsOn>JnQUEcbRMKK</ExistingDrugsOn>
+		<QuantityReceived>dAXuLxeeOfr</QuantityReceived>
+		<QuantityDispensed>P0VliXjgiSS</QuantityDispensed>
+		<BalanceInStockOn>mmafLWjZQjh</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>145</S.No.>
+		<Drug>Medroxyprogesterone acetate Depot injection, 150 mg/ml, 1 ml vial</Drug>
+		<ExistingDrugsOn>xD1nUPh12g9</ExistingDrugsOn>
+		<QuantityReceived>hCGvGgiQ4eo</QuantityReceived>
+		<QuantityDispensed>kf3MgbRcmrN</QuantityDispensed>
+		<BalanceInStockOn>n7jW7cLCOqo</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>146</S.No.>
+		<Drug>Metamizole sodium  1 gr./amp  10amp/box</Drug>
+		<ExistingDrugsOn>r0cJHoiRDZr</ExistingDrugsOn>
+		<QuantityReceived>tP5v7xANYWj</QuantityReceived>
+		<QuantityDispensed>nHeSKgr3jMp</QuantityDispensed>
+		<BalanceInStockOn>YAC1fSMmQZD</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>147</S.No.>
+		<Drug>Metformin  500 mg tablets, 100 tab per box</Drug>
+		<ExistingDrugsOn>IdfZmsDhHCQ</ExistingDrugsOn>
+		<QuantityReceived>fuvnsntHkRN</QuantityReceived>
+		<QuantityDispensed>rzRoIU4dqlc</QuantityDispensed>
+		<BalanceInStockOn>bN3ayhsSwqV</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>148</S.No.>
+		<Drug>Metformin  850mg, Tablet, 100 tab/box</Drug>
+		<ExistingDrugsOn>Aot9KqHJVel</ExistingDrugsOn>
+		<QuantityReceived>ZoQZDBsemhA</QuantityReceived>
+		<QuantityDispensed>yKIrNN6tDS1</QuantityDispensed>
+		<BalanceInStockOn>B8DgfEKBvZp</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>149</S.No.>
+		<Drug>Methyldopa 250mg, tablets, 30 tab per box</Drug>
+		<ExistingDrugsOn>X0jxOXV1w2B</ExistingDrugsOn>
+		<QuantityReceived>FR7QAhdIEIV</QuantityReceived>
+		<QuantityDispensed>JjtX3qxSK9t</QuantityDispensed>
+		<BalanceInStockOn>xUUopEZT669</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>150</S.No.>
+		<Drug>Metoclopramide  5 mg/5 ml Oral Liquid, 125ml per bottle</Drug>
+		<ExistingDrugsOn>TrDbLXJQKRS</ExistingDrugsOn>
+		<QuantityReceived>WYCwKxLIho8</QuantityReceived>
+		<QuantityDispensed>N3Webo1BHpL</QuantityDispensed>
+		<BalanceInStockOn>akpffxe57Fr</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>151</S.No.>
+		<Drug>Metoclopramide Hcl  10 mg tablets, 30 tab per box</Drug>
+		<ExistingDrugsOn>pUcPdG9ilq6</ExistingDrugsOn>
+		<QuantityReceived>K8RforZtNgh</QuantityReceived>
+		<QuantityDispensed>TercNnZTihr</QuantityDispensed>
+		<BalanceInStockOn>AmlrHtdpW3d</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>152</S.No.>
+		<Drug>Metoclopramide Hcl  5 mg/ ml, 2 ml ampules 5 amp per box</Drug>
+		<ExistingDrugsOn>LwEa7KPKQXT</ExistingDrugsOn>
+		<QuantityReceived>drMBDcWWEgM</QuantityReceived>
+		<QuantityDispensed>fh61VICo2jJ</QuantityDispensed>
+		<BalanceInStockOn>I0sxo4gzdiB</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>153</S.No.>
+		<Drug>Metoprolol Tartrate  50 mg tablets, 20 tab per box</Drug>
+		<ExistingDrugsOn>CQJuk7AEfJW</ExistingDrugsOn>
+		<QuantityReceived>Hn8z25ExnCK</QuantityReceived>
+		<QuantityDispensed>RNNtvZzzfFa</QuantityDispensed>
+		<BalanceInStockOn>akpffxe57Fr</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>154</S.No.>
+		<Drug>Metronidazole + miconazole 500mg/100mg, 14 Vaginal tablets/box</Drug>
+		<ExistingDrugsOn>wFQsd7fZNDa</ExistingDrugsOn>
+		<QuantityReceived>JtFn7XNYxfV</QuantityReceived>
+		<QuantityDispensed>QMetb7sKMUx</QuantityDispensed>
+		<BalanceInStockOn>IK14yJWgq9t</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>155</S.No.>
+		<Drug>Metronidazole 200Mg/5Ml, Oral Liquid, 100ml per bottle</Drug>
+		<ExistingDrugsOn>cEGI6pp7cyR</ExistingDrugsOn>
+		<QuantityReceived>FrMlXEjb6BC</QuantityReceived>
+		<QuantityDispensed>TpjTQGVjglx</QuantityDispensed>
+		<BalanceInStockOn>sEZe9QdmZYl</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>156</S.No.>
+		<Drug>Metronidazole 500 mg, 100ml bottle for IV.</Drug>
+		<ExistingDrugsOn>fCkmVP6NL3w</ExistingDrugsOn>
+		<QuantityReceived>qXaeZnvWlUO</QuantityReceived>
+		<QuantityDispensed>xvQQkXR9qbP</QuantityDispensed>
+		<BalanceInStockOn>aJQu0Zx9LO5</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>157</S.No.>
+		<Drug>Metronidazole Tablets  500Mg tablets, 20 tab per box</Drug>
+		<ExistingDrugsOn>ftSHxW1PcTi</ExistingDrugsOn>
+		<QuantityReceived>ua3aogjPhOx</QuantityReceived>
+		<QuantityDispensed>bROBSA8aWEE</QuantityDispensed>
+		<BalanceInStockOn>VpliyXHo015</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>158</S.No.>
+		<Drug>Miconazole  2%, cream tube</Drug>
+		<ExistingDrugsOn>JgFukjpFo1t</ExistingDrugsOn>
+		<QuantityReceived>JqDYbogix4s</QuantityReceived>
+		<QuantityDispensed>qGoiciTiT5i</QuantityDispensed>
+		<BalanceInStockOn>rjcdCIK0VSu</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>159</S.No.>
+		<Drug>Miconazole Cream 2%, 30gr per tube</Drug>
+		<ExistingDrugsOn>XsGZSVtpqeS</ExistingDrugsOn>
+		<QuantityReceived>EHXWozMNxDV</QuantityReceived>
+		<QuantityDispensed>xZlpAl72E9n</QuantityDispensed>
+		<BalanceInStockOn>XWQ45aEGek4</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>160</S.No.>
+		<Drug>Morphine  10 mg/ml 1ml ampules 10 amp per box</Drug>
+		<ExistingDrugsOn>QpbIOoZQMM4</ExistingDrugsOn>
+		<QuantityReceived>VLexU87jK5Z</QuantityReceived>
+		<QuantityDispensed>tirvog1lP7W</QuantityDispensed>
+		<BalanceInStockOn>n1KOaXfWaar</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>161</S.No.>
+		<Drug>Multivitamins and minerals Prenatal Tablet, 30 tab/box</Drug>
+		<ExistingDrugsOn>XyzAlC0FNnG</ExistingDrugsOn>
+		<QuantityReceived>NtxJ7UaTPrE</QuantityReceived>
+		<QuantityDispensed>XSz8DIrfUCJ</QuantityDispensed>
+		<BalanceInStockOn>RB867VTsYg4</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>162</S.No.>
+		<Drug>Multivitamins and minerals Syrup, 100ml bottle</Drug>
+		<ExistingDrugsOn>DXvKsG9a35y</ExistingDrugsOn>
+		<QuantityReceived>DXvKsG9a35y</QuantityReceived>
+		<QuantityDispensed>mCyyX4IhkiS</QuantityDispensed>
+		<BalanceInStockOn>UaxG4oxz6vi</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>163</S.No.>
+		<Drug>Mupirocin  2% Ointment, 15gr per tube</Drug>
+		<ExistingDrugsOn>wRelqf4lKON</ExistingDrugsOn>
+		<QuantityReceived>jRUEQAzyQ2q</QuantityReceived>
+		<QuantityDispensed>uftLBVPEz0H</QuantityDispensed>
+		<BalanceInStockOn>WTI36caSIb3</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>164</S.No.>
+		<Drug>Neostigmine Metilsulfate  2.5mg/ml, 1ml ampules for Inj. 6 amp per box</Drug>
+		<ExistingDrugsOn>V2B7aIw2qBM</ExistingDrugsOn>
+		<QuantityReceived>Lof7SIR49iZ</QuantityReceived>
+		<QuantityDispensed>joDkYdGmORy</QuantityDispensed>
+		<BalanceInStockOn>bccBS3sIqN0</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>165</S.No.>
+		<Drug>Nifidipine  Tablet, 20 tab/box</Drug>
+		<ExistingDrugsOn>ws68JupOHO6</ExistingDrugsOn>
+		<QuantityReceived>kMRVzwlAeRZ</QuantityReceived>
+		<QuantityDispensed>gQWcCx4E4zF</QuantityDispensed>
+		<BalanceInStockOn>A1G55LCGki9</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>166</S.No.>
+		<Drug>Nifuroxazide 200mg/5ml Susp 60ml/bottle</Drug>
+		<ExistingDrugsOn>MUi3UvEyqi0</ExistingDrugsOn>
+		<QuantityReceived>hr1M9SelctM</QuantityReceived>
+		<QuantityDispensed>C0rQEEvev3Z</QuantityDispensed>
+		<BalanceInStockOn>xV9r86rHlYM</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>167</S.No.>
+		<Drug>Nitrofurantoin  100mg capsules, 30 caps per box</Drug>
+		<ExistingDrugsOn>vTpruKYpbkk</ExistingDrugsOn>
+		<QuantityReceived>DB5Q6cmghzF</QuantityReceived>
+		<QuantityDispensed>M4N10mLCUYP</QuantityDispensed>
+		<BalanceInStockOn>Y7mLEucHtPP</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>168</S.No.>
+		<Drug>Norethisterone 5mg tablet, 30 tab per box</Drug>
+		<ExistingDrugsOn>Ywc72C15rPi</ExistingDrugsOn>
+		<QuantityReceived>zFhQiBtVrFp</QuantityReceived>
+		<QuantityDispensed>UK8eJOEtKWc</QuantityDispensed>
+		<BalanceInStockOn>wIFDw2Z0Ahx</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>169</S.No.>
+		<Drug>norgestrel and estrogen CYCLO-PROGYNOVA, 21 tab per box</Drug>
+		<ExistingDrugsOn>mS1xcny2S9k</ExistingDrugsOn>
+		<QuantityReceived>nqLLJxsf8Tt</QuantityReceived>
+		<QuantityDispensed>oDgNWg5Rj4I</QuantityDispensed>
+		<BalanceInStockOn>YJhgC2QIfI0</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>170</S.No.>
+		<Drug>Nystatin 100,000 IU/ml, oral liquid, 48ml per bottle</Drug>
+		<ExistingDrugsOn>UNTiEvdg99V</ExistingDrugsOn>
+		<QuantityReceived>eB6yhq5v5kJ</QuantityReceived>
+		<QuantityDispensed>ITCDDZttd2R</QuantityDispensed>
+		<BalanceInStockOn>DWbLR3CGEf9</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>171</S.No.>
+		<Drug>Omeprazole  20mg capsules, 14 cap per box</Drug>
+		<ExistingDrugsOn>BImdbPBl2aA</ExistingDrugsOn>
+		<QuantityReceived>XWudPiHWLFh</QuantityReceived>
+		<QuantityDispensed>XWudPiHWLFh</QuantityDispensed>
+		<BalanceInStockOn>Nilnf6KCsy6</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>172</S.No.>
+		<Drug>Ondansetron 2 mg/ml ampules, 1 amp</Drug>
+		<ExistingDrugsOn>cFAlu9bAa1P</ExistingDrugsOn>
+		<QuantityReceived>Ue3E98R6NyV</QuantityReceived>
+		<QuantityDispensed>kUeP2pWR198</QuantityDispensed>
+		<BalanceInStockOn>Ln4I67zGFlJ</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>173</S.No.>
+		<Drug>Ondansetron 4 mg tablets, 6 tab per box</Drug>
+		<ExistingDrugsOn>VeyyUXVIDVh</ExistingDrugsOn>
+		<QuantityReceived>tGPXodG42wv</QuantityReceived>
+		<QuantityDispensed>pX1yfRqMMce</QuantityDispensed>
+		<BalanceInStockOn>QzMohanpesP</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>174</S.No.>
+		<Drug>Oral Rehydration Salts  Sachets, 2 sach per box</Drug>
+		<ExistingDrugsOn>auctO36cVcH</ExistingDrugsOn>
+		<QuantityReceived>q7xtuFJ17F8</QuantityReceived>
+		<QuantityDispensed>f3bvTVqiWw4</QuantityDispensed>
+		<BalanceInStockOn>vxfEpPY06xF</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>175</S.No.>
+		<Drug>Oxytocin Injection  10 U/ml, 1ml amp, 3 amp per box</Drug>
+		<ExistingDrugsOn>GRACLkuLXqz</ExistingDrugsOn>
+		<QuantityReceived>m52BLrFgDoY</QuantityReceived>
+		<QuantityDispensed>Psm5eBz5bI5</QuantityDispensed>
+		<BalanceInStockOn>eZ8I1gqzrEK</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>176</S.No.>
+		<Drug>Pantoprazol 20mg, capsule, 28 caps per box</Drug>
+		<ExistingDrugsOn>h9E0wbYuunO</ExistingDrugsOn>
+		<QuantityReceived>pVwFyagH6kW</QuantityReceived>
+		<QuantityDispensed>qyJcmn3XsZJ</QuantityDispensed>
+		<BalanceInStockOn>n9hA1kNUwA5</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>177</S.No.>
+		<Drug>Paracetamol  10mg/ml, 100/bottle, 12 bottle/box</Drug>
+		<ExistingDrugsOn>EB6PtJCt3Nb</ExistingDrugsOn>
+		<QuantityReceived>DOSgJ1fP3Cn</QuantityReceived>
+		<QuantityDispensed>Cs2pNeoxe8o</QuantityDispensed>
+		<BalanceInStockOn>BKQk0FXnetb</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>178</S.No.>
+		<Drug>Paracetamol  120 mg, supp, 10 supp/box</Drug>
+		<ExistingDrugsOn>sGP1QhUMbg6</ExistingDrugsOn>
+		<QuantityReceived>yvCoSeNB7HF</QuantityReceived>
+		<QuantityDispensed>QX5p50jbDoT</QuantityDispensed>
+		<BalanceInStockOn>BOu7j5xkkJr</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>179</S.No.>
+		<Drug>Paracetamol  500 mg tablets, 20 tab per box</Drug>
+		<ExistingDrugsOn>Y4dlFcMiv3J</ExistingDrugsOn>
+		<QuantityReceived>Ra7QOYNPE6q</QuantityReceived>
+		<QuantityDispensed>SHueo6jFO0h</QuantityDispensed>
+		<BalanceInStockOn>hgNmKbjPyyH</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>180</S.No.>
+		<Drug>Paracetamol +kiorzoksazon 500mg/300mg, 20 tab/box</Drug>
+		<ExistingDrugsOn>bwzZwlD4YBa</ExistingDrugsOn>
+		<QuantityReceived>dE5HTr6tesC</QuantityReceived>
+		<QuantityDispensed>o4xHmwp42zQ</QuantityDispensed>
+		<BalanceInStockOn>tVT7HiWFm12</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>181</S.No.>
+		<Drug>Paracetamol Liquid  125mg/5ml, 100ml per bottles 100ml per bottles</Drug>
+		<ExistingDrugsOn>xSeKW9UmMOS</ExistingDrugsOn>
+		<QuantityReceived>VhPTSRrYRpQ</QuantityReceived>
+		<QuantityDispensed>nSGa0ay6nQG</QuantityDispensed>
+		<BalanceInStockOn>LTlNPbfaZXB</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>182</S.No.>
+		<Drug>Peditus syrup 100ml/bottle</Drug>
+		<ExistingDrugsOn>foIXchiNYOD</ExistingDrugsOn>
+		<QuantityReceived>dM5HsDYDuqd</QuantityReceived>
+		<QuantityDispensed>oAXR9IHgUTC</QuantityDispensed>
+		<BalanceInStockOn>ryC6ejhmJSa</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>183</S.No.>
+		<Drug>Permethrin 5% cream, 30 gr per tube</Drug>
+		<ExistingDrugsOn>koqWjRA3qfB</ExistingDrugsOn>
+		<QuantityReceived>D8Lgoccp8VK</QuantityReceived>
+		<QuantityDispensed>W1De0y1WtH1</QuantityDispensed>
+		<BalanceInStockOn>PzUSoqa6U8c</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>184</S.No.>
+		<Drug>Permethrin Medical shampoo one bottle</Drug>
+		<ExistingDrugsOn>B3u0n11fZqd</ExistingDrugsOn>
+		<QuantityReceived>op6Q2TlX4qj</QuantityReceived>
+		<QuantityDispensed>DbB4Ikl7bSK</QuantityDispensed>
+		<BalanceInStockOn>Mdb4TyObQAm</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>185</S.No.>
+		<Drug>Pheniramine 45,5mg/amp, 5 amp/box</Drug>
+		<ExistingDrugsOn>RUJRuqDcF62</ExistingDrugsOn>
+		<QuantityReceived>hhxMi2VgiU1</QuantityReceived>
+		<QuantityDispensed>R5DhpHrgQp7</QuantityDispensed>
+		<BalanceInStockOn>XCdmU43Ul0j</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>186</S.No.>
+		<Drug>Phenytoin Sodium  100mg  capsules,  100 caps per box</Drug>
+		<ExistingDrugsOn>TYTvLXfOVdU</ExistingDrugsOn>
+		<QuantityReceived>N8wTNgc1t0C</QuantityReceived>
+		<QuantityDispensed>Q1YHclG8Rk7</QuantityDispensed>
+		<BalanceInStockOn>ImBqcUhDIpm</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>187</S.No.>
+		<Drug>Phenytoin Sodium  100mg ER capsules,  100 caps per box</Drug>
+		<ExistingDrugsOn>addT4eIGxNV</ExistingDrugsOn>
+		<QuantityReceived>I0bNkdKNlwI</QuantityReceived>
+		<QuantityDispensed>J09OTGGbjVI</QuantityDispensed>
+		<BalanceInStockOn>mgqNIbcRHjk</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>188</S.No.>
+		<Drug>Phenytoin Sodium  50 mg/ml ampules, 5 amp per box</Drug>
+		<ExistingDrugsOn>jMQfTWzuZdy</ExistingDrugsOn>
+		<QuantityReceived>z7yS9NCGeEP</QuantityReceived>
+		<QuantityDispensed>Nppjf27F1xH</QuantityDispensed>
+		<BalanceInStockOn>SEw6v4fYOLK</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>189</S.No.>
+		<Drug>Phytomenadione (vit k) 1mg/ml ampules, 5 amp per box</Drug>
+		<ExistingDrugsOn>klgTiLBpCYY</ExistingDrugsOn>
+		<QuantityReceived>gSGyJ9u1pHW</QuantityReceived>
+		<QuantityDispensed>TqOPhgXsQBH</QuantityDispensed>
+		<BalanceInStockOn>xBA3APgRtTv</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>190</S.No.>
+		<Drug>Pioglitazone 15mg tablets, 30 tab/box</Drug>
+		<ExistingDrugsOn>eIDa0e7SDMC</ExistingDrugsOn>
+		<QuantityReceived>gP3dwIdcTQp</QuantityReceived>
+		<QuantityDispensed>S3cm3Fj8ULX</QuantityDispensed>
+		<BalanceInStockOn>MyB4lBqWEfk</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>191</S.No.>
+		<Drug>Pioglitazone 30mg tablets, 30 tab/box</Drug>
+		<ExistingDrugsOn>XePgEmg8AqH</ExistingDrugsOn>
+		<QuantityReceived>xZu25WeDKj9</QuantityReceived>
+		<QuantityDispensed>KedIlBayFvy</QuantityDispensed>
+		<BalanceInStockOn>s9K1cN9P6sV</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>192</S.No.>
+		<Drug>Potassium Chloride Solution  11.2 % In 20ml ampules, 10 amp per box</Drug>
+		<ExistingDrugsOn>owqxdvrQBWd</ExistingDrugsOn>
+		<QuantityReceived>Is2pVZ0AGhK</QuantityReceived>
+		<QuantityDispensed>WYVXFGi396F</QuantityDispensed>
+		<BalanceInStockOn>dQoQXkcFBEC</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>193</S.No.>
+		<Drug>Povidone - Iodine Solution  Usp 10%, 1 L bottle</Drug>
+		<ExistingDrugsOn>YkOtiYMoIbS</ExistingDrugsOn>
+		<QuantityReceived>pO5zVGw0rHt</QuantityReceived>
+		<QuantityDispensed>gNL7kPhqUpj</QuantityDispensed>
+		<BalanceInStockOn>g3s5JosdWr8</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>194</S.No.>
+		<Drug>Prednisolone  0.5% eye drops solution, bottle</Drug>
+		<ExistingDrugsOn>DCsfcBhjSd6</ExistingDrugsOn>
+		<QuantityReceived>YRIdPy0kNYC</QuantityReceived>
+		<QuantityDispensed>jVO0XH1L39O</QuantityDispensed>
+		<BalanceInStockOn>pyeAVbVV4vP</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>195</S.No.>
+		<Drug>Prednisolone  5 mg tablets, 20 tab per box</Drug>
+		<ExistingDrugsOn>VkWEnfnaYPW</ExistingDrugsOn>
+		<QuantityReceived>hfqkw2lVUSG</QuantityReceived>
+		<QuantityDispensed>DvsEC1LMswM</QuantityDispensed>
+		<BalanceInStockOn>noorfM8YXOh</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>196</S.No.>
+		<Drug>Propofol  20 mg/ml ampules, 5 amp per box</Drug>
+		<ExistingDrugsOn>iXStSVbAKLZ</ExistingDrugsOn>
+		<QuantityReceived>jsX7ndJpUuz</QuantityReceived>
+		<QuantityDispensed>ZZGLNjH2Amf</QuantityDispensed>
+		<BalanceInStockOn>I9gbYuwFbhQ</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>197</S.No.>
+		<Drug>Pseudoephedrine 15mg/5ml susp, 100ml/bottle</Drug>
+		<ExistingDrugsOn>QDeFOi2g0Hz</ExistingDrugsOn>
+		<QuantityReceived>oj3l1MTtqwL</QuantityReceived>
+		<QuantityDispensed>yPMtb0iK6Vm</QuantityDispensed>
+		<BalanceInStockOn>KZZym5yy0mB</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>198</S.No.>
+		<Drug>Pseudoephedrine 60mg tablets, 30 tab/box</Drug>
+		<ExistingDrugsOn>ZCWYhlgT6sy</ExistingDrugsOn>
+		<QuantityReceived>NEOkAr5ZP27</QuantityReceived>
+		<QuantityDispensed>QFPG6Or98Sa</QuantityDispensed>
+		<BalanceInStockOn>wJvnpTPt0hS</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>199</S.No.>
+		<Drug>Rantidine  150mg, Tablet, 60 tabs per box</Drug>
+		<ExistingDrugsOn>VOBr5OzZOHu</ExistingDrugsOn>
+		<QuantityReceived>N0Kyv0sS2yd</QuantityReceived>
+		<QuantityDispensed>VcT7NcEWPtW</QuantityDispensed>
+		<BalanceInStockOn>FrJMbGremyK</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>200</S.No.>
+		<Drug>Rantidine  50mg/ml Ampule 5 amps per box</Drug>
+		<ExistingDrugsOn>gTPHcn1qgrx</ExistingDrugsOn>
+		<QuantityReceived>HD7mPeJe4xV</QuantityReceived>
+		<QuantityDispensed>VvGqmlBVI1t</QuantityDispensed>
+		<BalanceInStockOn>dxYItJRhDfz</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>201</S.No.>
+		<Drug>Retinol  200,000 IU tablets, 30 tab per box</Drug>
+		<ExistingDrugsOn>YXA41mKnR3K</ExistingDrugsOn>
+		<QuantityReceived>IIUMZf7R1LM</QuantityReceived>
+		<QuantityDispensed>nclRp85pVRP</QuantityDispensed>
+		<BalanceInStockOn>GCF6gjlb0jR</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>202</S.No.>
+		<Drug>Rifamycin 250mg ampoules</Drug>
+		<ExistingDrugsOn>UJTceMuyntV</ExistingDrugsOn>
+		<QuantityReceived>DHxrsKPSrQX</QuantityReceived>
+		<QuantityDispensed>Rh1TlrJdE2W</QuantityDispensed>
+		<BalanceInStockOn>vSwCeRRhFha</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>203</S.No.>
+		<Drug>Risperidone   1 mg tabs, 30 tabs per Box</Drug>
+		<ExistingDrugsOn>fAWg49SLltj</ExistingDrugsOn>
+		<QuantityReceived>bnUCPzqEvnR</QuantityReceived>
+		<QuantityDispensed>PbBWP4RfqdY</QuantityDispensed>
+		<BalanceInStockOn>t6coQ3PqMG7</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>204</S.No.>
+		<Drug>Risperidone   3 mg tabs, 30 tabs per Box</Drug>
+		<ExistingDrugsOn>ZHrvT0gfWKF</ExistingDrugsOn>
+		<QuantityReceived>uPo4QLLcxSs</QuantityReceived>
+		<QuantityDispensed>v2CTemdLGdT</QuantityDispensed>
+		<BalanceInStockOn>OkhzVcaKS1N</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>205</S.No.>
+		<Drug>Risperidone  2 mg tabs, 30 tabs per Box</Drug>
+		<ExistingDrugsOn>GrqKw4WYoLH</ExistingDrugsOn>
+		<QuantityReceived>EQbgMFD5RHa</QuantityReceived>
+		<QuantityDispensed>Jhau3SOwI62</QuantityDispensed>
+		<BalanceInStockOn>wSS7ciIAFju</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>206</S.No.>
+		<Drug>Salbutamol 4mg tablets, 100 tab/box</Drug>
+		<ExistingDrugsOn>tyZsLN9ARan</ExistingDrugsOn>
+		<QuantityReceived>RJYxjeUPZxq</QuantityReceived>
+		<QuantityDispensed>t4tkK5hNe7T</QuantityDispensed>
+		<BalanceInStockOn>gsNnvG7S0tI</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>207</S.No.>
+		<Drug>Salbutamol Solution  5mg/ml, solution for use in nebulizers 20 amp per box</Drug>
+		<ExistingDrugsOn>KJ434eCImCX</ExistingDrugsOn>
+		<QuantityReceived>o3s3LfcCUJc</QuantityReceived>
+		<QuantityDispensed>jN4IaD2Wgbt</QuantityDispensed>
+		<BalanceInStockOn>qAVxj3PSo5e</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>208</S.No.>
+		<Drug>Salbutamol Solution 100ml per bottle</Drug>
+		<ExistingDrugsOn>VUfd64gvnug</ExistingDrugsOn>
+		<QuantityReceived>RaUIq3siWRU</QuantityReceived>
+		<QuantityDispensed>g36QinDxGlP</QuantityDispensed>
+		<BalanceInStockOn>N9YlYbIsgZR</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>209</S.No.>
+		<Drug>Salbutamol Sulfate  100mcg/dose, 200 dose per inhaler</Drug>
+		<ExistingDrugsOn>fzwakOw8LGX</ExistingDrugsOn>
+		<QuantityReceived>rhmZ4zzKgP2</QuantityReceived>
+		<QuantityDispensed>LaIPuNZum1S</QuantityDispensed>
+		<BalanceInStockOn>KrarDKu7kQf</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>210</S.No.>
+		<Drug>Sertraline 20 mg tabs, 20 tabs per Box</Drug>
+		<ExistingDrugsOn>ff6RT09xfMw</ExistingDrugsOn>
+		<QuantityReceived>Bkde4uybGIT</QuantityReceived>
+		<QuantityDispensed>Hy3nCL44J3P</QuantityDispensed>
+		<BalanceInStockOn>vOC5oNRhaPD</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>211</S.No.>
+		<Drug>Silver sulfadiazine  1% topical cream, 40 gm tube</Drug>
+		<ExistingDrugsOn>tB2Nt2Wx0o8</ExistingDrugsOn>
+		<QuantityReceived>FypEresnYDL</QuantityReceived>
+		<QuantityDispensed>iEzLNUFznEQ</QuantityDispensed>
+		<BalanceInStockOn>VQi25jMsZac</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>212</S.No.>
+		<Drug>Simethicone 66.6 mg oral drops (METSIL) 30ml/bottle</Drug>
+		<ExistingDrugsOn>LUHRHUYeXMW</ExistingDrugsOn>
+		<QuantityReceived>WRqOTSJcC7P</QuantityReceived>
+		<QuantityDispensed>teiAY0IF7DH</QuantityDispensed>
+		<BalanceInStockOn>jAoNTG0PNp4</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>213</S.No.>
+		<Drug>Sodium Chloride  0.9%, 1 L bags</Drug>
+		<ExistingDrugsOn>q4h6aqaM1rU</ExistingDrugsOn>
+		<QuantityReceived>ld5ZTO4CJvD</QuantityReceived>
+		<QuantityDispensed>swigjO8lZqd</QuantityDispensed>
+		<BalanceInStockOn>WY2dWU5CFbV</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>214</S.No.>
+		<Drug>Sodium Hydrogen Carbonate 8.4%, 10ml Vial, 10 vials per box</Drug>
+		<ExistingDrugsOn>J1SXw8RJsc6</ExistingDrugsOn>
+		<QuantityReceived>p5k1W89fhxY</QuantityReceived>
+		<QuantityDispensed>IPChGQw5XP0</QuantityDispensed>
+		<BalanceInStockOn>zEzCDVKcoO5</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>215</S.No.>
+		<Drug>Sodium Lactate Solution (Ringer's) 4%, 1 L bags</Drug>
+		<ExistingDrugsOn>nbxksZ21eYr</ExistingDrugsOn>
+		<QuantityReceived>Fd0gBA1rfpE</QuantityReceived>
+		<QuantityDispensed>OZ1GdYXgtHl</QuantityDispensed>
+		<BalanceInStockOn>PUILf9MzR33</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>216</S.No.>
+		<Drug>Spironolactone 25 mg tablets, 20 tab per box</Drug>
+		<ExistingDrugsOn>ryrgTumlaNX</ExistingDrugsOn>
+		<QuantityReceived>tjUEY7yHWCD</QuantityReceived>
+		<QuantityDispensed>x0Fi5Tpt32M</QuantityDispensed>
+		<BalanceInStockOn>kkFzv99ww0J</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>217</S.No.>
+		<Drug>Suxamethonium (succ.choline) 50 mg (chloride)/ml in 2-ml ampule, 25 amp per box</Drug>
+		<ExistingDrugsOn>asiqsK4TUqi</ExistingDrugsOn>
+		<QuantityReceived>oi3y2u3OXhT</QuantityReceived>
+		<QuantityDispensed>uiINpeA3ESH</QuantityDispensed>
+		<BalanceInStockOn>JJvLFihimxf</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>218</S.No.>
+		<Drug>Terbinafine 1%, 15gr tube</Drug>
+		<ExistingDrugsOn>BOCP9CwPcbN</ExistingDrugsOn>
+		<QuantityReceived>TAKC7PsFGvP</QuantityReceived>
+		<QuantityDispensed>DRPzWBDPHrH</QuantityDispensed>
+		<BalanceInStockOn>etKPLzRqGv6</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>219</S.No.>
+		<Drug>Tetanus Vaccine 0.5 ml ampule for injection, 1 amp</Drug>
+		<ExistingDrugsOn>wv83TX7PwsK</ExistingDrugsOn>
+		<QuantityReceived>VatkTQadwPp</QuantityReceived>
+		<QuantityDispensed>NTpL2wOIOOc</QuantityDispensed>
+		<BalanceInStockOn>AjO0BdJLCcF</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>220</S.No.>
+		<Drug>Tetracycline 1%, eye ointment, 1 tube</Drug>
+		<ExistingDrugsOn>wvirgeI7zsM</ExistingDrugsOn>
+		<QuantityReceived>hl9KQ6GEw9a</QuantityReceived>
+		<QuantityDispensed>DNr02ZPtqk5</QuantityDispensed>
+		<BalanceInStockOn>YgI10OWj1s8</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>221</S.No.>
+		<Drug>Timolol  0.5% eye drops bottle</Drug>
+		<ExistingDrugsOn>ktM1OtYm1eA</ExistingDrugsOn>
+		<QuantityReceived>iuq6rg8tt0y</QuantityReceived>
+		<QuantityDispensed>ke0TI4GyKKv</QuantityDispensed>
+		<BalanceInStockOn>IMH17KHke3J</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>222</S.No.>
+		<Drug>Tobramycin Sterile eye drops 0.3% 5ml/bottle</Drug>
+		<ExistingDrugsOn>uU3BLGNHKBk</ExistingDrugsOn>
+		<QuantityReceived>LwpLGxQtMYD</QuantityReceived>
+		<QuantityDispensed>ky0liNYChlj</QuantityDispensed>
+		<BalanceInStockOn>ckFC4vhgnKh</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>223</S.No.>
+		<Drug>Tramadol 100mg ampules, 5 amp/box</Drug>
+		<ExistingDrugsOn>gUOvkd0hupu</ExistingDrugsOn>
+		<QuantityReceived>lZxOY8IGLY0</QuantityReceived>
+		<QuantityDispensed>MrpzQP5vyiC</QuantityDispensed>
+		<BalanceInStockOn>pxsceGy0VaW</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>224</S.No.>
+		<Drug>Tramadol 50mg Tabs, 20 tab/box</Drug>
+		<ExistingDrugsOn>ox5i01eM8Eo</ExistingDrugsOn>
+		<QuantityReceived>v3RqTRgOzxR</QuantityReceived>
+		<QuantityDispensed>cG83J2ebsSV</QuantityDispensed>
+		<BalanceInStockOn>D1cZtnKwlf8</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>225</S.No.>
+		<Drug>Trimebutine + ruscotenin, 30gr/ tube</Drug>
+		<ExistingDrugsOn>t4TbuifLhNw</ExistingDrugsOn>
+		<QuantityReceived>QwdRhCGkoIZ</QuantityReceived>
+		<QuantityDispensed>SfWtEprBJAL</QuantityDispensed>
+		<BalanceInStockOn>Nj8zSiT1zQY</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>226</S.No.>
+		<Drug>Trimethoprim and Sulfamethoxazole  160/800 mg tablets, 20 tab per box</Drug>
+		<ExistingDrugsOn>LKAKhp0WeVg</ExistingDrugsOn>
+		<QuantityReceived>cMRAfUSBuuJ</QuantityReceived>
+		<QuantityDispensed>g9whVHV8Bgr</QuantityDispensed>
+		<BalanceInStockOn>CWucOTtGh9e</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>227</S.No.>
+		<Drug>Trimethoprim and Sulfamethoxazole  200 mg + 40 mg/5ml susp. 100ml per bottle</Drug>
+		<ExistingDrugsOn>gnQdfqjyK50</ExistingDrugsOn>
+		<QuantityReceived>y2kyJlI0hmE</QuantityReceived>
+		<QuantityDispensed>S52fmVmNyCA</QuantityDispensed>
+		<BalanceInStockOn>lZqZIIPTrPz</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>228</S.No.>
+		<Drug>Valproic Acid  500 mg tabs, 40 tab per box</Drug>
+		<ExistingDrugsOn>yJCf16MCIXA</ExistingDrugsOn>
+		<QuantityReceived>Aa1zBgtGdYt</QuantityReceived>
+		<QuantityDispensed>CTqjmmkfucF</QuantityDispensed>
+		<BalanceInStockOn>zsElKZpOK5m</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>229</S.No.>
+		<Drug>Valproic Acid  Oral liquid: 200mg/5ml 40ml bottle</Drug>
+		<ExistingDrugsOn>IqW3s3cKHC1</ExistingDrugsOn>
+		<QuantityReceived>KO4kXYSQQkA</QuantityReceived>
+		<QuantityDispensed>OWz7l1urlXd</QuantityDispensed>
+		<BalanceInStockOn>EPTyZ7GnVs3</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>230</S.No.>
+		<Drug>Verapamil  40mg, tablets, 30 tab per box</Drug>
+		<ExistingDrugsOn>Jpm5LJ1Mk5q</ExistingDrugsOn>
+		<QuantityReceived>HRc1ps36FBU</QuantityReceived>
+		<QuantityDispensed>Daer6ptttLK</QuantityDispensed>
+		<BalanceInStockOn>HpB8ZC6PJS5</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>231</S.No.>
+		<Drug>Vitamine B complex Ampoule for injection, 5amp/box</Drug>
+		<ExistingDrugsOn>RLwAFHbIyy6</ExistingDrugsOn>
+		<QuantityReceived>tKMl9oFPM7h</QuantityReceived>
+		<QuantityDispensed>tEj0iAdmvuT</QuantityDispensed>
+		<BalanceInStockOn>cKDC90wts6K</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>232</S.No.>
+		<Drug>Vitamine B complex tablets, 30 tab per box</Drug>
+		<ExistingDrugsOn>vMMeuJkP0Ly</ExistingDrugsOn>
+		<QuantityReceived>fFSP0XgeBkG</QuantityReceived>
+		<QuantityDispensed>NDpGL6D0fa3</QuantityDispensed>
+		<BalanceInStockOn>ElQgrrqDIKJ</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>233</S.No.>
+		<Drug>Warfarin  5mg tablets, 28 tab per box</Drug>
+		<ExistingDrugsOn>wfpFBNcd5Pg</ExistingDrugsOn>
+		<QuantityReceived>A1Dshu7n4ZS</QuantityReceived>
+		<QuantityDispensed>Nr6TeebQbdp</QuantityDispensed>
+		<BalanceInStockOn>YSLu6ylCjZJ</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>234</S.No.>
+		<Drug>Water For Injection Sterile 10ml single dose vial, 10 vials per box</Drug>
+		<ExistingDrugsOn>u85RK9FXpyn</ExistingDrugsOn>
+		<QuantityReceived>IeSbWk6kk4J</QuantityReceived>
+		<QuantityDispensed>EqVIS3dkHx6</QuantityDispensed>
+		<BalanceInStockOn>uzRhqfnshYD</BalanceInStockOn>
+	</record>
+	<record>
+		<S.No.>235</S.No.>
+		<Drug>Zinc oxide-cream, 30gr/ tube</Drug>
+		<ExistingDrugsOn>QGHqX6yMCJ7</ExistingDrugsOn>
+		<QuantityReceived>Nhncgsge2lr</QuantityReceived>
+		<QuantityDispensed>qhhwHwZbmIM</QuantityDispensed>
+		<BalanceInStockOn>IXHKnQAkKp6</BalanceInStockOn>
+	</record>
+</data-set>
