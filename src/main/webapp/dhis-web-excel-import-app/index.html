@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="excelUpload">
     <head>
-        <title>Excel upload</title>
+        <title>Excel Import App</title>
 
         <meta name="description" content="DHIS 2">
         <meta name="keywords" content="DHIS 2">        
@@ -97,9 +97,16 @@
         <script type="text/javascript" src="scripts/directives.js"></script>
         <script type="text/javascript" src="scripts/controllers.js"></script>
         <script type="text/javascript" src="scripts/leftbar-menu-controller.js"></script>
-        <script type="text/javascript" src="components/excel-upload/excel-upload-controller.js"></script>
-        <script type="text/javascript" src="components/excel-mapping/excel-mapping-controller.js"></script>
-        <script type="text/javascript" src="components/selection/excel-import-controller.js"></script>
+		
+		<!-- Controllers -->
+        <script type="text/javascript" src="components/templates/template-controller.js"></script>
+        <script type="text/javascript" src="components/add_template/add-template-controller.js"></script>
+        <script type="text/javascript" src="components/home/home-controller.js"></script>
+        <script type="text/javascript" src="components/log/log-controller.js"></script>
+        <script type="text/javascript" src="components/import/import-controller.js"></script>
+        <script type="text/javascript" src="components/settings/setting-controller.js"></script>
+        <script type="text/javascript" src="components/orgunit_mapping/orgunit_mapping-controller.js"></script>
+		
         <script type="text/javascript" src="scripts/ou-tree-search.js"></script>
 
         <!-- Menu scripts -->
@@ -126,7 +133,7 @@
         <!--<script type="text/javascript" src="../main.js"></script>-->
 
     </head>
-    <body data-ng-controller='ExcelImportController'>
+    <body>
         <d2-header-bar></d2-header-bar>
 
         <div class="container-1" data-ng-view=''></div>    

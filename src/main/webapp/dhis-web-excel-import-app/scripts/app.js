@@ -27,17 +27,29 @@ var excelUpload = angular.module('excelUpload',
 
 .config(function ($routeProvider, $translateProvider) {
 
-    $routeProvider.when('/', {
-        templateUrl: 'components/selection/selection.html',
-        controller: 'MainController'
-    }).when('/excel-mapping',{
-        templateUrl:'components/excel-mapping/excel-mapping.html',
-        controller: 'ExcelMappingController'
-    }).when('/excel-upload', {
-        templateUrl: 'components/excel-upload/excel-upload.html',
-        controller: 'MainController'
+    $routeProvider.when('/home', {
+        templateUrl: 'components/home/home.html',
+        controller: 'HomeController'
+    }).when('/manage-templates', {
+        templateUrl: 'components/templates/templates.html',
+        controller: 'TemplateController'
+    }).when('/add-template', {
+        templateUrl: 'components/add_template/addTemplate.html',
+        controller: 'AddTemplateController'
+    }).when('/orgunit_mapping', {
+        templateUrl: 'components/orgunit_mapping/orgunit_mapping.html',
+        controller: 'OrgUnitMappingController'
+    }).when('/data-import',{
+        templateUrl:'components/import/import.html',
+        controller: 'ImportController'
+    }).when('/settings', {
+        templateUrl: 'components/settings/setting.html',
+        controller: 'SettingController'
+    }).when('/logs', {
+        templateUrl: 'components/log/log.html',
+        controller: 'LogController'
     }).otherwise({
-        redirectTo: '/'
+        redirectTo: '/home'
     });
 
     $translateProvider.preferredLanguage('en');
