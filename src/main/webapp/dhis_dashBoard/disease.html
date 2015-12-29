@@ -1,0 +1,112 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Routine Health Data Portal</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+<script src="js/cufon-yui.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/Chaparral_Pro.font.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/jquery-func.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico" />
+  
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="css/v216_ext-plugin-gray.css" />
+<link rel="stylesheet" type="text/css" href="//apps.dhis2.org/demo/dhis-web-commons/javascripts/ext-ux/carousel/css/carousel.css" />
+<script src="js/plugins/v21/v221_ext_ext-all.js"></script>
+<script src="js/plugins/v17/v217_openlayers_OpenLayers.js"></script>
+<script src="js/plugins/Carousel.js"></script>
+<script src="js/plugins/v21/v221_plugin_chart.js"></script>
+<script src="js/plugins/v21/v221_plugin_table.js"></script>
+<script src="js/plugins/v17/v217_plugin_map.js"></script>
+
+  <!-- Custom CSS -->
+<style type="text/css">
+.chart {
+  width: 600px;
+  height: 400px;
+  border: 1px solid #ddd;
+  border-top: 0px;
+  margin-top: 24px;
+}
+.widechart {
+  width: 900px;
+  height: 400px;
+  border: 1px solid #ddd;
+  border-top: 0px;
+  margin-top: 24px;
+}
+</style>
+
+  <!-- Carousel and chart setup js -->
+
+<script>
+var base = 'http://103.247.238.81:8080/dhismohfw/';
+
+Ext.onReady( function() {
+  DHIS.getTable({ crossDomain: true, username: 'view', password: 'DGHS1234', id: "wWVM7O1wRIh",  el: "table1", url: base });
+  DHIS.getChart({ crossDomain: true, username: 'view', password: 'DGHS1234', uid: 'Q8hLZgvOhQp', el: 'chart1', url: base });
+  DHIS.getChart({ crossDomain: true, username: 'view', password: 'DGHS1234', uid: 'FK3Ul1pqoGr', el: 'chart2', url: base });
+  DHIS.getTable({ crossDomain: true, username: 'view', password: 'DGHS1234', id: "mWPnUmD0ink",  el: "table2", url: base });
+  DHIS.getChart({ crossDomain: true, username: 'view', password: 'DGHS1234', uid: 'w9s2QU73tGl', el: 'chart3', url: base });
+  DHIS.getChart({ crossDomain: true, username: 'view', password: 'DGHS1234', uid: 'Da3ePT8tvki', el: 'chart4', url: base });
+  DHIS.getChart({ crossDomain: true, username: 'view', password: 'DGHS1234', uid: 'Scn5Zi5zG9B', el: 'chart5', url: base });
+  DHIS.getTable({ crossDomain: true, username: 'view', password: 'DGHS1234', id: "TrJWcqaEXVb",  el: "table3", url: base });
+});
+
+</script>  
+  
+<!--[if IE 6]><link rel="stylesheet" href="css/ie.css" type="text/css" media="all" /><![endif]-->
+</head>
+<body>
+<!-- START PAGE SOURCE -->
+<div id="header">
+  <div class="shell">
+    <h1 id="logo">
+	<img src="css/images/bd_logo.png" alt="Feature 01" />
+	
+	<a href="#">Live data from Routine Health Information System<span>Management Information System, Directorate General of Health Services
+</span></a></h1>
+
+  </div>
+</div>
+<div id="navigation">
+  <div class="shell">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="child_health.html">Child Health</a></li>
+      <li><a href="maternal_health.html">Maternal Health</a></li>
+	  <li><a href="reporting_status.html">Reporting Status</a></li>
+      <li><a href="death.html">Death</a></li>
+      <li><a class="active" href="disease.html">Disease Burden</a></li>
+      <li><a href="facility.html">Facility</a></li>
+      <li><a href="indicator.html">Indicator</a></li>       
+    </ul>
+  </div>
+</div>
+<div id="">
+  <table border = "0"; align="center"; width="100%";>
+    <tr>
+      <td align="center"; valign="top"><div id="chart1" class="chart"></div></td> <td align="center";><div id="chart2" class="chart"></div></td>
+    </tr>
+    <tr>
+      <td align="center";><div id="chart3" class="chart"></div></td> <td align="center";><div id="chart4" class="chart"></div></td>
+    </tr>
+    <tr>
+       <td align="center"; colspan="2"><div id="chart5" class="chart"></div></td>
+    </tr>
+    <tr>
+    	<td align="left"; colspan="2"><div id="table2" class="chart"></div></td>
+    </tr>
+    <tr>
+       <td align="center";><div id="table1" class="chart"></div></td> <td align="center";><div id="table3" class="chart"></div></td>
+    </tr>
+  </table>
+</div>
+
+
+<!-- END PAGE SOURCE -->
+<div align=center></div></body>
+</html>
