@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html manifest="event-capture.appcache" ng-app="eventCapture">
+    <head>
+        <title>Event Capture</title>
+
+        <meta name="description" content="DHIS 2">
+        <meta name="keywords" content="DHIS 2">        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/jQuery/jquery.min.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/jQuery/ui/jquery-ui.min.js"></script>        
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/jQuery/jquery.tmpl.js"></script>      
+        <link rel="stylesheet" type="text/css" href="../dhis-web-commons/javascripts/jQuery/ui/css/redmond/jquery-ui.css">    
+        
+        <script type="text/javascript" src="../dhis-web-commons/bootstrap/js/bootstrap.min.js"></script>        
+                
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/angular/angular.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/angular/angular-resource.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/angular/angular-route.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/angular/angular-cookies.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/angular/angular-animate.js"></script>  
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/angular/ui-bootstrap-tpls-0.10.0-draggable-modal.js"></script>
+
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/moment/moment-with-langs.min.js"></script>       
+
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/underscore.min.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.util.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/commons.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/commons.ajax.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/lists.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/periodType.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/date.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/json2.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/validationRules.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.array.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.select.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.comparator.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.availability.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.trigger.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.sharing.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.validation.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.storage.ss.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.storage.ls.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.storage.idb.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.storage.memory.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.storage.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.contextmenu.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.appcache.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/ouwt/ouwt.js"></script>
+        
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/angular/plugins/angularLocalStorage.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/angular/plugins/angular-translate.min.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/angular/plugins/angular-translate-loader-static-files.min.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/angular/plugins/angular-translate-loader-url.min.js"></script>
+
+        <script type="text/javascript" src="scripts/event-capture.js"></script>
+        <script type="text/javascript" src="scripts/app.js"></script>
+        <script type="text/javascript" src="scripts/services.js"></script>
+        <script type="text/javascript" src="scripts/directives.js"></script>
+        <script type="text/javascript" src="scripts/controllers.js"></script>
+        <script type="text/javascript" src="scripts/filters.js"></script>
+        <script type="text/javascript" src="scripts/orgunitTreeSearch.js"></script>
+
+        <!-- Menu scripts -->
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.translate.js"></script>
+        <script type="text/javascript" src="../dhis-web-commons/javascripts/dhis2/dhis2.menu.js"></script>
+
+        <link type="text/css" rel="stylesheet" href="../dhis-web-commons/font-awesome/css/font-awesome.min.css"/>
+        <link type="text/css" rel="stylesheet" media="screen,print" href="../dhis-web-commons/css/light_blue/light_blue.css"/>
+        <link type="text/css" rel="stylesheet" media="screen,print" href="../dhis-web-commons/css/widgets.css"/>     
+        <link type="text/css" rel="stylesheet" media="screen" href="../dhis-web-commons/css/menu.css">
+        
+        <link type="text/css" rel="stylesheet" href="styles/style.css">
+
+    </head>
+
+    <body>
+        <div id="header" ng-controller="HeaderController">
+            <div class="container-heading">
+                <img ng-click="home()" id="headerBanner" src="../dhis-web-commons/css/light_blue/logo_banner.png" style="cursor:pointer" title="{{'dhis2_home'| translate}}">                    
+            </div>            
+            <div id="headerMessage" class="bold"></div>
+            
+            <!-- Menu html -->
+            <ul id="menuLinkArea">
+                <li id="profileDropDown_button">
+                    <a id="profileMenuLink" class="menu-link drop-down-menu-link">
+                        <i class="fa fa-user"></i>{{'profile'| translate}}
+                    </a>
+                </li>
+                <li id="appsDropDown_button">
+                    <a id="appsMenuLink" class="menu-link drop-down-menu-link">
+                        <i class="fa fa-th"></i>{{'applications'| translate}}
+                    </a>
+                </li>
+            </ul>
+
+            <div id="appsDropDown" class="menuDropDownArea app-menu-dropdown appsMenuLink_menu" >
+                <div class="caret-up-border"></div>
+                <div class="caret-up-background"></div>
+                <div class="menu-drop-down-wrap">
+                    <div class="menu-drop-down-scroll">
+                        <div class="apps-search-wrap">
+                            <input id="apps-search" class="apps-search" type="text" placeholder="{{'search_apps' | translate}}">
+                            <span id="apps-search-clear" class="fa fa-times-circle"></span>
+                        </div>
+                        <ul class="menuDropDownBox"><li class="menu-placeholder"><img src="../images/ajax-loader-bar.gif"></li></ul>
+                    </div>
+                </div>
+                <div class="apps-menu-bottom-button apps-menu-more"><a href="../dhis-web-commons-about/modules.action">{{'more_applications'| translate}}</a></div>
+                <div class="apps-menu-bottom-button apps-scroll apps-scroll-up"><a class="fa fa-caret-up" href="#"></a></div>
+                <div class="apps-menu-bottom-button apps-scroll apps-scroll-down"><a class="fa fa-caret-down" href="#"></a></div>
+            </div>
+
+            <div id="profileDropDown" class="menuDropDownArea app-menu-dropdown ui-helper-clearfix profileMenuLink_menu">
+                <div class="caret-up-border"></div>
+                <div class="caret-up-background"></div>
+                <ul class="menuDropDownBox">
+                    <li>
+                        <a class="app-menu-item" href="../dhis-web-commons-about/userSettings.action">
+                            <img src="../icons/usersettings.png" alt="{{'settings'| translate}}">
+                            <span>{{'settings'| translate}}&nbsp;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="app-menu-item" href="../dhis-web-commons-about/showUpdateUserProfileForm.action">
+                            <img src="../icons/function-profile.png" alt="{{'profile'| translate}}">
+                            <span>{{'settings'| translate}}&nbsp;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="app-menu-item" href="../dhis-web-commons-about/showUpdateUserAccountForm.action">
+                            <img src="../icons/function-account.png" alt="{{'account' | translate}}">
+                            <span>{{'account' | translate}}&nbsp;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="app-menu-item" href="../dhis-web-commons-about/help.action">
+                            <img src="../icons/function-help-center.png" alt="{{'help' | translate}}">
+                            <span>{{'help' | translate}}&nbsp;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="app-menu-item" href="../dhis-web-commons-security/logout.action">
+                            <img src="../icons/function-log-out.png" alt="{{'log_out' | translate}}">
+                            <span>{{'log_out' | translate}}&nbsp;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="app-menu-item" href="../dhis-web-commons-about/about.action">
+                            <img src="../icons/function-about-dhis2.png" alt="{{'about_dhis2' | translate}}">
+                            <span>{{'about_dhis2' | translate}}&nbsp;</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /Menu html -->
+
+        </div>        
+        
+        <div ng-controller="MainController">
+            
+            <div id="leftBar"> 
+                
+                <div style="margin-top:20px">
+                    
+
+                    <img id="searchIcon" src="../images/search.png" style="cursor: pointer" title="{{ 'locate_organisation_unit_by_name' | translate}}">
+
+                    <span id="searchSpan" style="width:100%;display:none;">
+                            <input type="text" id="searchField" name="key" style="width:160px" />
+                            <input type="button" value="Find" onclick="selection.findByName()" />
+                    </span>
+                </div>
+                   
+                <div id="orgUnitTree">
+                    <ul>
+                    </ul>
+                </div>
+                <img id="ouwt_loader" src="../images/ajax-loader-bar.gif"/>
+            </div>
+            
+            <div class="page" id="mainPage" ng-show="selectedOrgUnit">
+                <h3>
+                    {{'event_capture'| translate}}
+                </h3>
+                
+                <!-- selection begins-->
+                <div>
+                    <table>
+                        <tr>
+                            <td><label>{{'registering_unit'| translate}}</label></td>
+                            <td><input type="text" class="fixed-width-text" selected-org-unit ng-model="selectedOrgUnit.name" value="{{selectedOrgUnit.name || 'please_select'| translate}}" disabled="" style="height:14px"></td>                        	                            
+                        </tr>
+                        <tr>
+                            <td><label>{{'program'| translate}}</label></td>
+                            <td>
+                                <select id="programId" 
+                                        class="fixed-width-select"
+                                        name="programId" 
+                                        ng-model="selectedProgram" 
+                                        ng-options="program as program.name for program in programs | orderBy: 'name'" 
+                                        ng-change="loadEvents()"
+                                        ng-disabled="eventRegistration || editingEventInFull || editingEventInGrid">
+                                    <option value="">{{'please_select'| translate}}</option>
+                                </select>      
+                            </td>
+                            <td style='padding-left: 10px;'>
+                                <button class="button button-std"
+                                        ng-show="selectedProgramStage" 
+                                        ng-click="showEventRegistration()" 
+                                        ng-disabled="eventRegistration || editingEventInFull || editingEventInGrid">
+                                    {{'register_event'| translate}}
+                                </button>  
+                            </td>
+                            <td ng-if="(editingEventInFull || eventRegistration) && customForm" style='padding-left: 10px;'>
+                                <button class="button button-std"
+                                        ng-click="switchDataEntryForm()">
+                                    {{displayCustomForm ? 'use_default_form' : 'use_custom_form'| translate}}
+                                </button>  
+                            </td>                            
+                        </tr>                       
+                    </table>
+                </div>
+                <!-- selection ends -->
+
+                <!-- event grid begins -->
+                <div ng-if="selectedProgramStage && !eventRegistration && !editingEventInFull">                    
+                    <img src="../images/ajax-loader-bar.gif" ng-if="!eventFetched"/>
+                    <div ng-switch="dhis2Events.length">                        
+                        <div ng-switch-when="undefined">
+                            <h4>
+                                {{'empty_event_list'| translate}}
+                            </h4>
+                        </div>                        
+                        <div ng-switch-when="0">  
+                            <h4 ng-if="eventFetched">
+                                {{'empty_event_list'| translate}}
+                            </h4>
+                        </div>
+                        <div ng-switch-default>
+                            <h4>
+                                {{'registered_events'| translate}}   
+                                <button class="button button-std pull-right"
+                                        ng-show="dhis2Events.length"
+                                        ng-disabled="eventRegistration || editingEventInFull || editingEventInGrid"                                        
+                                        ng-click="showHideColumns()">
+                                    {{'show_hide_columns'| translate}}
+                                </button>
+                            </h4>
+                            
+                            <!-- context menu for event grid -->
+                            <div id="contextMenu" class="contextMenu" style="width: 180px;">
+                                <ul id="contextMenuItems" class="contextMenuItems">
+                                    <li><a href ng-click="showEditEventInFull()"><i class="fa fa-edit"></i>&nbsp;&nbsp;{{'edit'| translate}}</a></li>
+                                    <li><a href ng-click="showEditEventInGrid()"><i class="fa fa-edit"></i>&nbsp;&nbsp;{{'edit_in_grid'| translate}}</a></li>
+                                    <li><a href ng-click="removeEvent()"><i class="fa fa-trash-o"></i>&nbsp;&nbsp;{{'remove'| translate}}</a></li>                                       
+                                </ul>
+                            </div>
+                            <!-- context menu ends -->                            
+
+                            <!-- grid begins -->
+                            <form name="outerForm" novalidate>                              
+                                
+                                <table class="listTable dhis2-table-striped-border dhis2-table-hover">
+                                    <thead>                        
+                                        <tr>
+                                            <th ng-show="eventGridColumn.show" 
+                                                                                        
+                                                ng-repeat="eventGridColumn in eventGridColumns">
+                                                
+                                                <!-- sort icon begins -->
+                                                <span ng-hide="eventGridColumn.showFilter" class="bold" ng-click="sortEventGrid(eventGridColumn)">
+                                                    <i ng-show="sortHeader == eventGridColumn.id && !reverse" class="fa fa-sort-desc"></i>
+                                                    <i ng-show="sortHeader == eventGridColumn.id && reverse" class="fa fa-sort-asc"></i>
+                                                    {{eventGridColumn.name}}
+                                                </span>
+                                                <!-- sort icon ends -->
+                                                
+                                                <!-- filter icon begins -->
+                                                <span class='pull-right'>
+                                                    <span ng-show="eventGridColumn.type !='date' && eventGridColumn.type !='int'">
+                                                        <a href ng-click="searchInGrid(eventGridColumn)" title="{{'search'| translate}}"><span ng-class="{true: 'filter-without-content', false: 'filter-with-content'} [filterText[eventGridColumn.id] == undefined || filterText[eventGridColumn.id] == '']"><i class="fa fa-search"></i></span></a>
+                                                    </span>
+                                                    <span ng-show="eventGridColumn.type ==='date' || eventGridColumn.type ==='int'">
+                                                        <a href ng-click="searchInGrid(eventGridColumn)" title="{{'search'| translate}}"><span ng-class="{true: 'filter-without-content', false: 'filter-with-content'} [(filterText[eventGridColumn.id].start == undefined || filterText[eventGridColumn.id].start == '') && (filterText[eventGridColumn.id].end == undefined || filterText[eventGridColumn.id].end == '')]"><i class="fa fa-search"></i></span></a>
+                                                    </span>                                                    
+                                                </span>
+                                                <!-- filter icon ends -->
+                                                
+                                                <!-- filter input field begins -->
+                                                <span ng-show="eventGridColumn.showFilter">  
+                                                    <span ng-switch="eventGridColumn.type">
+                                                        <span ng-switch-when="int">
+                                                            <input style="width: 45%;" placeholder="{{'lower_limit' | translate}}" type="number" ng-model="filterText[eventGridColumn.id].start" ng-blur="searchInGrid(eventGridColumn)">
+                                                            <input style="width: 45%;" placeholder="{{'upper_limit' | translate}}" type="number" ng-model="filterText[eventGridColumn.id].end" ng-blur="searchInGrid(eventGridColumn)">
+                                                        </span>
+                                                        <span ng-switch-when="date">
+                                                            <input style="width: 70%;" placeholder="{{'start_date' | translate}}" type="text" ng-model="filterText[eventGridColumn.id].start" data-ng-date readonly="readonly">
+                                                            <span ng-hide="filterText[eventGridColumn.id].start == undefined || filterText[eventGridColumn.id].start == ''">
+                                                                <a href ng-click='removeStartFilterText(eventGridColumn.id)'><span class='black'><i class="fa fa-trash-o"></i></span></a>                                                        
+                                                            </span>
+                                                            <input style="width: 70%;" placeholder="{{'end_date' | translate}}" type="text" ng-model="filterText[eventGridColumn.id].end" data-ng-date readonly="readonly">
+                                                            <span ng-hide="filterText[eventGridColumn.id].end == undefined || filterText[eventGridColumn.id].end == ''">
+                                                                <a href ng-click='removeEndFilterText(eventGridColumn.id)'><span class='black'><i class="fa fa-trash-o"></i></span></a>                                                        
+                                                            </span> 
+                                                        </span>
+                                                        <span ng-switch-default>
+                                                            <input type="text" style="width: 90%;" ng-model="filterText[eventGridColumn.id]" ng-blur="searchInGrid(eventGridColumn)">
+                                                        </span> 
+                                                    </span>                                                    
+                                                </span>
+                                                <!-- filter input field ends -->
+                                                
+                                            </th>                                            
+                                        </tr>                        
+                                    </thead>
+                                    <tbody id="list">
+                                        <tr ng-repeat="dhis2Event in dhis2Events | orderBy:sortHeader:reverse | gridFilter:filterText:filterTypes">
+
+                                            <!-- Visible when event is not under editing -->
+                                            <td dhis-context-menu 
+                                                selected-item={{dhis2Event}} 
+                                                ng-click="showEventList()"
+                                                ng-hide="(currentEvent.event == dhis2Event.event) || !eventGridColumn.show" 
+                                                ng-repeat="eventGridColumn in eventGridColumns">                                                
+                                                <span ng-switch="eventGridColumn.type">
+                                                    <span ng-switch-when="bool">
+                                                        <span ng-if="dhis2Event[eventGridColumn.id] == 'false'">{{'no'| translate}}</span>
+                                                        <span ng-if="dhis2Event[eventGridColumn.id] == 'true'">{{'yes'| translate}}</span>
+                                                    </span>
+                                                    <span ng-switch-default>
+                                                        {{dhis2Event[eventGridColumn.id]}}
+                                                    </span>
+                                                </span>
+                                            </td>
+
+                                            <!-- Visible when event is under editing - in grid -->
+                                            <td style="cursor:default;"      
+                                                ng-dblclick="showEventList()"
+                                                ng-if="(currentEvent.event == dhis2Event.event) && eventGridColumn.show" 
+                                                ng-repeat="eventGridColumn in eventGridColumns">
+                                                <ng-form name="innerFormGrid">
+                                                    <div ng-switch="eventGridColumn.type">
+                                                        <div ng-switch-when="int">
+                                                            <input type="number" 
+                                                                   program-stage-data-element={{programStageDataElements[eventGridColumn.id]}}
+                                                                   ng-model="dhis2Event[eventGridColumn.id]" 
+                                                                   ng-blur="updateEventDataValue(dhis2Event, eventGridColumn.id)" 
+                                                                   ng-required={{eventGridColumn.compulsory}}
+                                                                   name="foo" 
+                                                                   style="width:98%;"
+                                                                   ng-class="{true: 'update-success'} [currentElement.updated == true && currentElement.id == eventGridColumn.id]"
+                                                                   ng-class="{true: 'update-error'} [!currentElement.updated == true && currentElement.id == eventGridColumn.id]"
+                                                            />                                                                   
+                                                            <span ng-show="outerForm.submitted && innerFormGrid.foo.$invalid" class="red"><em title="{{'required'| translate}}" class="required">*</em></span>
+                                                        </div>
+                                                        <div ng-switch-when="string">                                        
+                                                            <div class="container-fluid">
+                                                                <input type="text" 
+                                                                       ng-model="dhis2Event[eventGridColumn.id]" 
+                                                                       ng-blur="updateEventDataValue(dhis2Event, eventGridColumn.id)" 
+                                                                       typeahead="option for option in programStageDataElements[eventGridColumn.id].dataElement.optionSet.options | filter:$viewValue | limitTo:20" 
+                                                                       typeahead-open-on-focus
+                                                                       ng-required={{eventGridColumn.compulsory}}
+                                                                       name="foo" 
+                                                                       style="width:98%;"
+                                                                       ng-class="{true: 'update-success'} [currentElement.updated == true && currentElement.id == eventGridColumn.id]"
+                                                                       ng-class="{true: 'update-error'} [!currentElement.updated == true && currentElement.id == eventGridColumn.id]"
+                                                                       />
+                                                                <span ng-show="outerForm.submitted && innerFormGrid.foo.$invalid" class="red"><em title="{{'required'| translate}}" class="required">*</em></span>
+                                                            </div>
+                                                        </div>
+                                                        <div ng-switch-when="bool">
+                                                            <select ng-model="dhis2Event[eventGridColumn.id]" 
+                                                                    ng-change="updateEventDataValue(dhis2Event, eventGridColumn.id)" 
+                                                                    ng-required={{eventGridColumn.compulsory}}
+                                                                    name="foo" 
+                                                                    style="width:98%;"
+                                                                    ng-class="{true: 'update-success'} [currentElement.updated == true && currentElement.id == eventGridColumn.id]"
+                                                                    ng-class="{true: 'update-error'} [!currentElement.updated == true && currentElement.id == eventGridColumn.id]"
+                                                                    />
+                                                                <option value="">{{'please_select'| translate}}</option>                        
+                                                                <option value="false">{{'no'| translate}}</option>
+                                                                <option value="true">{{'yes'| translate}}</option>
+                                                            </select>
+                                                            <span ng-show="outerForm.submitted && innerFormGrid.foo.$invalid" class="red"><em title="{{'required'| translate}}" class="required">*</em></span>
+                                                        </div>
+                                                        <div ng-switch-when="date">
+                                                            <input type="text" 
+                                                                   placeholder="yyyy-mm-dd" 
+                                                                   ng-date 
+                                                                   ng-model="dhis2Event[eventGridColumn.id]"
+                                                                   blur-or-change="updateEventDataValue(dhis2Event, eventGridColumn.id)" 
+                                                                   ng-required={{eventGridColumn.compulsory}}
+                                                                   name="foo" 
+                                                                   style="width:98%;"
+                                                                   ng-class="{true: 'update-success'} [currentElement.updated == true && currentElement.id == eventGridColumn.id]"
+                                                                   ng-class="{true: 'update-error'} [!currentElement.updated == true && currentElement.id == eventGridColumn.id]"
+                                                                   />
+                                                            <span ng-show="outerForm.submitted && innerFormGrid.foo.$invalid" class="red"><em title="{{'required'| translate}}" class="required">*</em></span>
+                                                        </div>
+                                                        <div ng-switch-when="trueOnly">
+                                                            <input type="checkbox"
+                                                                   ng-model="dhis2Event[eventGridColumn.id]"
+                                                                   ng-change="updateEventDataValue(dhis2Event, eventGridColumn.id)" 
+                                                                   ng-required={{eventGridColumn.compulsory}}
+                                                                   name="foo" 
+                                                                   ng-class="{true: 'update-success'} [currentElement.updated == true && currentElement.id == eventGridColumn.id]"
+                                                                   ng-class="{true: 'update-error'} [!currentElement.updated == true && currentElement.id == eventGridColumn.id]"
+                                                                   />
+                                                            <span ng-show="outerForm.submitted && innerFormGrid.foo.$invalid"><em title="{{'required'| translate}}" class="required">*</em></span>
+                                                        </div>
+                                                    </div>
+                                                </ng-form>                                                
+                                            </td>                                                                       
+                                        </tr>
+                                    </tbody>        
+                                </table>
+                                <serverside-paginator></serverside-paginator>
+                            </form>
+                            <!-- grid ends -->
+                        </div>
+                    </div>
+                </div> 
+                <!-- event grid ends -->
+
+                <!-- event update in full / registration begins-->
+                <form name="outerForm" novalidate>
+                    <div ng-if="editingEventInFull || eventRegistration">
+                        <h3>
+                            <span ng-if="editingEventInFull">{{'update_event'| translate}}</span>                       
+                            <span ng-if="eventRegistration">{{'new_event'| translate}}</span>                            
+                        </h3>
+                        
+                        <!-- custom form begins -->
+                        <div class="bordered-div" ng-if="displayCustomForm">
+                            <label>{{selectedProgram.dateOfIncidentDescription}}</label>
+                            <input type="text"                                                   
+                                    placeholder="yyyy-mm-dd" 
+                                    ng-date 
+                                    ng-model="currentEvent.eventDate"
+                                    ng-disabled="editingEventInFull"    
+                                    ng-required="true" 
+                                    name="eventDate">
+                            <span ng-show="outerForm.submitted && outerForm.eventDate.$invalid" class="required">{{'required'| translate}}</span>
+                            <hr>
+                            <dhis-custom-form custom-form-type="PROGRAM_STAGE" custom-form-object="selectedProgramStage"></dhis-custom-form>
+                        </div>
+                        <!-- custom form ends -->
+                        
+                        <!-- default form begins -->
+                        <div class="bordered-div" style="width:50%;" ng-if="!displayCustomForm">
+                            <table class="dhis2-list-table-striped">                    
+                                <thead>                        
+                                    <tr>
+                                        <th>
+                                            {{'data_element'| translate}}                    
+                                        </th>
+                                        <th>
+                                            {{'value'| translate}}                    
+                                        </th>         
+                                    </tr>                        
+                                </thead>
+                                <tbody id="list">
+                                    <tr>
+                                        <td>
+                                             {{selectedProgram.dateOfIncidentDescription}}
+                                        </td>
+                                        <td>
+                                            <input type="text"                                                   
+                                                   placeholder="yyyy-mm-dd" 
+                                                   ng-date 
+                                                   ng-model="currentEvent.eventDate"
+                                                   ng-disabled="editingEventInFull"    
+                                                   ng-required="true" 
+                                                   name="eventDate" 
+                                                   style="width:99%;">
+                                            <span ng-show="outerForm.submitted && outerForm.eventDate.$invalid" class="required">{{'required'| translate}}</span>
+                                        </td>
+                                    </tr>
+                                    <tr ng-repeat="eventGridColumn in eventGridColumns">
+                                        <td >
+                                            {{eventGridColumn.name}}                                              
+                                        </td>
+                                        <td >
+                                            <ng-form name="innerForm">
+                                                <div ng-switch="eventGridColumn.type">
+                                                    <div ng-switch-when="int">
+                                                        <input type="number"
+                                                               ng-model="currentEvent[eventGridColumn.id]"                                                                
+                                                               ng-required={{eventGridColumn.compulsory}}
+                                                               name="foo" 
+                                                               style="width:99%;"/>
+                                                        <span ng-show="outerForm.submitted && innerForm.foo.$invalid" class="required">{{'required'| translate}}</span>
+                                                    </div>
+                                                    <div ng-switch-when="string">                                        
+                                                        <div class="container-fluid">
+                                                            <input type="text"
+                                                                   ng-model="currentEvent[eventGridColumn.id]"                                                                    
+                                                                   typeahead="option for option in programStageDataElements[eventGridColumn.id].dataElement.optionSet.options | filter:$viewValue | limitTo:20" 
+                                                                   typeahead-open-on-focus
+                                                                   ng-required={{eventGridColumn.compulsory}}
+                                                                   name="foo" 
+                                                                   style="width:99%;"/>
+                                                        <span ng-show="outerForm.submitted && innerForm.foo.$invalid" class="required">{{'required'| translate}}</span>
+                                                        </div>
+                                                    </div>
+                                                    <div ng-switch-when="bool">
+                                                        <select ng-model="currentEvent[eventGridColumn.id]"                                                                
+                                                                ng-required={{eventGridColumn.compulsory}}
+                                                                name="foo" 
+                                                                style="width:99%;"/>
+                                                            <option value="">{{'please_select'| translate}}</option>                        
+                                                            <option value="false">{{'no'| translate}}</option>
+                                                            <option value="true">{{'yes'| translate}}</option>
+                                                        </select>
+                                                        <span ng-show="outerForm.submitted && innerForm.foo.$invalid" class="required">{{'required'| translate}}</span>
+                                                    </div>
+                                                    <div ng-switch-when="date">
+                                                        <input type="text"                                                                
+                                                               placeholder="yyyy-mm-dd" 
+                                                               ng-date 
+                                                               ng-model="currentEvent[eventGridColumn.id]"                                                               
+                                                               ng-required={{eventGridColumn.compulsory}}
+                                                               name="foo" 
+                                                               style="width:99%;"/>
+                                                        <span ng-show="outerForm.submitted && innerForm.foo.$invalid" class="required">{{'required'| translate}}</span>
+                                                    </div>
+                                                    <div ng-switch-when="trueOnly">
+                                                        <input type="checkbox"                                                                      
+                                                               ng-model="currentEvent[eventGridColumn.id]"                                                               
+                                                               ng-required={{eventGridColumn.compulsory}}
+                                                               name="foo"/>
+                                                        <span ng-show="outerForm.submitted && innerForm.foo.$invalid" class="required">{{'required'| translate}}</span>
+                                                    </div>
+                                                </div>
+                                            </ng-form>
+                                        </td>
+                                    </tr>
+                                </tbody>        
+                            </table>                            
+                        </div>
+                        <!-- default form ends -->
+                        
+                        <!-- buttons for event registration / update begins -->
+                        <div style="clear: both;">                        
+                            <span ng-if="editingEventInFull">
+                                <button ng-click="updateEvent()" class="button">{{'update'| translate}}</button>
+                                <button ng-click="showEventList()" class="button">{{'go_back'| translate}}</button>
+                            </span>
+                            <span ng-if="eventRegistration">
+                                <button ng-click="addEvent(true)" class="button">{{'save_and_add_new'| translate}}</button>
+                                <button ng-click="addEvent()" class="button">{{'save_and_back'| translate}}</button>
+                                <button ng-click="showEventList(null)" class="button">{{'go_back'| translate}}</button>
+                            </span> 
+                        </div>
+                        <!-- buttons for event registration / update ends -->
+                        
+                    </div>
+                </form>    
+                <!-- event update / registration ends -->
+                
+            </div>            
+        </div>
+    </body>
+</html>

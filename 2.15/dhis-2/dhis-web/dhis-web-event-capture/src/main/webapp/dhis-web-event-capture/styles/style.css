@@ -1,0 +1,506 @@
+/*----------------------------------------------------------------------------*/
+/* Form
+/*----------------------------------------------------------------------------*/
+
+.fixed-width-text {
+    width: 260px;
+}
+
+input.option
+{
+    width: 240px;
+}
+
+.fixed-width-select{
+    width: 264px;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Table
+/*----------------------------------------------------------------------------*/
+
+table 
+{
+    font-size: 13px;
+    line-height: 24px;
+    table-layout: fixed;
+    margin-bottom: 10px;
+}
+
+/*----------------------------------------------------------------------------*/
+/* App specific
+/*----------------------------------------------------------------------------*/
+
+/* Block level inputs */
+.container-filters {
+    display: block;
+    width: 100%;    
+}
+
+.container-heading {
+    color: white;
+}
+
+.container-1-4 {
+    width: 25%;
+    float: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.container-1-2 {
+    width: 50%;
+    float: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.container-1-1 {
+    width: 100%;
+    float: left;
+    margin-top: 1em;
+}
+
+div.paging a.active
+{
+    text-decoration: none; 
+    color: #000;
+    cursor: default;
+}
+
+.update-error {
+    background-color: #ff6600;
+}
+
+.update-success {
+    background-color: #b9ffb9;
+}
+
+.red {
+    color: red;
+}
+
+.right {
+    float: right !important;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.black {
+    color: black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.white {
+    color: white;
+}
+
+.anchor-color {
+    color: #276696;
+}
+
+.inline-div {
+    display: inline-block; 
+    margin-right: 5px;
+    float: left;
+}
+
+.bordered-div
+{
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.nav, .pagination, .carousel, .panel-title a { 
+    cursor: pointer; 
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=date]::-webkit-inner-spin-button, input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.max-column-width {
+    max-width:200px !important; 
+    word-wrap:break-word; 
+}
+
+.table-borderless>thead>tr>th, 
+.table-borderless>tbody>tr>th, 
+.table-borderless>tfoot>tr>th, 
+.table-borderless>thead>tr>td, 
+.table-borderless>tbody>tr>td, 
+.table-borderless>tfoot>tr>td {
+    border-top: none;     
+    white-space:nowrap;
+}
+
+.dhis2-table>thead>tr>th, 
+.dhis2-table>tbody>tr>th, 
+.dhis2-table>tfoot>tr>th, 
+.dhis2-table>thead>tr>td, 
+.dhis2-table>tbody>tr>td, 
+.dhis2-table>tfoot>tr>td {
+    border-top: none;
+    background-color: #ebf0f6;
+}
+
+.dhis2-table-striped-border tr th {
+    border: 1px solid #cad5e5;
+}
+
+.dhis2-table-striped-border tr td {
+    border: 1px solid #cad5e5;
+}
+
+.dhis2-table-striped-border > tbody > tr:nth-child(odd)> td, .dhis2-table-striped > tbody > tr:nth-child(odd)> th {
+    background-color: #ebf0f6
+}
+
+.listTable th {
+    height: 30px;
+}
+
+.dhis2-table-striped>thead>tr, 
+.dhis2-table-striped>tbody>tr, 
+.dhis2-table-striped>tfoot>tr, 
+.dhis2-table-striped>thead>tr, 
+.dhis2-table-striped>tbody>tr, 
+.dhis2-table-striped>tfoot>tr {
+    border-bottom: 1px solid #cad5e5;  
+    white-space:nowrap;
+}
+
+.dhis2-table-striped > tbody > tr:nth-child(odd)> td, .dhis2-table-striped > tbody > tr:nth-child(odd)> th {
+    background-color: #ebf0f6
+}
+
+.dhis2-list-table-striped {
+    width: 100%;
+    padding-bottom: 6px;
+}
+
+.dhis2-list-table-striped>thead>tr, 
+.dhis2-list-table-striped>tbody>tr, 
+.dhis2-list-table-striped>tfoot>tr, 
+.dhis2-list-table-striped>thead>tr, 
+.dhis2-list-table-striped>tbody>tr, 
+.dhis2-list-table-striped>tfoot>tr {
+    border: none;
+}
+
+.dhis2-list-table-striped > tbody > tr:nth-child(odd)> td, .dhis2-table-striped > tbody > tr:nth-child(odd)> th {
+    background-color: #ebf0f6
+}
+
+.dhis2-table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+    background-color: #dfe9f4;
+}
+
+#contextMenu {
+    position: absolute;
+    display:none;
+}
+
+.filter-with-content {
+    float: right !important;
+    color: red;
+}
+
+.filter-without-content {
+    float: right !important;
+    color: black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.button-std {
+	width: 130px;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Bootstrap modal style
+/*----------------------------------------------------------------------------*/
+
+.modal-open {
+    overflow: hidden
+}
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    display: none;
+    overflow: auto;
+    overflow-y: scroll
+}
+.modal.fade .modal-dialog {
+    -webkit-transform: translate(0,-25%);
+    -ms-transform: translate(0,-25%);
+    transform: translate(0,-25%);
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -moz-transition: -moz-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: transform .3s ease-out
+}
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0)
+}
+.modal-dialog {
+    position: relative;
+    z-index: 1050;
+    width: auto;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto
+}
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+    background-clip: padding-box
+}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #000
+}
+.modal-backdrop.fade {
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+.modal-backdrop.in {
+    opacity: .5;
+    filter: alpha(opacity=50)
+}
+.modal-header {
+    min-height: 16.428571429px;
+    padding: 0 15px;
+    border-bottom: 1px solid #e5e5e5
+}
+.modal-header .close {
+    margin-top: -2px
+}
+.modal-title {
+    margin: 0;
+    line-height: 1.428571429
+}
+.modal-body {
+    position: relative;
+    margin: 10px;
+}
+.modal-footer {
+    padding: 19px 20px 20px;    
+    text-align: right;
+    border-top: 1px solid #e5e5e5
+}
+.modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " "
+}
+.modal-footer:after {
+    clear: both
+}
+.modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " "
+}
+.modal-footer:after {
+    clear: both
+}
+.modal-footer .btn+ .btn {
+    margin-bottom: 0;
+    margin-left: 5px
+}
+.modal-footer .btn-group .btn+ .btn {
+    margin-left: -1px
+}
+.modal-footer .btn-block+ .btn-block {
+    margin-left: 0
+}
+@media screen and (min-width: 768px) {
+    .modal-dialog {
+        width: 600px;
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+    .modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.5)
+    }
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+.container:before, .container:after {
+    display: table;
+    content: " "
+}
+.container:after {
+    clear: both
+}
+.container:before, .container:after {
+    display: table;
+    content: " "
+}
+.container:after {
+    clear: both
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px
+    }  z-index: 1051;
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px
+    }
+}
+.container > .navbar-header, .container > .navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px
+}
+@media (min-width: 768px) {
+    .container > .navbar-header, .container > .navbar-collapse {
+        margin-right: 0;
+        margin-left: 0
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar > .container .navbar-brand {
+        margin-left: -15px
+    }
+}
+
+.container .jumbotron {
+    border-radius: 6px
+}
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        padding-top: 48px;
+        padding-bottom: 48px
+    }
+    .container .jumbotron {
+        padding-right: 60px;
+        padding-left: 60px
+    }
+    .jumbotron h1 {
+        font-size: 63px
+    }
+}
+
+.dropdown {
+    position: relative
+}
+.dropdown-toggle:focus {
+    outline: 0
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    background-clip: padding-box
+}
+.dropdown-menu.pull-right {
+    right: 0;
+    left: auto
+}
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    color: #333;
+    white-space: nowrap
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #428bca;
+    outline: 0
+}
+.dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+    color: #999
+}
+.dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+    text-decoration: none;
+    cursor: not-allowed;
+    background-color: transparent;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+}
+.open > .dropdown-menu {
+    display: block
+}
+.dropdown-menu li:hover {
+    cursor: pointer;
+}
+
+input[type=number] {
+    border: 1px solid #aaa;
+    padding: 4px 1px;
+}
+select {
+    padding: 3px;
+}

@@ -1,0 +1,10 @@
+{ "validationRuleGroup":
+  {
+    "id": "$!{validationRuleGroup.id}",
+    "name": "$!encoder.jsonEncode( ${validationRuleGroup.name} )",
+    "description": "$!encoder.jsonEncode( ${validationRuleGroup.description} )",
+    "memberCount": "${validationRuleGroup.members.size()}",
+    "userGroupsToAlertCount": "$!{validationRuleGroup.userGroupsToAlert.size()}",
+    "alertByOrgUnits": $!{validationRuleGroup.alertByOrgUnits}"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+<include file="dhis-web-commons.xml"/>
+	
+<package name="dhis-web-ihrissyncmanager" extends="dhis-web-commons" namespace="/dhis-web-ihrissyncmanager">
+    
+	<action name="syncIHRISMetaDataAction"
+	    class="org.hisp.dhis.ihrissyncmanager.action.SyncIHRISMetaDataAction">
+	    <result name="success" type="velocity-xml">/dhis-web-ihrissyncmanager/responseResult.vm</result>
+	</action>    
+    
+
+</package>
+</struts>

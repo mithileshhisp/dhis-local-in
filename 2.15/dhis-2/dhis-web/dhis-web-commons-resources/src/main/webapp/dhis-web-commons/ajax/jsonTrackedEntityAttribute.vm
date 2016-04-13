@@ -1,0 +1,15 @@
+{ "attribute":
+  {
+    "id": "${attribute.id}",
+	"name": "$!encoder.jsonEncode( ${attribute.name} )",
+	"code": "$!encoder.jsonEncode( ${attribute.code} )",
+	"description": "$!encoder.jsonEncode( ${attribute.description} )",
+	"unique":  "$!{attribute.unique}",
+	"valueType": "$!attribute.valueType",
+	"displayInListNoProgram": "$!attribute.displayInListNoProgram",
+	"inherit": "$!attribute.inherit",
+	"optionSet": "$!attribute.optionSet.name",
+	"orgunitScope": "$!attribute.orgunitScope",
+	"programScope": "$!attribute.programScope"
+  }
+}

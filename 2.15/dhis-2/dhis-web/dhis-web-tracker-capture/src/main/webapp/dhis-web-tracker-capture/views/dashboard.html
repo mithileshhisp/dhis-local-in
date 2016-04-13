@@ -1,0 +1,31 @@
+<div class="container-1-1">    
+    <div class="col-sm-12">        
+        <button type="button" class="btn btn-default" ng-click="back()">{{'back'| translate}}</button>
+        <span class="right">
+            <button type="button" class="btn btn-default" ng-click="showHideWidgets()">{{'show_hide_widgets'| translate}}</button>
+        </span>        
+    </div>
+
+    <div class='separator'></div>
+
+    <div class="col-sm-12">
+        <div class="row">            
+            <div class="col-sm-6 col-md-8">
+                <div sortable class="row connectedSortable empty-dashboard-container">
+                    <div ng-repeat="biggerWidget in dashboardWidgets.bigger">
+                        <div class="col-sm-12" ng-show="biggerWidget.show" ng-include="biggerWidget.view"></div>
+                    </div>                                       
+                </div>                
+            </div>            
+            <div class="col-sm-6 col-md-4">
+                <div sortable class="row connectedSortable empty-dashboard-container">                    
+                    <div class="col-sm-12" ng-repeat="smallerWidget in dashboardWidgets.smaller">                        
+                        <div ng-show="smallerWidget.show" ng-include="smallerWidget.view"></div>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
+
+
