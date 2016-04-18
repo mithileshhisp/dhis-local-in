@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>dhis-web-dashboard</name>
+  <comment>This project is a web based GUI for the DHIS 2 system. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>dhis-service-aggregationengine-default</project>
+    <project>dhis-in-service-linelisting</project>
+    <project>dhis-in-api</project>
+    <project>dhis-in-service-dbmanager</project>
+    <project>dhis-in-service-survey</project>
+    <project>dhis-in-service-configuration</project>
+    <project>dhis-in-service-reports</project>
+    <project>dhis-in-service-dataentrystatus</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>
