@@ -98,7 +98,7 @@ maxPostSize="0"/>
 
 Launchpad userID : mithilesh.hisp@gmail.com
 
-Password : Mithilesh@123
+Password : <s3cur1ty>
 
 // DHIS 2.20 for State
 
@@ -682,14 +682,14 @@ mvn jetty:run -Ddhis.skip.startup=true
 
 Launchpad userID : mithilesh.hisp@gmail.com
 
-Password : mithilesh@123
+Password : <s3cur1ty>
 
 
 
 Dhis2 CCEI Details
 
 Gmail Id : dhis2.ccei.dev@gmail.com
-password : hispindia
+password : <s3cur1ty>
 Dob: 01/01/1984  Male
 Phone: 9560163563
 mithilesh.hisp@gmail.com
@@ -698,7 +698,7 @@ Launchpad.net
 
 Full name : DHIS2 CCEI DEV
 email: dhis2.ccei.dev@gmail.com
-password: hispindia
+password: <s3cur1ty>
 
 
 // 23/04/2015
@@ -708,7 +708,7 @@ For DHIS2 HISP INDIA DEVELOPER
 Gmail-Account
 Gmail Name : DHIS2 HISP INDIA
 gmail-id : dhis.devs.india@gmail.com
-password : hispindia
+password : <s3cur1ty>
 dob : 01/01/1984 Male
 alternate e-mail - mithilesh.hisp@gmail.com
 
@@ -717,7 +717,7 @@ Launchpad.net Account
 
 Full name : dhis-devs-india
 email: dhis.devs.india@gmail.com
-password: hispindia
+password: <s3cur1ty>
 
 Bazar login : bzr whoami "dhis-devs-india<dhis.devs.india@gmail.com>"
 Bazar Login : bzr lp-login dhis-devs-india
@@ -1102,7 +1102,7 @@ url : https://github.com/dhis2/dhis2-local-in
 My self Created Branch
 url : https://github.com/mithileshhisp/dhis-local-in
 Username or email address  : mithilesh.hisp@gmail.com  usename - mithileshhisp
-Password : Mithilesh@123
+Password : <s3cur1ty>
 Create Own Organisation name dhis2hispindia
 
 url : https://github.com/dhis2hispindia
